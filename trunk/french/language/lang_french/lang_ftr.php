@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * aUsTiN-Inc - (austin_inc@hotmail.com) - (phpbb-amod.com)
 * Lopalong
-*** French Translation InformPro and Yros **
+*** French Translation Vendethiel and Yros **
 */
 
 if (!defined('IN_ICYPHOENIX'))

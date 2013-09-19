@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Christian Knerr (cback) - (www.cback.de)
 * Lopalong
-*** French Translation InformPro and Yros **
+*** French Translation Vendethiel and Yros **
 */
 
 /**
@@ -40,13 +40,13 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'ctracker_settings_on' => 'Enabled',
-	'ctracker_settings_off' => 'Disabled',
+	'ctracker_settings_on' => 'Activé',
+	'ctracker_settings_off' => 'Désactivé',
 	'ctracker_ma_on' => 'ON',
 	'ctracker_ma_off' => 'OFF',
 	'ctracker_blockmode_0' => 'Off',
-	'ctracker_blockmode_1' => 'Ban User',
-	'ctracker_blockmode_2' => 'Lock User',
+	'ctracker_blockmode_1' => 'Bannir l\'utilisateur',
+	'ctracker_blockmode_2' => 'Verrouiller l\'utilisateur',
 	'ctracker_complex_1' => '[0-9]',
 	'ctracker_complex_2' => '[a-z]',
 	'ctracker_complex_3' => '[A-Z]',
@@ -56,113 +56,113 @@ $lang = array_merge($lang, array(
 	'ctracker_complex_7' => '[0-9][*]',
 	'ctracker_complex_8' => '[0-9][a-z][*]',
 	'ctracker_complex_9' => '[0-9][a-z][A-Z][*]',
-	'ctracker_ipb_new_entry' => 'New Entry',
-	'ctracker_ipb_added' => 'Entry successfully added!',
-	'ctracker_ipb_deleted' => 'Entry successfully deleted!',
-	'ctracker_ipb_add_now' => 'Add Entry',
-	'ctracker_mu_success' => 'The user has been marked as a "Miserable User".',
-	'ctracker_mu_success_bbc' => '[cell class="text_orange"]The user has been marked as a "Miserable User".[/cell]',
-	'ctracker_mu_success_html' => '<span class="text_orange">The user has been marked as a "Miserable User".</span>',
-	'ctracker_mu_error_admin' => 'Admins or Mods cannot be marked as "Miserable User"!',
-	'ctracker_mu_deleted' => 'The chosen user(s) have been deleted from the "Miserable User" Userlist successfully.',
-	'ctracker_mu_head' => 'Miserable User',
-	'ctracker_error_updating_userdata' => 'CrackerTracker couldn&#39;t run the database operation in the Usertable.',
-	'ctracker_error_database_op' => 'CrackerTracker couldn&#39;t run the database operation correctly.',
+	'ctracker_ipb_new_entry' => 'Nouvelle entrée',
+	'ctracker_ipb_added' => 'Entrée ajoutée avec succès !',
+	'ctracker_ipb_deleted' => 'Entrée supprimée avec succès !',
+	'ctracker_ipb_add_now' => 'Ajouter une entrée',
+	'ctracker_mu_success' => 'L\'utilisateur a été marqué comme "Utilisateur Misérable".',
+	'ctracker_mu_success_bbc' => '[cell class="text_orange"]L\'utilisateur a été marqué comme "Utilisateur Misérable".[/cell]',
+	'ctracker_mu_success_html' => '<span class="text_orange">The user has been marked as a "Utilisateur Misérable".</span>',
+	'ctracker_mu_error_admin' => 'Les administrateurs et les modérateurs ne peuvent être marqués comme "Utilisateur Misérables" !',
+	'ctracker_mu_deleted' => 'Les utilisateurs sélectionnés ne sont maintenant plus des "Utilisateurs Misérables".',
+	'ctracker_mu_head' => 'Utilisateur Misérable',
+	'ctracker_error_updating_userdata' => 'CrackerTracker n\'a pas réussi à modifier la table des utilisateurs.',
+	'ctracker_error_database_op' => 'CrackerTracker n\'a pas pu effectuer l\'action sur la base de données.',
 	'ctracker_message_dialog_title' => 'CBACK CrackerTracker Professional',
 
 
 /*
 * Language Strings used for the footer itself
 */
-	'ctracker_fdisplay_imgdesc' => 'Board Security',
-	'ctracker_fdisplay_n' => '<a href="http://www.cback.de" target="_blank">Security</a> with <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a>.',
-	'ctracker_fdisplay_c' => 'Protected by <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a><br /><b>%s</b> Attacks blocked.',
-	'ctracker_fdisplay_g' => '<b>%s</b> Attacks blocked',
+	'ctracker_fdisplay_imgdesc' => 'Sécurité du forum',
+	'ctracker_fdisplay_n' => '<a href="http://www.cback.de" target="_blank">Securité</a> avec <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a>.',
+	'ctracker_fdisplay_c' => 'Protégé <a href="http://www.cback.de" target="_blank">CBACK CrackerTracker</a><br /><b>%s</b> attaques bloquées.',
+	'ctracker_fdisplay_g' => '<b>%s</b> Attaques bloquées',
 
 
 /*
 * Language Strings for the class_ct_database.php
 */
-	'ctracker_error_loading_config' => 'The CrackerTracker Configuration couldn&#39;t be loaded from the database. Have you run the installation script and edited the file "includes/constants.php" correctly?',
-	'ctracker_error_updating_config' => 'The CrackerTracker Configuration couldn&#39;t be updated. Have you run the installation script and edited the file "includes/constants.php" correctly?',
-	'ctracker_error_loading_blocklist' => 'The CrackerTracker Blocklist couldn&#39;t be loaded from the Database. Have you run the installation script and edited the file "includes/constants.php" correctly?',
-	'ctracker_error_insert_blocklist' => 'The data couldn&#39;t be added to CrackerTracker Blocklist. Have you run the installation script and edited the file "includes/constants.php" correctly?',
-	'ctracker_error_delete_blocklist' => 'The data couldn&#39;t be removed from the CrackerTracker Blocklist. Have you run the installation script and edited the file "includes/constants.php" correctly?',
-	'ctracker_error_login_history' => 'There has been an error with the database operation inside CrackerTracker Login History. Have you run the installation script and edited the file "includes/constants.php" correctly?',
-	'ctracker_error_del_login_history' => 'The CrackerTracker Login History Table couldn&#39;t be emptied.',
+	'ctracker_error_loading_config' => 'La configuration de CrackerTracker n\'a pas pu être chargée depuis la base donnée. Êtes-vous sûr que votre base de données et votre fichier "includes/constants" ne sont pas corrompus ?',
+	'ctracker_error_updating_config' => 'La configuration de CrackerTracker n\'a pas pu être mise à jour. Êtes-vous sûr que votre base de données et votre fichier "includes/constants" ne sont pas corrompus ?',
+	'ctracker_error_loading_blocklist' => 'La liste noire de CrackerTracker n\'a pu être chargée de la base de données. Êtes-vous sûr que votre base de données et votre fichier "includes/constants" ne sont pas corrompus ?',
+	'ctracker_error_insert_blocklist' => 'Les données n\'ont pas pu être ajoutées à la liste noire de CrackerTracker. Êtes-vous sûr que votre base de données et votre fichier "includes/constants" ne sont pas corrompus ?',
+	'ctracker_error_delete_blocklist' => 'Les données n\'ont pas pu être supprimées de la liste noire de CrackerTracker. Êtes-vous sûr que votre base de données et votre fichier "includes/constants" ne sont pas corrompus ?',
+	'ctracker_error_login_history' => 'Il y a eu une erreur dans la base de données avec l\'historique des connexions. Êtes-vous sûr que votre base de données et votre fichier "includes/constants" ne sont pas corrompus ?',
+	'ctracker_error_del_login_history' => 'Impossible de vider l\'historique des connexions.',
 
 
 /*
 * Language Strings used in class_ct_userfunctions.php
 */
-	'ctracker_info_search_time' => "For safety reasons the search is only possible %s times within %s seconds. If this number was exceeded, you must now wait <span id=\"waittime\">%s</span> seconds, until you can implement the next search. <script type=\"text/javascript\"><!-- \n var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } } //--></script>",
-	'ctracker_info_regist_time' => "For safety reasons, registration is only possible every %s seconds. If this number was exceeded, you must now wait <span id=\"waittime\">%s</span> seconds, before you can submit a new registration. <script type=\"text/javascript\"><!-- \n var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } } //--></script>",
-	'ctracker_info_regip_double' => 'There has already been a registration from this IP-Address. From security reasons only one registration from the same IP address is possible.',
-	'ctracker_info_profile_spammer' => 'This registration was identified as a spam account! If you think that this was in error, please contact the Administrator of this forum.',
-	'ctracker_info_password_minlng' => 'The Administrator requires that the password must contain at minimum <b>%s</b> characters. Your chosen password has only <b>%s</b> characters. Please go back and enter a new password.',
-	'ctracker_info_password_cmplx' => 'The Administrator requires that the password must contain at <b>minimum</b> the following things: %s',
-	'ctracker_info_password_cmplx_1' => 'Figures',
-	'ctracker_info_password_cmplx_2' => 'Lower case',
-	'ctracker_info_password_cmplx_3' => 'Capitals',
-	'ctracker_info_password_cmplx_4' => 'Special Characters',
-	'ctracker_info_pw_expired' => 'The Administrator has decided that a password is only valid for <b>%s days</b>. We recommend for security reasons that you change your password now. (<a href="' . CMS_PROFILE_MG . '?mode=editprofile&amp;' . POST_USERS_URL . '=%d">Profile</a>)',
+	'ctracker_info_search_time' => "Pour des raisons de sécurité, il n'est pas possible de faire plus de %s recherches toutes les %s secondaires. Si vous avez dépassé cette limite, vous devez maintenant attendre <span id=\"waittime\">%s</span> secondes avant de pouvoir faire une autre recherche. <script type=\"text/javascript\">var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } }</script>",
+	'ctracker_info_regist_time' => "Pour des raisons de sécurité, vous ne pouvez vous inscrire qu'une fois toutes les %s secondes. Si vous avez dépassé cette limite, vous devez maintenant attendre <span id=\"waittime\">%s</span> secondes avant de pouvoir vous inscrire à nouveau. <script type=\"text/javascript\">var wait = %s; var waitt = wait * 1000; for(i=1; i <= wait; i++) { window.setTimeout(\"newoutput(\" + i + \")\", i * 1000); } function newoutput(waitcounter) { if ( (waitt/1000) == waitcounter ) { document.getElementById(\"waittime\").innerHTML = \"0\"; } else { document.getElementById(\"waittime\").innerHTML = (waitt/1000) - waitcounter; } }</script>",
+	'ctracker_info_regip_double' => 'Un compte avec cette adresse IP existe déjà. Pour des raisons de sécurité, une seule inscription est permise par adresse IP.',
+	'ctracker_info_profile_spammer' => 'Cette inscription a été identifiée comme spam. Si vous pensez que c\'est une erreur, veuillez contacter un administrateur du forum.',
+	'ctracker_info_password_minlng' => 'L\'administrateur exige que le mot de passe contienne au minimum <b>%s</b> caractères. Votre mot de passe ne fait que <b>%s</b> caractères. Veuillez revenir en ailleurs et changer votre mot de passe.',
+	'ctracker_info_password_cmplx' => 'L\'administrateur exige que le mot de passe contienne <b>au minimum</b> les choses suivantes :%s',
+	'ctracker_info_password_cmplx_1' => 'Sigles',
+	'ctracker_info_password_cmplx_2' => 'Minuscules',
+	'ctracker_info_password_cmplx_3' => 'Majuscules',
+	'ctracker_info_password_cmplx_4' => 'Caractères spéciaux',
+	'ctracker_info_pw_expired' => 'L\'administrateur a décidé qu\'un mot de passe ne reste valide que pour <b>%s jours</b>. Nous recommandons pour votre sécurité que vous changiez votre mot de passe maintenant. (<a href="' . CMS_PROFILE_MG . '?mode=editprofile&amp;' . POST_USERS_URL . '=%d">Profil</a>)',
 
 /*
 * Language Strings used in ct_visual_confirm.php
 */
-	'ctracker_login_wrong' => 'The Visual Confirmation Code you entered was incorrect!',
-	'ctracker_code_dbconn' => 'Couldn&#39;t load the Visual Confirmation Code from the database! If you have phpBB-Plus you must install the phpBB international modules for the Visual Confirmation. Please read the references to phpBB-Plus in the "add_ons" folder of the CrackerTracker MOD Package!',
-	'ctracker_login_success' => 'Your Account has been reactivated.<br /><br />Click <a href="%s">HERE</a> to go back to Login.',
-	'ctracker_code_count' => 'The number of entries of Visual Confirmation has exceeded the limit for this session.',
+	'ctracker_login_wrong' => 'Le code de confirmation visuelle entré est incorrect !',
+	'ctracker_code_dbconn' => 'Impossible de charger un code de confirmation visuelle depuis la base de données.',
+	'ctracker_login_success' => 'Votre compte a été réactivé.<br /><br />Cliquez <a href="%s">ici</a> pour revenir à la connexion.',
+	'ctracker_code_count' => 'Le nombre de tentative pour le code de confirmation visuelle a dépassé la limite autorisée pour cette session.',
 
 /*
 * Language Strings used in ctracker_login.php
 */
-	'ctracker_login_title' => 'CrackerTracker Account Activation',
-	'ctracker_login_logged' => 'Logged In Users cannot access the site.',
-	'ctracker_login_confim' => 'The number of wrong Logins for your Account has been reached. Therefore your Account has been locked and will have to be reactivated using Visual Confirmation.<br /><br />Please type in the following code and click on "Unlock" to unlock your account. When this is done you can log in again.',
-	'ctracker_login_button' => 'Activate',
+	'ctracker_login_title' => 'Activation de Compte',
+	'ctracker_login_logged' => 'Les utilisateurs connectés ne peuvent accéder au site.',
+	'ctracker_login_confim' => 'Votre nombre de tentatives de connexions à été atteint. Votre compte a été verrouillé et vous devrez le réactiver en utilisant la confirmation visuelle.<br /><br />Veuillez rentrer le code suivant et cliquez sur "déverouiller" pour débloquer votre compte. Une fois que ça sera fait, vous pourrez de nouveau vous reconnecter.',
+	'ctracker_login_button' => 'Activer',
 
 /*
 * Language Strings for IP Warning Engine
 */
-	'ctracker_ipwarn_info' => 'IP Range Scanning for your Account is <b>%s</b>',
-	'ctracker_ipwarn_prof' => 'IP Range Scanner',
-	'ctracker_ipwarn_pdes' => 'The IP Range Scanner checks the so-called IP Range for changes. If someone has logged into your account from another location you will get a short message (also if you are or have previously logged in from a different location).<br /> Please check the footer to see if the warning feature is still activated, as an aggressor could have deactivated this. Your Login however remains active, so you still have the ability to make changes after this warning.',
-	'ctracker_ipwarn_chng' => '<b>&raquo; ADVICE &laquo;</b><br />The IP Range for your account has changed. The actual Login took place from <b>%s</b>, the previous from <b>%s</b>. If you didn&#39;t log on previously from another location, then maybe an aggressor has used your account without authorization!',
-	'ctracker_ipwarn_welc' => '<b>&raquo; ADVICE &laquo;</b><br />The IP Range Scanner for your Account has not been initialised yet. This happens after two Logins. If you would like to initialise the Scanner now, please log in and out twice.',
+	'ctracker_ipwarn_info' => 'Scan de la Plage d\'IP pour votre compte : <b>%s</b>',
+	'ctracker_ipwarn_prof' => 'Scan de place d\'IP',
+	'ctracker_ipwarn_pdes' => 'Le scanneur de plages d\'IP vérifie les changements dans votre plage d\'adresses IP. Si quelqu\'un s\'est connecté à votre compte depuis un autre endroit, vous verrez une notification. (ou si vous, vous-même, vous êtes connecté précédemment depuis un autre endroit)<br />Surveillez le bas de page pour confirmer que cette fonctionnalitée est encore active, un attaquant pourrait avoir désactivé cette fonctionnalitée. Votre connexion reste active, vous pourrez donc encore faire des changements après avoir vu ce message.',
+	'ctracker_ipwarn_chng' => '<b>&raquo; ATTENTION &laquo;</b><br />La plage IP de votre compte a changé. Cette connexion a pris lieu depuis <b>%s</b>, la précédente depuis <b>%s</b>. Si vous ne vous êtes pas connecté depuis ce lieu, un attaquant a sûrement accédé à votre compte sans votre autorisation !',
+	'ctracker_ipwarn_welc' => '<b>&raquo; ATTENTION &laquo;</b><br />Le scan de plage IP pour votre compte n\'a pas encore été activé. Cela arrive après deux connexions. Si vous voulez activer le scanneur maintenant, veuillez vous déconnecter puis vous reconnecter deux fois.',
 	'ctracker_ipwarn_send' => 'Sauvegarder les options',
 
 /*
 * Language Strings for Login History
 */
-	'ctracker_lhistory_h' => 'Login History',
-	'ctracker_lhistory_i' => 'View your recorded IP addresses and the login-times for your last <b>%s</b> login&#39;s and see if your account was used by someone else. If there are unknown log-in times or IP addresses in the Login History - it is possible that someone knows your password. In this case you should change the password for your account and also check your e-mail account URL.',
-	'ctracker_lhistory_h1' => 'Login Date and Time',
-	'ctracker_lhistory_h2' => 'Saved IP address',
-	'ctracker_lhistory_nav' => 'CrackerTracker Login History',
-	'ctracker_lhistory_err' => 'You must be logged in to use the features of CrackerTracker.',
-	'ctracker_lhistory_off' => 'Login History was deactivated by Admin.',
+	'ctracker_lhistory_h' => 'Historique des connexions',
+	'ctracker_lhistory_i' => 'Historique des connexions et des adresses IP utilisées pour les <b>%s</b> dernières connexions afin de vérifier si votre compte a été utilisé par une personne malveillante. Si vous voyez des adresses IP inconnues ou des dates incorrectes, il est possible que quelqu\'un connaisse votre mot de passe. Dans ce cas, vous devriez changer de mot de passe et vérifier votre adresse e-mail configurée.',
+	'ctracker_lhistory_h1' => 'Date et heure',
+	'ctracker_lhistory_h2' => 'Adresse IP',
+	'ctracker_lhistory_nav' => 'Historique des connexions',
+	'ctracker_lhistory_err' => 'Vous devez être connecté pour utiliser cette fonctionnalitée de CrackerTracker.',
+	'ctracker_lhistory_off' => 'L\'historique des connexions a été désactivé par un administrateur.',
 
 /*
 * Other Language Strings used in the Board itself
 */
-	'ctracker_gmb_link' => 'The Admin has written an important note to all users. This note can be seen here:<br /><br /><a href="%s">%s</a><br />',
-	'ctracker_gmb_mark' => 'Mark Post Read',
-	'ctracker_gmb_markip' => 'Remove tip',
-	'ctracker_gmb_loginlink' => 'Login Security',
-	'ctracker_gmb_1stadmin' => 'The Setup or Settings of the first Admin cannot be changed.',
-	'ctracker_gmb_pu_1' => '<b>CrackerTracker - Misconfiguration</b><br /><br />Port 21 is used for FTP Services. If the Forum is directed to use this Port, the Forum will no longer be executable. This is because Browsers use this Port for FTP as well.',
-	'ctracker_gmb_pu_2' => '<b>CrackerTracker - Misconfiguration</b><br /><br />The Session length is set undersize! and you will always be logged out of the Forum before you can correct the setting.',
-	'ctracker_gmb_pu_3' => '<b>CrackerTracker - Misconfiguration</b><br /><br />The Script-path begins and/or ends either without a Slash (/www/) or doesn&#39;t only contain the Slash (/)!',
-	'ctracker_gmb_pu_4' => '<b>CrackerTracker - Misconfiguration</b><br /><br />The Server-name doesn&#39;t end with a Slash (/) !',
-	'ctracker_binf_spammer' => 'The Anti-Spam Security System has determined that you have reached your maximum number of posts within %s seconds. If you try to write another post within <b>%s</b> seconds, your account will be <b>blocked!</b><br /><br />Please wait! as this is necessary for blocking spammers.',
-	'ctracker_binf_sban' => 'The Spam Block System has banned your account because you have been identified as a spammer.',
-	'ctracker_sendmail_info' => 'Due to security reasons you are only allowed to send an e-mail every %s minutes.',
-	'ctracker_pwreset_info' => 'Due to security reasons it is not possible to send a new password every %s minutes. Please contact the administrator if you are having difficulties!',
-	'ctracker_vc_guest_post' => 'Visual Confirmation for Guests',
-	'ctracker_vc_guest_expl' => 'Anti-Spam Security: Please enter the following code before submitting your post.',
-	'ctracker_dbg_mode' => '<b>CrackerTracker runs on DEBUG MODE. This should not be a permanent condition.<br />Please set back to normal mode as soon as possible.<br /><br /><u>This message cannot be deleted!</u></b>',
+	'ctracker_gmb_link' => 'L\'administrateur a écrit une note importante pour tous les utilisateurs. Vous pouvez la voir ici : <br /><br /><a href="%s">%s</a><br />',
+	'ctracker_gmb_mark' => 'Marquer le message "lu"',
+	'ctracker_gmb_markip' => 'Cacher',
+	'ctracker_gmb_loginlink' => 'Connexion - Sécurité',
+	'ctracker_gmb_1stadmin' => 'La configuration ou les options de l\'administrateur principal ne peuvent être changées.',
+	'ctracker_gmb_pu_1' => '<b>CrackerTracker - Mauvaise configuration</b><br /><br />Le port 21 est utilisé pour le FTP. Si votre forum est configuré pour utiliser ce forum, vous ne pourrez plus accéder au forum.',
+	'ctracker_gmb_pu_2' => '<b>CrackerTracker - Mauvaise configuration</b><br /><br />La taille de la session est trop basse, et vous serez toujours déconnecté du forum avant de pouvoir corriger l\'option.',
+	'ctracker_gmb_pu_3' => '<b>CrackerTracker - Mauvaise configuration</b><br /><br />Le chemin commence et/ou fini soit sans slash (/www/) ou ne contient pas que le slash (/)!',
+	'ctracker_gmb_pu_4' => '<b>CrackerTracker - Mauvaise configuration</b><br /><br />Le nom de serveur ne doit pas finir avec un slash (/) !',
+	'ctracker_binf_spammer' => 'La sécurité anti-spam a detécté que vous avez atteint votre maximum de messages en %s secondaires. Si vous essayez d\'écrire encore un autre message avant <b>%s</b> secondes, votre compte sera <b>bloqué !</b><br /><br />Veuillez patienter - cette mesure est nécessaire pour bloquer les spammeurs.',
+	'ctracker_binf_sban' => 'La sécurité anti-spam a banni votre compte car vous avez été identifié comme spammeur.',
+	'ctracker_sendmail_info' => 'Pour des raisons de sécurité, vous ne pouvez envoyer qu\'un e-mail toutes les %s minutes.',
+	'ctracker_pwreset_info' => 'Pour des raisons de sécurité, vous ne pouvez demander un nouveau mot de passe qu\'une fois toutes les %s minutes. Veuillez contacter l\'administrateur si vous avez des difficultés de connexions !',
+	'ctracker_vc_guest_post' => 'Confirmation visuelle pour les invités',
+	'ctracker_vc_guest_expl' => 'Sécurité anti-spam : veuillez entrer le code qui suit avant de soumettre votre message.',
+	'ctracker_dbg_mode' => '<b>CrackerTracker est en MODE DEBUG. Vous ne <b>devez pas</b> garder ce mode activé.<br/>Veuillez revenir en mode normal dès que possible.<br/><br/><u>Ce message ne peut être caché !</u></b>',
 	)
 );
 

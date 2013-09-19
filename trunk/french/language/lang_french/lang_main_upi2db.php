@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * BigRib (bigrib@gmx.de)
 * Lopalong
-*** French Translation InformPro and Yros **
+*** French Translation Vendethiel and Yros **
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -38,7 +38,7 @@ $lang = array_merge($lang, array(
 	'New_edited_posts' => 'Messages &eacute;dit&eacute;s',
 	'Unreaded_posts' => 'Messages non lus',
 	'upi2db_post_edit' => '&Eacute;dit&eacute;',
-	'upi2db_post_new' => 'Nouveau',
+	'upi2db_post_new' => 'Nouveaux',
 	'upi2db_post_and' => ' &amp; ',
 	'upi2db_always_read' => 'Marquer le topic comme toujours lu',
 	'upi2db_always_read_unset' => 'Enlever le marquage "toujours lu"',

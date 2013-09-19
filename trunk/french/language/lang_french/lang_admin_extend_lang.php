@@ -11,7 +11,7 @@
 *
 */
 /**
- * @Package	IcyPhoenix:: * @Copyright (c) 2010 Informpro:IcyPhoenix.fr
+ * @Package	IcyPhoenix:: * @Copyright (c) 2010 Vendethiel:IcyPhoenix.fr
  * @Author Yros
 **/
 

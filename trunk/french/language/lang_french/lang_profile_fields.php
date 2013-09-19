@@ -5,7 +5,7 @@
 * @version $Id$
 * @copyright (c) 2008 Icy Phoenix
 * @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*** French Translation InformPro and Yros ***
+*** French Translation Vendethiel and Yros ***
 */
 
 if (!defined('IN_ICYPHOENIX'))

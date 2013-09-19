@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * UseLess
 * Lopalong
-*** French Translation InformPro and Yros ***
+*** French Translation Vendethiel and Yros ***
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -27,105 +27,107 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'n_title' => 'News Administration',
+	'n_title' => 'Articles du lecteur de nouvelles',
 
-	'n_main_title' => 'News Items',
-	'n_main_title_explain' => 'Manage the news items.<br /><br />If you wish to change the display status of any particular news item then you will need to edit it.',
+	'n_main_title' => 'Articles',
+	'n_main_title_explain' => 'Gérez les articles.<br/><br/>Si vous voulez changer l\'état de n\'importe quel article (affiché/caché), vous devez l\'éditer.',
 
 // Config
-	'n_config_title' => 'News Configuration',
-	'n_config_title_explain' => 'Alter the settings for News.',
-	'n_config_updated' => 'News Configuration updated.',
+	'n_config_title' => 'Configuration',
+	'n_config_title_explain' => '',
+	'n_config_updated' => 'Les réglages ont été modifiés.',
 
 // Add menu item
-	'n_add_page_title' => 'Add News Item',
-	'n_add_page_title_explain' => 'Create a new news item.',
-	'n_add_header' => 'Add new News item',
-	'n_news_item_added' => 'News Item added.',
+	'n_add_page_title' => 'Ajouter un article',
+	'n_add_page_title_explain' => 'Ajouter un article au lecteur de nouvelles',
+	'n_add_header' => 'Ajouter un nouvel article',
+	'n_news_item_added' => 'Article ajouté.',
 
 // edit menu item
-	'n_edit_page_title' => 'Edit News Item',
-	'n_edit_page_title_explain' => 'Edit the news item.',
-	'n_edit_header' => 'Edit existing news item',
+	'n_edit_page_title' => '&Eacute;diter un article',
+	'n_edit_page_title_explain' => '',
+	'n_edit_header' => '&Eacute;dition d\'un article déjà existant',
 
 // Delete
-	'n_news_delete' => 'Delete News Item.',
-	'n_news_delete_explain' => 'Delete a news item.',
-	'n_confirm_delete_news' => 'Are you sure you wish to delete this news item?',
+	'n_news_delete' => 'Supprimer un article.',
+	'n_news_delete_explain' => '',
+	'n_confirm_delete_news' => 'Êtes-vous sûr de vouloir supprimer ce lecteur ?',
 
 // General Settings used by Add/Edit Menu item
-	'n_news_item' => 'News Item',
-	'n_news_item_display' => 'Display This Item?',
+	'n_news_item' => 'Contenu',
+	'n_news_item_display' => 'Montrer ce lecteur ?',
 
-	'n_news_date' => 'News Date',
+	'n_news_date' => 'Date',
 
-	'n_create_item' => 'Create New Item',
-	'n_create_item_null' => 'Can\'t create a news item with no news text.',
+	'n_create_item' => 'Ajouter un article',
+	'n_create_item_null' => 'Vous ne pouvez pas créer d\'article sans contenu.',
 
-	'n_news_smilies' => 'Enable smileys in this message?',
+	'n_news_smilies' => 'Activer les smileys ?',
 	'n_smilies_button' => 'Smileys',
 
-	'xs_no_news' => 'There are no news items.',
-	'xs_news_invalid_date' => 'You have entered an Invalid Date, the format is: dd/mm/yyyy',
-	'n_news_updated' => 'The News item has been updated',
-	'n_click_return_newslist' => 'Click %sHere%s to return to the News List',
+	'xs_no_news' => 'Il n\'y a aucun article.',
+	'xs_news_invalid_date' => 'Vous avez entré une date invalide, le format est : dd/mm/yyyy',
+	'n_news_updated' => 'L\'article a été mis à jour',
+	'n_click_return_newslist' => 'Cliquez %sici%s pour retourner à la liste des articles',
 
 // News XML Settings
-	'n_xml_title' => 'News Ticker Administration',
-	'n_xml_title_explain' => 'Manage the News Tickers.',
-	'n_xml_title_explain_0' => 'If the ticker master switch (status shown above) is set to \'Off\' then altering the display status of any ticker is pointless as it will not be shown because the master setting overrides those settings shown below.<br /><br />However, if the switch is on and you wish to alter the display status of any ticker then you will need to edit it.',
-	'n_xml_sub_title' => 'News Tickers.',
-	'n_xml_master_switch' => 'The Ticker Master Switch is: <b>%s</b> which means News Tickers <b>%s</b> be displayed.',
-	'n_xml_ms_will' => 'will',
-	'n_xml_ms_not' => 'will not',
+	'n_xml_title' => 'Configuration des lecteurs',
+	'n_xml_title_explain' => 'Configuration des lecteurs',
+	'n_xml_title_explain_0' => 'Si l\'interrupteur global "Afficher le défileur de Nouvelles ?" est sur "Off", alors changer l\'état affiché/caché d\'un lecteur ne servira à rien car l\'interrupteur global l\'emporte sur la configuration individuelle d\'un lecteur.<br/><br/>Au contraire, si l\'interrupteur global est sur "On", vous devez changer l\'affichage de chaque lecteur individuellement en l\'éditant.',
+	'n_xml_sub_title' => 'Lecteurs de nouvelles.',
+	'n_xml_master_switch' => 'L\'interrupteur global pour les lecteurs est : <b>%s</b> ce qui signifie que les lecteurs <b>%s</b> affichés.',
+	'n_xml_ms_will' => 'seront',
+	'n_xml_ms_not' => 'ne seront pas',
 
-	'xs_news_ticker_settings' => 'Settings for this News Ticker',
-	'xs_news_ticker_title' => 'Title for this news ticker:',
-	'xs_news_ticker_title_explain' => 'Used in the XML News Feed list to identify each news feed.',
-	'xs_news_ticker_show' => 'Show this News Ticker?',
-	'xs_news_ticker_feed' => 'XML News Feed',
-	'xs_news_ticker_feed_explain' => 'The URL to where the ticker should get the news items to scroll, or the text you wish to scroll.',
-	'xs_news_ticker_is_feed' => 'Is this an XML News Feed?',
-	'xs_news_ticker_is_feed_explain' => 'If set to \'Yes\' then a valid URL for the feed must be supplied, if set to \'No\' then any text entered into the textarea above will be scrolled.',
-	'xs_news_ticker_wh' => 'The Width x Height of the News Ticker.',
-	'xs_news_ticker_wh_explain' => 'You may specify the width x height of the news ticker, the default is 98% x 20, the width is based on a percentage of the table width while the height is in pixels.',
-	'xs_news_ticker_fontsize' => 'Font size for the News Ticker.',
-	'xs_news_ticker_fontsize_explain' => 'You may override the font size specified in the stylesheet, a setting of 0 (zero) disables this feature.',
-	'xs_news_ticker_ss' => 'Scroll Speed',
-	'xs_news_ticker_ss_explain' => 'The higher the value the faster the scroll',
-	'xs_news_ticker_sd' => 'Scroll Direction',
-	'xs_news_left' => 'Left',
-	'xs_news_right' => 'Right',
+	'xs_news_ticker_settings' => 'Settings for this News Ticker', //V: pas utilisé
+	'xs_news_ticker_title' => 'Titre du lecteur :',
+	'xs_news_ticker_title_explain' => 'Utilisé dans la liste des lecteurs de flux XML pour identifier chaque lecteur.',
+
+	'xs_news_ticker_show' => 'Afficher le lecteur ?',
+	'xs_news_ticker_feed' => 'Flux XML',
+	'xs_news_ticker_feed_explain' => 'L\'URL où le lecteur doit récupérer ses articles à faire défiler, ou le texte que vous voulez faire défiler.',
+	'xs_news_ticker_is_feed' => 'Flux XML ?',
+	'xs_news_ticker_is_feed_explain' => 'Choisissez "Oui" si vous avez entré une adresse de flux XML au champ ci-dessus, si vous choisissez "Non", le texte entré ci-dessus défilera tel quel.',
+	'xs_news_ticker_wh' => 'Largeur x Hauteur',
+	'xs_news_ticker_wh_explain' => 'Vous pouvez choisir la largeur x la hauteur du lecteur (par défaut 98% x 20), la largeur doit être un pourcentage du cadre des lecteurs, la hauteur doit être en pixels.',
+	'xs_news_ticker_fontsize' => 'Taille de la police',
+	'xs_news_ticker_fontsize_explain' => 'Vous pouvez changer la taille de la police, ou rentrez 0 (Zéro) pour utiliser celle définie dans la feuille de style.',
+	'xs_news_ticker_ss' => 'Vitesse de défilement',
+	'xs_news_ticker_ss_explain' => 'Plus la valeur est haute, plus le texte défilera vite',
+	'xs_news_ticker_sd' => 'Direction',
+	'xs_news_left' => 'Gauche',
+	'xs_news_right' => 'Droite',
 
 // Add menu item
-	'n_xml_add_page_title' => 'Add XML News Feed',
-	'n_xml_add_page_title_explain' => 'Create a new XML News Feed.',
-	'n_xml_add_header' => 'Add new XML News Feed',
-	'n_xml_news_item_added' => 'News Feed added.',
+	'n_xml_add_page_title' => 'Ajouter un lecteur XML',
+	'n_xml_add_page_title_explain' => '',
+	'n_xml_add_header' => 'Ajout d\'un lecteur de flux XML',
+	'n_xml_news_item_added' => 'Lecteur ajouté.',
 
 // edit menu item
-	'n_xml_edit_page_title' => 'Edit XML News Feed',
-	'n_xml_edit_page_title_explain' => 'Edit the XML News Feed.',
-	'n_xml_edit_header' => 'Edit existing XML News Feed',
+	'n_xml_edit_page_title' => '&Eacute;diter un lecteur XML',
+	'n_xml_edit_page_title_explain' => '',
+	'n_xml_edit_header' => '&Eacute;dition d\'un lecteur de flux XML',
 
 // Delete
-	'n_xml_news_delete' => 'Delete XML News Feed.',
-	'n_xml_news_delete_explain' => 'Delete an XML News Feed.',
-	'n_xml_confirm_delete_news' => 'Are you sure you wish to delete this news feed?',
+	'n_xml_news_delete' => 'Supprimer un lecteur XML.',
+	'n_xml_news_delete_explain' => '',
+	'n_xml_confirm_delete_news' => 'Êtes-vous sûr de vouloir supprimer ce lecteur ?',
 
 // General Settings used by Add/Edit Menu item
+	//V: inutilisé
 	'n_xml_news_item' => 'News Item',
 	'n_xml_news_item_display' => 'Display This Item?',
 
-	'n_xml_create_item' => 'Create New Item',
-	'n_xml_create_item_null' => 'Can\'t create a News Ticker with no XML Feed URL or text to scroll.',
+	'n_xml_create_item' => 'Ajouter un lecteur',
+	'n_xml_create_item_null' => 'Vous ne pouvez pas ajouter un lecteur sans adresse ou texte.',
 
-	'n_xml_no_feeds' => 'There are no XML News Feeds.',
-	'n_xml_news_updated' => 'The ticker has been updated',
-	'n_xml_click_return_newslist' => 'Click %sHere%s to return to the News Ticker list',
+	'n_xml_no_feeds' => 'Il n\'y a pas de lecteur.',
+	'n_xml_news_updated' => 'Le lecteur a été mis à jour',
+	'n_xml_click_return_newslist' => 'Cliquez %sici%s pour retourner à la liste des lecteurs',
 
-	'n_xml_show' => 'Show',
-	'n_xml_title' => 'Ticker Title',
+	'n_xml_show' => 'Montrer',
+	'n_xml_title' => 'Titre du lecteur',
 	)
 );
 

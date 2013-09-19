@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * aUsTiN-Inc - (austin_inc@hotmail.com) - (phpbb-amod.com)
 * Lopalong
-*** French Translation InformPro and Yros ***
+*** French Translation Vendethiel and Yros ***
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -63,7 +63,7 @@ $lang = array_merge($lang, array(
 	'db_tru_success' => 'Le tronquage de la Table <b>%s</b> a &eacute;t&eacute; compl&eacute;t&eacute; avec succ&egrave;s.',
 	'db_dro_success' => 'Le retrait de la Table <b>%s</b> a &eacute;t&eacute; compl&eacute;t&eacute; avec succ&egrave;s.',
 	'db_rep_success' => 'La r&eacute;paration de la Table <b>%s</b> a &eacute;t&eacute; compl&eacute;t&eacute; avec succ&egrave;s.',
-	'db_explained' => 'Optimiser la Table: Videra tout surplus de donn&eacute;e.<br />Tronquer la Table: Videra une table de tous ses composants.<br />Parcourir: Vous autorisera &agrave; regarder les donn&eacute;es d&#39;une table.<br />Retirer: Retirera ( supprimera ) une table de votre base de donn&eacute;e. ( irr&eacute;m&eacute;diable )',
+	'db_explained' => 'Optimiser la Table: Videra tout surplus de donn&eacute;e.<br />Tronquer la Table: Videra une table de toutes ses entrées.<br />Parcourir: Vous autorisera &agrave; regarder les donn&eacute;es d&#39;une table.<br />Retirer: Retirera ( supprimera ) une table de votre base de donn&eacute;e. ( irr&eacute;m&eacute;diable )',
 	'db_back' => 'Cliquez %sIci%s pour revenir &agrave; la page principal.',
 	'db_change_exp' => 'En utilisant cela, vous serez capable d&#39;utiliser du SQL tel que INSERT INTO, ALTER TABLE, UPDATE, DELETE FROM, DROP TABLE, DESCRIBE, et ca&euml;tera... Ajoutez-en autant que vous le voulez, s&eacute;parez chaque commande SQL avec un point-virgule.',
 	'db_submit_q' => ' Soumettre une Requ&ecirc;te ',

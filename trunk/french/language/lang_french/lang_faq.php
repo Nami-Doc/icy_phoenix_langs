@@ -19,7 +19,7 @@
 *
 * @Extra credits for this file
 * Lopalong
-*** French Translation InformPro and Yros **
+*** French Translation Vendethiel and Yros **
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -128,18 +128,18 @@ $faq[] = array("Quand et comment puis-je renouveller mon traffic ?", "Chaque pre
 $faq[] = array("Je voudrais encore t&eacute;l&eacute;charger un fichier, mais je n'ai plus de traffic ?", "Seuls les administrateurs ont le pouvoir de redonner du traffic, essayez de les contacteer. S'ils refusent, attendez le mois prochan.");
 $faq[] = array("Comment puis-je noter les t&eacute;l&eacute;chargements ?", "Sous chaque t&eacute;l&eacute;chargement vous trouverez une section pour noter.<br />En cliquant sur &quot;Noter&quot;, un utilisateur peut noter le fichier de 1 (horrible) &agrave; 10 (excellent) points. Vous ne pouvez attribuer qu'une note par t&eacute;l&eacute;chargement.");
 
-$faq[] = array("--", "D&eacute;p&ecirc;ches");
-$faq[] = array("Que sont les d&eacute;p&ecirc;ches ?", "Les d&eacute;p&ecirc;ches sont des e-mails envoy&eacute;s p&eacute;riodiquemment contenant les informations sur les nouveaux messages du forum. Les dur&eacute;e possible sont: une semaine / un jour.");
-$faq[] = array("Pourquoi voudrais-je recevoir les d&eacute;p&ecirc;ches ?", "Cela rendra votre vie plus facile. Vous n'aurez plus besoin de visiter ce site directement. Vous n'aurez qu'a lire les d&eacute;p&ecirc;ches et si un sujet vous int&eacute;resse, vous n'aurez qu'a cliquer sur le lien pour voir le sujet. Vous pouvez aussi vous d&eacute;sinscrire a n'importe quel moment.");
+$faq[] = array("--", "Lettre d'information");
+$faq[] = array("Que sont les lettres d'information ?", "Les lettres d'information sont des e-mails envoy&eacute;s p&eacute;riodiquemment contenant les informations sur les nouveaux messages du forum. Les dur&eacute;e possible sont: une semaine / un jour.");
+$faq[] = array("Pourquoi voudrais-je recevoir les lettres d'information ?", "Cela rendra votre vie plus facile. Vous n'aurez plus besoin de visiter ce site directement. Vous n'aurez qu'a lire les lettres d'information et si un sujet vous int&eacute;resse, vous n'aurez qu'a cliquer sur le lien pour voir le sujet. Vous pouvez aussi vous d&eacute;sinscrire a n'importe quel moment.");
 #$faq[] = array("How often are digests sent?", "They can be sent daily or weekly. Weekly digests are sent on Sundays.");
-$faq[] = array("Quand les d&eacute;p&ecirc;ches sont-elles envoy&eacute;es ?", "Vous pouvez choisir l'heure que vous voulez. Vous recevrez toujours les derni&egrave;res nouvelles donc choissisez une heure qui correspond a votre rythme de vie.");
-$faq[] = array("Combien de temps les d&eacute;p&ecirc;ches couvrent-elles ?", "Entre 24h et 7jours, selon que vous ayez choisis journali&egrave;rement / chaque semaine. Les messages plus anciens ne seront pas envoy&eacute;s. Vous pouvez aussi filtrer vos propres messages.");
+$faq[] = array("Quand les lettres d'information sont-elles envoy&eacute;es ?", "Vous pouvez choisir l'heure que vous voulez. Vous recevrez toujours les derni&egrave;res nouvelles donc choissisez une heure qui correspond a votre rythme de vie.");
+$faq[] = array("Combien de temps les lettres d'information couvrent-elles ?", "Entre 24h et 7jours, selon que vous ayez choisis journali&egrave;rement / chaque semaine. Les messages plus anciens ne seront pas envoy&eacute;s. Vous pouvez aussi filtrer vos propres messages.");
 $faq[] = array("Puis-je faire des s&eacute;lection si je ne veux pas un sommaire coomplet ?", "Oui. Vous pouvez choisir quel(s) forum(s) vous int&eacute;ressent. Par d&eacute;faut, tous les forums auxquels vous avez acc&egrave;s seront s&eacute;lectionn&eacute;s.");
-$faq[] = array("Quels sont les formats disponibles ?", "Nous pouvons vous envoyer les d&eacute;p&ecirc;ches sous forme purement textuelle ou HTML. Sauf si votre gestionnaire de mails ne g&egrave;re pas le HTML (tr&egrave;s rare de nos jours), nous vous conseillons le format HTML. Les d&eacute;p&ecirc;ches en texte-seul sont difficiles a lire.");
-$faq[] = array("Recevrais-je les messages en entier dans les d&eacute;p&ecirc;ches ?", "Par d&eacute;faut, seuls les 150 premiers caract&egrave;res sont envoy&eacute;s. Vous pouvez aussi choisir de ne voir que le titre. Vous pouvez voir le message avec 50, 100, 150, 300 ou 600 des premiers caract&egrave;res, voir voir tout le message (maximum 32 000 caract&egrave;res). Nous vous recommandons de garder la taille par d&eacute;faut, afin d'&eacute;viter de recevoir de si grosse d&eacute;p&ecirc;ches qu'elles seront illislbes et donc inutiles. Il est aussi possible que les grosses d&eacute;p&ecirc;ches soient rejet&eacute;es par votre ISP ou que votre limite d'espace sois d&eacute;pass&eacute;e.");
-$faq[] = array("Comment puis-je m'abonner ?", "Vous n'avez qu'a cliquer sur le lien dans la liste des liens ou cliquez directement ici: <a href=\"./digests.php\">D&eacute;p&ecirc;ches</a>.");
+$faq[] = array("Quels sont les formats disponibles ?", "Nous pouvons vous envoyer les lettres d'information sous forme purement textuelle ou HTML. Sauf si votre gestionnaire de mails ne g&egrave;re pas le HTML (tr&egrave;s rare de nos jours), nous vous conseillons le format HTML. Les lettres d'information en texte-seul sont difficiles a lire.");
+$faq[] = array("Recevrais-je les messages en entier dans les lettres d'information ?", "Par d&eacute;faut, seuls les 150 premiers caract&egrave;res sont envoy&eacute;s. Vous pouvez aussi choisir de ne voir que le titre. Vous pouvez voir le message avec 50, 100, 150, 300 ou 600 des premiers caract&egrave;res, voir voir tout le message (maximum 32 000 caract&egrave;res). Nous vous recommandons de garder la taille par d&eacute;faut, afin d'&eacute;viter de recevoir de si grosse lettres d'information qu'elles seront illislbes et donc inutiles. Il est aussi possible que les grosses lettres d'information soient rejet&eacute;es par votre ISP ou que votre limite d'espace sois d&eacute;pass&eacute;e.");
+$faq[] = array("Comment puis-je m'abonner ?", "Vous n'avez qu'a cliquer sur le lien dans la liste des liens ou cliquez directement ici: <a href=\"./digests.php\">Lettre d'information</a>.");
 $faq[] = array("Comment puis-je me d&eacute;sinscrire ?", "Allez sur la page d'inscription et choississez &quot;Aucun&quot; dans le type.");
-$faq[] = array("Ma vie priv&eacute;e est-elle prot&eacute;g&eacute;e ?", "Oui, vos d&eacute;p&ecirc;ches ne sont envoy&eacute;es qu'a vous et nous ne communiquons votre adresse a personne. Les autres, selons leurs r&eacute;glages, peuvent avoir des d&eacute;p&ecirc;ches totalement diff&eacute;rentes.");
+$faq[] = array("Ma vie priv&eacute;e est-elle prot&eacute;g&eacute;e ?", "Oui, vos lettres d'information ne sont envoy&eacute;es qu'a vous et nous ne communiquons votre adresse a personne. Les autres, selons leurs r&eacute;glages, peuvent avoir des lettres d'information totalement diff&eacute;rentes.");
 
 
 $faq[] = array("--", "Informations sur les messages non lus dans la base de donn&eacute;es (Unread Posts Informations To DataBase: UPI2DB)");
@@ -169,5 +169,5 @@ $faq[] = array("--", "Qu&#39;est-ce que IcyPhoenix");
 $faq[] = array("Qu'est-ce que IcyPhoenix ?", "IcyPhoenix est un CMS (Content Management System - système de gestion de contenu) qui permet de créer des sites avec beaucoup de fonctionnalités embarquées : forum, portail, pages customizables et blocks, téléchargements, galeries, et beaucoup d'autres choses.");
 $faq[] = array("Qui a écrit IcyPhoenix ?", "IcyPhoenix est basé sur phpBB qui a comme license GNU General Public License, donc IcyPhoenix partage cette license. Cela signifie aussi qu'IcyPhoenix peut être librement modifié et distribué. La plupart des fichiers a été créé ou modifié par Mighty Gorgon et l'<a href=\"http://www.icyphoenix.com/\" target=\"_blank\">&Eacute;quipe IcyPhoenix</a>. Une liste non exhaustive des contributions est trouvable ici : <a href=\"http://www.icyphoenix.com/credits.php\" target=\"_blank\">Crédits IcyPhoenix</a>.");
 $faq[] = array("Qui a fait la traduction fran&ccedil;aise d'IcyPhoenix ?", "
-La traduction fran&ccedil; a &eacute;t&eacute; par la Communaut&eacute; fran&ccedil;aise d'IcyPhoenix, voir <a href=\"http://icyphoenix.fr\">ici</a>");
+La traduction fran&ccedil; a &eacute;t&eacute; par Vendethiel et Yros");
 ?>

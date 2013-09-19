@@ -13,8 +13,9 @@
 * @Extra credits for this file
 * Smartor (smartor_xp@hotmail.com)
 * Lopalong
-*
+* Traduction française par Vendethiel et Yros
 */
+
 
 if (!defined('IN_ICYPHOENIX'))
 {
@@ -26,38 +27,93 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
+//V: Cette partie avait été traduite par Kooky <kooky@altern.org>
+// merci à lui (via l'archive de la LoveMod - ezcom-fr.com)
+$lang['Album_config'] = 'Configuration de l\'Album';
+$lang['Album_config_explain'] = 'Ici, vous pouvez changer les options principales de votre Album Photos';
+$lang['Album_config_updated'] = 'La configuration de l\'Album a été mise à jour avec succès';
+$lang['Click_return_album_config'] = 'Cliquez %sici%s pour revenir à la configuration de l\'Album';
+$lang['Max_pics'] = 'Nombre maximum de photos pour chaque galerie (-1 = illimité)';
+$lang['User_pics_limit'] = 'Nombre limite de photos par galerie pour chaque membre (-1 = illimité)';
+$lang['Moderator_pics_limit'] = 'Nombre limite de photos par galerie pour chaque modérateur (-1 = illimité)';
+$lang['Pics_Approval'] = 'Approbation des photos';
+$lang['Rows_per_page'] = 'Nombre de lignes sur la page des miniatures';
+$lang['Cols_per_page'] = 'Nombre de colonnes sur la page des miniatures';
+$lang['Thumbnail_quality'] = 'Qualité des miniatures (1-100)';
+$lang['Thumbnail_cache'] = 'Cache des miniatures';
+$lang['Manual_thumbnail'] = 'Option manuelle des miniatures';
+$lang['GD_version'] = 'Optimisation pour la version de la librairie GD';
+$lang['Pic_Desc_Max_Length'] = 'Longeur maximale de la description/commentaire de la photo (en caractères)';
+$lang['Hotlink_prevent'] = 'Prévention des liens directs';
+$lang['Hotlink_allowed'] = 'Autoriser des domaines pour les liens directs (séparer par une virgule)';
+$lang['Personal_gallery'] = 'Autoriser la création d\'une galerie privée par les membres';
+$lang['Personal_gallery_limit'] = 'Nombre limite de photos pour chaque galerie privée (-1 = illimité)';
+$lang['Personal_gallery_view'] = 'Qui peut voir les galeries privées';
+$lang['Rate_system'] = 'Autoriser le sytème de notation';
+$lang['Rate_Scale'] = 'Echelle de notation';
+$lang['Comment_system'] = 'Autoriser le système de commentaire';
+$lang['Thumbnail_Settings'] = 'Options des miniatures';
+$lang['Extra_Settings'] = 'Options spéciales';
+$lang['Default_Sort_Method'] = 'Méthode de tri par défaut';
+$lang['Default_Sort_Order'] = 'Ordre de tri par défaut';
+$lang['Fullpic_Popup'] = 'Voir la photo complète dans une fenêtre';
+
+
+// Personal Gallery Page
+$lang['Personal_Galleries'] = 'Galeries Privées';
+$lang['Album_personal_gallery_title'] = 'Galeries Privées';
+$lang['Album_personal_gallery_explain'] = 'Sur cette page, vous pouvez choisir quels sont les groupes autorisés à créer et voir les galeries privées. Ces options s\'appliquent uniquement lorsque vous réglez "Autoriser la création d\'une galerie privée par les membres" ou "Qui peut voir les galeries privées" sur "PRIVE" dans l\'écran de configuration de l\'Album.';
+$lang['Album_personal_successfully'] = 'Les options ont été mises à jour avec succès';
+$lang['Click_return_album_personal'] = 'Cliquez %sici%s pour revenir aux options des Galeries Privées';
+
+//
+// Categories
+//
+$lang['Album_Categories_Title'] = 'Contrôle des galeries de l\'Album';
+$lang['Album_Categories_Explain'] = 'Sur cette écran, vous pouvez gérer vos galeries: créer, modifier, supprimer, ordonner, etc.';
+$lang['Category_Permissions'] = 'Permissions de la galerie';
+$lang['Category_Title'] = 'Titre de la galerie';
+$lang['Category_Desc'] = 'Description de la galerie';
+$lang['View_level'] = 'Voir';
+$lang['Upload_level'] = 'Uploader';
+$lang['Rate_level'] = 'Noter';
+$lang['Comment_level'] = 'Commenter';
+$lang['Edit_level'] = 'Editer';
+$lang['Delete_level'] = 'Supprimer';
+$lang['New_category_created'] = 'La nouvelle galerie a été créée avec succès';
+$lang['Click_return_album_category'] = 'Cliquez %sici%s pour revenir à la gestion des galeries de l\'Album';
+$lang['Category_updated'] = 'Cette galerie a été mise à jour avec succès';
+$lang['Delete_Category'] = 'Supprimer la galerie';
+$lang['Delete_Category_Explain'] = 'Le formulaire ci-dessous vous autorise à supprimer une galerie et à décider où vous souhaitez placer les photos qu\'elle contient.';
+$lang['Delete_all_pics'] = 'Supprimer toutes les photos';
+$lang['Category_deleted'] = 'Cette galerie a été supprimée avec succès';
+$lang['Category_changed_order'] = 'Cette galerie a changé d\'ordre avec succès';
+
+//
+// Permissions
+//
+$lang['Album_Auth_Title'] = 'Permissions de l\'Album';
+$lang['Album_Auth_Explain'] = 'Ici, vous pouvez choisir quels groupes peuvent être modérateur pour chaque galerie de l\'Album ou seulement en tant qu\'accès privé.';
+$lang['Select_a_Category'] = 'Sélectionner une galerie';
+$lang['Look_up_Category'] = 'Consulter la galerie';
+$lang['Album_Auth_successfully'] = 'Les permissions ont été mises à jour avec succès';
+$lang['Click_return_album_auth'] = 'Cliquez %sici%s pour revenir aux permissions de l\'Album';
+
+$lang['Upload'] = 'Uploader';
+$lang['Rate'] = 'Noter';
+$lang['Comment'] = 'Commentaire';
+
+//
+// Clear Cache
+//
+$lang['Clear_Cache'] = 'Vider le cache';
+$lang['Album_clear_cache_confirm'] = 'Si vous utilisez l\'option du cache des miniatures, vous devez vider votre cache des miniatures après avoir modifié vos options des miniatures dans la configuration de l\'Album pour qu\'elles soient générées à nouveau.<br /><br />Voulez-vous le vider maintenant ?';
+$lang['Thumbnail_cache_cleared_successfully'] = '<br />Votre cache des miniatures a été vidé avec succès<br />&nbsp;';
+
+//V: partie IP
+
 $lang = array_merge($lang, array(
 // 01 - Configuration
-	'Album_config' => 'Album',
-	'Album_config_explain' => 'Change the Photo Album settings here.<br />',
-	'Album_config_updated' => 'Album Configuration has been updated successfully',
-	'Click_return_album_config' => 'Click %sHere%s to return to the Album Configuration',
-	'Max_pics' => 'Maximum pics for each Category (-1 = unlimited)',
-	'User_pics_limit' => 'Pics limit per category for each user (-1 = unlimited)',
-	'Moderator_pics_limit' => 'Pics limit per category for each moderator (-1 = unlimited)',
-	'Pics_Approval' => 'Pics Approval',
-	'Rows_per_page' => 'Number of rows on thumbnail page',
-	'Cols_per_page' => 'Number of columns on thumbnail page',
-	'Thumbnail_quality' => 'Thumbnail quality (1-100)',
-	'Thumbnail_cache' => 'Thumbnail cache',
-	'Manual_thumbnail' => 'Manual thumbnail',
-	'GD_version' => 'Optimize for the version of GD',
-	'Pic_Desc_Max_Length' => 'Pic Description/Comment Max Length (bytes)',
-	'Hotlink_prevent' => 'Hotlink Prevention',
-	'Hotlink_allowed' => 'Allowed domains for hotlink (separated by a comma)',
-	'Personal_gallery' => 'Allowed to create personal gallery for users',
-	'Personal_gallery_limit' => 'Pics limit for each personal gallery (-1 = unlimited)',
-	'Personal_gallery_view' => 'Who can view personal galleries by default',
-	'Rate_system' => 'Enable rating system',
-	'Rate_Scale' => 'Rating Scale',
-	'Comment_system' => 'Enable comment system',
-	'Thumbnail_Settings' => 'Thumbnail Settings',
-	'Quick_Thumbnails' => 'Quick Thumbnails',
-	'Quick_Thumbnails_explain' => 'Enable this option for a system-check if thumbnails have already been generated and try to send them directly to the browser. This will speed up thumbnails generation when viewing cats.',
-	'Extra_Settings' => 'Extra Settings',
-	'Default_Sort_Method' => 'Default Sort Method',
-	'Default_Sort_Order' => 'Default Sort Order',
-	'Fullpic_Popup' => 'View full pic as a popup',
 	'Email_Notification' => 'Enable email notification on new images on album (only to admins)',
 	'Show_Download' => 'Show DOWNLOAD button (which enables the downloading of pictures in ZIP format) only to those who have UPLOAD permission in the Album (if you choose ALWAYS the button will be always available even if the users have no UPLOAD permissions)',
 	'Show_Slideshow' => 'Enable Slideshow feature',
@@ -104,11 +160,6 @@ $lang = array_merge($lang, array(
 	'Show_PG_Link' => 'Show "Personal Galleries" link on Album Index',
 
 // 02 - Personal Galleries
-	'Personal_Galleries' => 'Personal Galleries',
-	'Album_personal_gallery_title' => 'Personal Gallery',
-	'Album_personal_gallery_explain' => 'Choose which usergroups have right to create and view personal galleries. These settings only affect when you set "PRIVATE" for "Allowed to create personal gallery for users" or "Who can view personal galleries" in Album Configuration screen',
-	'Album_personal_successfully' => 'The setting has been updated successfully',
-	'Click_return_album_personal' => 'Click %sHere%s to return to the Personal Gallery Settings',
 	'Allow_Album_Avatars' => 'Allow users to use own posted images in Album as Avatar',
 	'Album_Personal_Settings' => 'Personal Galleries',
 	'Show_Personal_Sub_Cats' => 'Show personal subcategories in index table',
@@ -122,25 +173,6 @@ $lang = array_merge($lang, array(
 
 // 03 - Categories
 	'Categories' => 'Album Categories',
-	'Album_Categories_Title' => 'Album Categories',
-	'Album_Categories_Explain' => 'Manage your categories: create, alter, delete or sort, etc.',
-	'Category_Permissions' => 'Category Permissions',
-	'Category_Title' => 'Category Title',
-	'Category_Desc' => 'Category Description',
-	'View_level' => 'View Level',
-	'Upload_level' => 'Upload Level',
-	'Rate_level' => 'Rate Level',
-	'Comment_level' => 'Comment Level',
-	'Edit_level' => ' Edit Level',
-	'Delete_level' => 'Delete Level',
-	'New_category_created' => 'New category has been created successfully',
-	'Click_return_album_category' => 'Click %sHere%s to return to the Album Categories Manager',
-	'Category_updated' => 'This category has been updated successfully',
-	'Delete_Category' => 'Delete Category',
-	'Delete_Category_Explain' => 'Delete a category and decide where you want to put pics it contained',
-	'Delete_all_pics' => 'Delete all pics',
-	'Category_deleted' => 'This category has been deleted successfully',
-	'Category_changed_order' => 'This category has been changed in order successfully',
 	'Personal_Root_Gallery' => 'Personal Gallery Root Category',
 	'Parent_Category' => 'Parent Category (for this category)',
 	'Child_Category_Moved' => 'Selected category had child categories. The child categories got moved to the <b>%s</b> category.',
@@ -150,17 +182,6 @@ $lang = array_merge($lang, array(
 	'Watermark_explain' => 'You can specify the watermark file to be used in this category. Insert the watermark file path respect to your Icy Phoenix root (i.e.: <b>images/album/mark_fap.png</b>). The watermark will be applied only if Watermark feature is on.',
 	'Cat_Pics_Synchronize' => 'Sync Pics Counter',
 	'Cat_Pics_Synchronized' => 'All pictures counter have been synchronized.',
-
-// 04 - Permissions
-	'Album_Auth_Title' => 'Album Permissions',
-	'Album_Auth_Explain' => 'Choose which usergroup(s) can be the moderators for each album category or just has the private access',
-	'Select_a_Category' => 'Select a Category',
-	'Look_up_Category' => 'Look up Category',
-	'Album_Auth_successfully' => 'Auth has been updated successfully',
-	'Click_return_album_auth' => 'Click %sHere%s to return to the Album Permissions',
-	'Upload' => 'Upload',
-	'Rate' => 'Rate',
-	'Comment' => 'Comment',
 
 // 05 - Thumbnails
 	'Use_Old_Thumbnails' => 'Use old thumbnails functions',
@@ -180,9 +201,6 @@ $lang = array_merge($lang, array(
 
 // 07 - Clear Cache
 	'Clear_Cache_Tab' => 'Cache',
-	'Clear_Cache' => 'Clear Cache',
-	'Album_clear_cache_confirm' => 'If you use the Thumbnail Cache feature you must clear your thumbnail cache after changing your thumbnail settings in Album Configuration to make them re-generated.<br /><br /> Do you want to clear them now?',
-	'Thumbnail_cache_cleared_successfully' => '<br />Your thumbnail cache has been cleared successfully<br />&nbsp;',
 
 // ACP - Javascript text
 	'acp_ask_save_changes' => 'Do you want to save the changes ?\n(OK = Yes, Cancel = No)',
@@ -223,7 +241,7 @@ $lang = array_merge($lang, array(
 	'SP_Album_config_explain' => 'Configure some options for the Album Service Pack',
 	'SP_Album_sp_general' => 'General Config',
 	'SP_Album_sp_watermark' => 'WaterMark Config',
-	'SP_Album_sp_hotornot' => 'Hot or Not Config',
+-	'SP_Album_sp_hotornot' => 'Hot or Not Config',
 	'SP_Rate_type' => 'Select picture rating display',
 	'SP_Rate_type_0' => 'Images only',
 	'SP_Rate_type_1' => 'Numbers only',

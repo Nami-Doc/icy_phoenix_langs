@@ -13,7 +13,7 @@
 * BigRib (bigrib@gmx.de)
 * Lopalong
 *
-** French Translation InformPro and Yros **
+** French Translation Vendethiel and Yros **
 */
 
 if (!defined('IN_ICYPHOENIX'))

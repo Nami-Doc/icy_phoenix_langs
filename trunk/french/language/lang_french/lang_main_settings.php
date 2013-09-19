@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Lopalong
-*** French Translation InformPro and Yros **
+*** French Translation Vendethiel and Yros **
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -29,7 +29,7 @@ $lang['Index'] = 'IcyPhoenix';
 $lang['Default_META_Keywords'] = 'phpbb, forum, icy phoenix, icyphoenix, icy, phoenix, php, portal, cms, premodded, community, open source, mods, templates';
 $lang['Default_META_Description'] = 'IcyPhoenix est un syst&egrave;me de gestion de contenu (CMS) bas&eacute; sur phpBB qui vous permet de cr&eacute;er un site dynamique avec beaucoup de fonctionnalit&eacute;es.';
 $lang['Default_META_Title'] = 'IcyPhoenix';
-$lang['Default_META_Author'] = 'Mighty Gorgon, l&#39;&eacute;quipe d&#39;IcyPhoenix :: http://www.icyphoenix.com/ - L&#39;&Eacute;quipe de traducteurs d&#39;IcyPhoenix::FR http://icyphoenix.fr/';
+$lang['Default_META_Author'] = 'Mighty Gorgon, l&#39;&eacute;quipe d&#39;IcyPhoenix :: http://www.icyphoenix.com/ - Traduire par Vendethiel et Yros.';
 $lang['Default_META_Copyright'] = '(c) 2001-' . gmdate('Y') . ' Mighty Gorgon';
 $lang['Extra_Meta'] = '';
 
@@ -92,6 +92,6 @@ $lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 // along with our copyright message indicating you are the translator
 // please add it here.
 
-$lang['TRANSLATION_INFO'] = $lang['TRANSLATION'] = 'Traduction française par Informpro et Yros';
+$lang['TRANSLATION_INFO'] = $lang['TRANSLATION'] = 'Traduction française par Vendethiel et Yros';
 
 ?>

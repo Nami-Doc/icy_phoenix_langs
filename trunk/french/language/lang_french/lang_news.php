@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Lopalong
-*** French Translation InformPro and Yros ***
+*** French Translation Vendethiel and Yros ***
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -55,7 +55,7 @@ $lang = array_merge($lang, array(
 	'News_Config' => 'Configuration des cat&eacute;gories de nouvelles',
 	'News_Explain' => 'Ajouter, &eacute;diter ou supprimer la cat&eacute;gorie de nouvelles.',
 
-	'Enable_News' => '<strong>Autoriser de poster des nouvelles</strong>',
+	'Enable_News' => '<strong>Autoriser à poster des nouvelles</strong>',
 	'News_Path' => '<strong>Dossier des ic&ocirc;nes</strong>',
 	'News_Path_Explain' => 'Dossier content les images, relatif &agrave; l&#39;installation d&#39;IcyPhoenix, par exemple images/news',
 

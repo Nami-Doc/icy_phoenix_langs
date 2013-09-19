@@ -35,7 +35,7 @@ if (empty($lang) || !is_array($lang))
 
 $lang = array_merge($lang, array(
 	'ACTION' => 'Action',
-	'ADVANCED' => 'Advanced',
+	'ADVANCED' => 'Avancé',
 	'AUTH_CACHE_PURGE' => 'Purging the Auth Cache',
 
 	'CACHE_PURGE' => 'Purging your forum’s cache',

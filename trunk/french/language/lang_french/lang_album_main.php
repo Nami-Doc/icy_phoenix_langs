@@ -13,8 +13,9 @@
 * @Extra credits for this file
 * Smartor (smartor_xp@hotmail.com)
 * Lopalong
-*
+* Traduction française par Vendethiel et Yros
 */
+
 
 if (!defined('IN_ICYPHOENIX'))
 {
@@ -26,343 +27,381 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
+//V: Cette partie avait été traduite par Kooky <kooky@altern.org>
+// merci à lui (via l'archive de la LoveMod - ezcom-fr.com)
+
+$lang['Photo_Album'] = 'Album Photos';
+$lang['Pics'] = 'Photos';
+$lang['Last_Pic'] = 'Dernière photo';
+$lang['Public_Categories'] = 'Galeries publiques';
+$lang['No_Pics'] = 'Aucune Photo';
+$lang['Users_Personal_Galleries'] = 'Galeries Privées des membres';
+$lang['Your_Personal_Gallery'] = 'Ma Galerie';
+$lang['Recent_Public_Pics'] = 'Photos publiques récentes';
+
+$lang['View'] = 'Vue';
+
+//
+// Category View
+//
+$lang['Category_not_exist'] = 'Cette galerie n\'existe pas';
+$lang['Upload_Pic'] = 'Uploader';
+$lang['Pic_Title'] = 'Titre';
+
+$lang['Album_upload_can'] = 'Vous <b>pouvez</b> uploader de nouvelles photos';
+$lang['Album_upload_cannot'] = 'Vous <b>ne pouvez pas</b> uploader de nouvelles photos';
+$lang['Album_rate_can'] = 'Vous <b>pouvez</b> noter des photos';
+$lang['Album_rate_cannot'] = 'Vous <b>ne pouvez pas</b> noter des photos';
+$lang['Album_comment_can'] = 'Vous <b>pouvez</b> poster des commentaires sur les photos';
+$lang['Album_comment_cannot'] = 'Vous <b>ne pouvez pas</b> poster des commentaires sur les photos';
+$lang['Album_edit_can'] = 'Vous <b>pouvez</b> éditer vos photos et commentaires';
+$lang['Album_edit_cannot'] = 'Vous <b>ne pouvez pas</b> éditer vos photos et commentaires';
+$lang['Album_delete_can'] = 'Vous <b>pouvez</b> supprimer vos photos et commentaires';
+$lang['Album_delete_cannot'] = 'Vous <b>ne pouvez pas</b> supprimer vos photos et commentaires';
+$lang['Album_moderate_can'] = 'Vous <b>pouvez</b> %smodérer%s cette galerie';
+
+$lang['Edit_pic'] = 'Editer';
+$lang['Delete_pic'] = 'Supprimer';
+$lang['Rating'] = 'Note';
+$lang['Comments'] = 'Commentaires';
+$lang['New_Comment'] = 'Nouveau commentaire';
+
+$lang['Not_rated'] = '<i>aucune note</i>';
+
+//
+// Upload
+//
+$lang['Pic_Desc'] = 'Description';
+$lang['Plain_text_only'] = 'Texte à caractère simple uniquement';
+$lang['Max_length'] = 'Longeur maximale (en caractères)';
+$lang['Upload_pic_from_machine'] = 'Uploader une photo à partir de votre ordinateur';
+$lang['Upload_to_Category'] = 'Uploader vers une galerie';
+$lang['Upload_thumbnail_from_machine'] = 'Uploader cette miniature à partir de votre ordinateur (doit avoir le même type d\'extension que votre photo)';
+$lang['Upload_thumbnail'] = 'Uploader une miniature';
+$lang['Upload_thumbnail_explain'] = 'Cela doit-être le même type d\'extension que votre image';
+$lang['Thumbnail_size'] = 'Taille de la miniature (en pixels)';
+$lang['Filetype_and_thumbtype_do_not_match'] = 'Votre photo et votre miniature doivent avoir le même type d\'extension';
+
+$lang['Upload_no_title'] = 'Vous devez entrer un titre pour votre photo';
+$lang['Upload_no_file'] = 'Vous devez entrer votre chemin et votre nom de fichier';
+$lang['Desc_too_long'] = 'Votre description est trop longue';
+
+$lang['Max_file_size'] = 'Taille maximale du fichier (en octets)';
+$lang['Max_width'] = 'Largeur maximale de l\'image (en pixels)';
+$lang['Max_height'] = 'Hauteur maximale de l\'image (en pixels)';
+
+$lang['JPG_allowed'] = 'Autoriser l\'upload de fichiers JPG';
+$lang['PNG_allowed'] = 'Autoriser l\'upload de fichiers PNG';
+$lang['GIF_allowed'] = 'Autoriser l\'upload de fichiers GIF';
+
+$lang['Album_reached_quota'] = 'Ce système a atteint le quota de photos. Maintenant vous ne pouvez plus uploader. Veuillez contacter le webmaster pour plus d\'informations';
+$lang['User_reached_pics_quota'] = 'Vous avez atteint votre quota de photos. Maintenant vous ne pouvez plus uploader. Veuillez contacter le webmaster pour plus d\'informations';
+
+$lang['Bad_upload_file_size'] = 'Votre fichier uploadé est trop grand ou corrompu';
+$lang['Not_allowed_file_type'] = 'Votre type de fichier n\'est pas autorisé';
+$lang['Upload_image_size_too_big'] = 'La dimension de votre image est trop grande';
+$lang['Upload_thumbnail_size_too_big'] = 'La dimension de votre miniature est trop grande';
+
+$lang['Missed_pic_title'] = 'Vous devez entrer le titre de votre photo';
+
+$lang['Album_upload_successful'] = 'Votre photo a été uploadée avec succès';
+$lang['Album_upload_need_approval'] = 'Votre photo a été uploadée avec succès.<br /><br />Mais l\'option d\'Approbation des photos a été activée, ainsi votre photo doit-être approuvée par le webmaster ou un modérateur avant d\'être postée';
+$lang['Click_return_category'] = 'Cliquez %sici%s pour revenir à la galerie';
+$lang['Click_return_album_index'] = 'Cliquez %sici%s pour revenir à l\'index de l\'Album';
+
+// View Pic
+$lang['Pic_not_exist'] = 'Cette photo n\'existe pas';
+
+// Edit Pic
+$lang['Edit_Pic_Info'] = 'Editer les informations de la photo';
+$lang['Pics_updated_successfully'] = 'Les informations de votre photo ont été mises à jour avec succès';
+
+// Delete Pic
+$lang['Album_delete_confirm'] = 'Etes-vous sûr de vouloir supprimer cette photo ?';
+$lang['Pics_deleted_successfully'] = 'Cette photo a été supprimée avec succès';
+
+//
+// ModCP
+//
+$lang['Approval'] = 'Approbation';
+$lang['Approve'] = 'Approuver';
+$lang['Unapprove'] = 'Désapprouver';
+$lang['Status'] = 'Statut';
+$lang['Locked'] = 'Verrouillé';
+$lang['Unlocked'] = 'Déverrouillé';
+$lang['Not_approved'] = 'Désapprouvé';
+$lang['Approved'] = 'Approuvé';
+$lang['Move_to_Category'] = 'Déplacer vers cette galerie';
+$lang['Pics_moved_successfully'] = 'Votre photo a été déplacée avec succès';
+$lang['Pics_locked_successfully'] = 'Votre photo a été verrouillée avec succès';
+$lang['Pics_unlocked_successfully'] = 'Votre photo a été déverrouillée avec succès';
+$lang['Pics_approved_successfully'] = 'Votre photo a été approuvée avec succès';
+$lang['Pics_unapproved_successfully'] = 'Votre photo a été désapprouvée avec succès';
+
+//
+// Rate
+//
+$lang['Current_Rating'] = 'Note actuelle';
+$lang['Please_Rate_It'] = 'Veuillez la noter';
+$lang['Already_rated'] = 'Vous avez déjà noté cette photo';
+$lang['Album_rate_successfully'] = 'Votre photo a été notée avec succès';
+
+//
+// Comment
+//
+$lang['Post_your_comment'] = 'Postez votre commentaire';
+$lang['Comment_no_text'] = 'Veuillez entrer votre commentaire';
+$lang['Comment_too_long'] = 'Votre commentaire est trop long';
+$lang['Comment_delete_confirm'] = 'Etes-vous sûr de vouloir supprimer ce commentaire ?';
+$lang['Pic_Locked'] = 'Désolé, mais cette photo a été verrouillée. Par conséquent, vous ne pouvez plus poster de commentaire pour cette photo.';
+
+//
+// Personal Gallery
+//
+$lang['Personal_Gallery_Explain'] = 'Vous pouvez voir les galeries privées des autres membres en cliquant sur le lien dans leur profil.';
+$lang['Personal_gallery_not_created'] = 'La galerie privée de %s est vide ou n\'a pas été créée';
+$lang['Not_allowed_to_create_personal_gallery'] = 'Désolé, mais le webmaster de ce site ne vous a pas autorisé à créer votre propre galerie privée.';
+$lang['Click_return_personal_gallery'] = 'Cliquez %sici%s pour revenir à la galerie privée';
+
+//
+// Album New entries
+//
+$lang['Album_search_contain'] = 'Rechercher avec le mot';
+
+$lang['Dimension'] = 'Dimensions';
+$lang['Size'] = 'Taille';
+$lang['Kb'] = 'Ko';
+
+$lang['Gallery'] = 'Galerie';
+$lang['Personnal_Galleries'] = 'Galeries Privées';
+$lang['Recent_Personal_Pics'] = 'Photos privées récentes';
+
+$lang['Pic_details'] = 'Détails de la Photo';
+
+$lang['No_comments'] = 'Aucun commentaire';
+$lang['Comment'] = 'Commentaire';
+$lang['Comments_disabled'] = 'Commentaire désactivé';
+
+//V: partie IP
+
 $lang = array_merge($lang, array(
 // Album Index
-	'Photo_Album' => 'Photo Album',
-	'Pics' => 'Pics',
-	'Last_Pic' => 'Last Pic',
-	'Public_Categories' => 'Public Categories',
-	'No_Pics' => 'No Pics',
-	'Users_Personal_Galleries' => 'Users Personal Galleries',
-	'Your_Personal_Gallery' => 'Your Personal Gallery',
-	'Recent_Public_Pics' => 'Recent Public Pics',
 	'Nav_Separator' => '&nbsp;&raquo;&nbsp;',
 
 // Category View
-	'Category_not_exist' => 'This category does not exist',
-	'Upload_Pic' => 'Upload Picture',
-	'Upload_Pics' => 'Upload Pictures',
-	'JUpload_Pic' => 'Upload Multiple Pictures with Jupload',
-	'Pic_Title' => 'Picture Title',
-	'View' => 'View',
-	'Pic_Poster' => 'Poster',
+	'Upload_Pics' => 'Envoyer les images vers',
+	'JUpload_Pic' => 'Envoyer plusieurs images via Jupload',
+	'Pic_Poster' => 'Posteur',
 	'Pic_Image' => 'Image',
-	'Waiting' => ' picture(s) waiting for approval',
+	'Waiting' => ' image(s) attendant d\'être approuvées',
 
-/*
-	'Album_upload_can' => 'You <b>can</b> upload new pics in this category',
-	'Album_upload_cannot' => 'You <b>cannot</b> upload new pics in this category',
-	'Album_rate_can' => 'You <b>can</b> rate pics in this category',
-	'Album_rate_cannot' => 'You <b>cannot</b> rate pics in this category',
-	'Album_comment_can' => 'You <b>can</b> post comments to pics in this category',
-	'Album_comment_cannot' => 'You <b>cannot</b> post comments to pics in this category',
-	'Album_edit_can' => 'You <b>can</b> edit your pics and comments in this category',
-	'Album_edit_cannot' => 'You <b>cannot</b> edit your pics and comments in this category',
-	'Album_delete_can' => 'You <b>can</b> delete your pics and comments in this category',
-	'Album_delete_cannot' => 'You <b>cannot</b> delete your pics and comments in this category',
-*/
-	'Album_view_can' => 'You <b>can</b> view pics',
-	'Album_view_cannot' => 'You <b>cannot</b> view pics',
-	'Album_upload_can' => 'You <b>can</b> upload new pics',
-	'Album_upload_cannot' => 'You <b>cannot</b> upload new pics',
-	'Album_rate_can' => 'You <b>can</b> rate pics',
-	'Album_rate_cannot' => 'You <b>cannot</b> rate pics',
-	'Album_comment_can' => 'You <b>can</b> post comments to pics',
-	'Album_comment_cannot' => 'You <b>cannot</b> post comments to pics',
-	'Album_edit_can' => 'You <b>can</b> edit your pics and comments',
-	'Album_edit_cannot' => 'You <b>cannot</b> edit your pics and comments',
-	'Album_delete_can' => 'You <b>can</b> delete your pics and comments',
-	'Album_delete_cannot' => 'You <b>cannot</b> delete your pics and comments',
-	'Album_moderate_can' => 'You <b>can</b> %smoderate%s this category',
+// Permissions
+	'Album_view_can' => 'Vous <b>pouvez</b> voir les photos',
+	'Album_view_cannot' => 'Vous <b>ne pouvez pas</b> voir les photos',
 
-	'Edit_pic' => 'Edit',
-	'Delete_pic' => 'Delete',
-	'Rating' => 'Rating',
-	'Comments' => 'Comments',
-	'Last_Comment' => 'Last Comment',
-	'New_Comment' => 'New Comment',
-	'Not_rated' => '<i>Not Rated</i>',
-	'Random_Pictures' => 'Random Pictures',
-	'Highest_Rated_Pictures' => 'Highest Rated Pictures',
-	'Most_Viewed_Pictures' => 'Most Viewed Pictures',
+	'Last_Comment' => 'Dernière commentaire',
+	'Random_Pictures' => 'Images aléatoires',
+	'Highest_Rated_Pictures' => 'Image la mieux votée',
+	'Most_Viewed_Pictures' => 'Images les plus vues',
 
-	'Avatar_Set' => 'Set as Avatar',
-	'BBCode_Copy' => 'Copy BBCode',
+	'Avatar_Set' => 'Utiliser comme avatar',
+	'BBCode_Copy' => 'Copier le BBCode',
 
 // Upload
-	'Pic_Desc' => 'Picture Description',
-	'Plain_text_only' => 'Plain text only',
-	'Max_length' => 'Max length (bytes)',
-	'Upload_pic_from_machine' => 'Upload a picture from your machine',
-	'Upload_to_Category' => 'Upload to Category',
-	'Upload_thumbnail_from_machine' => 'Upload its thumbnail from your machine (must be the same type with your pic)',
-	'Upload_thumbnail' => 'Upload a thumbnail image',
-	'Upload_thumbnail_explain' => 'It must be of the same file type as your picture',
-	'Thumbnail_size' => 'Thumbnail size (pixel)',
-	'Filetype_and_thumbtype_do_not_match' => 'Your picture and your thumbnail must be the same type',
+	'No_valid_category_selected' => 'La catégorie sélectionnée n\'est pas valide',
+	'No_category_to_upload' => 'Malheureusement, il n\'y a aucune catégorie dans laquelle vous pouvez ajouter une image.',
 
-	'Upload_no_title' => 'You must enter a title for your pic',
-	'Upload_no_file' => 'You must enter your path and your filename',
-	'Desc_too_long' => 'Your description is too long',
-
-	'JPG_allowed' => 'Allowed to upload JPG files',
-	'PNG_allowed' => 'Allowed to upload PNG files',
-	'GIF_allowed' => 'Allowed to upload GIF files',
-
-	'Album_reached_quota' => 'This category has reached the quota of pics. Now you cannot upload any more. Please contact the administrators for more information',
-	'User_reached_pics_quota' => 'You have reached your quota of pics. Now you cannot upload any more. Please contact the administrators for more information',
-
-	'No_valid_category_selected' => 'No valid album category selected',
-	'No_category_to_upload' => 'Unfortunately there are currently no categories you can upload to.',
-	'Not_allowed_file_type' => 'Your file type is not allowed',
-	'Upload_image_size_too_big' => 'Your image dimension size is too large',
-	'Upload_thumbnail_size_too_big' => 'Your thumbnail dimension size is too large',
-
-	'Missed_pic_title' => 'You must enter your picture title',
-
-	'Click_return_category' => 'Click %sHere%s to return to the category',
-	'Click_return_album_index' => 'Click %sHere%s to return to the Album Index',
-
-	'Add_File' => 'Add File',
-	'File_thumbnail_count_mismatch' => 'The number of uploaded pictures and thumbnails doesn\'t match',
-	'No_thumbnail_for_picture_found' => 'There was no thumbnail found for the uploaded picture (named: %s)',
-	'No_picture_for_thumbnail_found' => 'There was no picture found for the uploaded thumbnail (named: %s)',
-	'Unknown_file_and_thumbnail_error_mismatch' => 'Uknown error got raised when uploading the picture and thumbnail<br />Picture named: %s and Thumbnail named: %s<br />',
-	'Picture_exceeded_maximum_size_INI' => 'Picture named \'%s\' is too big. Picture is skipped.<br />',
-	'Thumbnail_exceeded_maximum_size_INI' => 'Thumbnail named \'%s\' is too big. Picture and thumbnail are skipped.<br />',
-	'Execution_time_exceeded_skipping' => 'The maximum time allowed for script execution has been exceeded. The following files was skipped:<br />',
+	'Add_File' => 'Ajouter un fichier',
+	'File_thumbnail_count_mismatch' => 'Le nombre d\'image ne correspond pas au nombre d\'aperçus',
+	'No_thumbnail_for_picture_found' => 'Pas d\'aperçu disponible pour l\'image (nommée %s)',
+	'No_picture_for_thumbnail_found' => 'Pas d\'image associée à l\'aperçu (nommée %s)',
+	'Unknown_file_and_thumbnail_error_mismatch' => 'Une erreur inconnue est apparue lors de l\'envoi de l\'image et de l\'aperçu.<br/>Image nommée : %s, aperçu nommé : %s<br/>',
+	'Picture_exceeded_maximum_size_INI' => 'L\'image "%s" est trop grosse pour être envoyée, elle ne sera pas envoyée.<br />',
+	'Thumbnail_exceeded_maximum_size_INI' => 'L\'aperçu "%s" est trop gros pour être envoyé, l\'image et l\'aperçu ne seront pas envoyés<br/>',
+	'Execution_time_exceeded_skipping' => 'Le temps maximum d\'exécution a été atteint. Les images suivantes ont été sautées :<br/>',
 	'Skipping_uploaded_picture_file' => '%s<br />',
-	'Skipping_uploaded_picture_and_thumbnail_file' => '%s (thumbnail: %s)<br />',
-	'Album_upload_not_successful' => 'None of your pictures has been uploaded successfully<br /><br />',
-	'Album_upload_partially_successful' => 'Only a part of your pictures has been uploaded successfully<br /><br />',
-	'No_pictures_selected_for_upload' => 'No pictures selected for upload or unknown error',
+	'Skipping_uploaded_picture_and_thumbnail_file' => '%s (aperçu: %s)<br />',
+	'Album_upload_not_successful' => 'Aucune de vos images n\'a été envoyée.<br /><br />',
+	'Album_upload_partially_successful' => 'Certaines de vos images n\'ont pu être envoyées<br /><br />',
+	'No_pictures_selected_for_upload' => 'Pas d\'images sélectionnées ou erreur inconnue',
 
 // 'Bad_upload_file_size' => 'Your uploaded file is too large or corrupted',
 // 'Album_upload_successful' => 'Your picture has been uploaded successfully',
 // 'Album_upload_need_approval' => 'Your picture has been uploaded successfully.<br /><br />But the feature Picture Approval has been enabled so your picture must be approved by a administrator or a moderator before posting',
 
-	'Bad_upload' => 'Bad upload',
-	'Bad_upload_file_size' => 'Your uploaded file (%s) is too large or corrupted',
-	'Album_upload_successful' => 'Your picture(s) has been uploaded successfully',
-	'Album_upload_need_approval' => 'Your picture(s) has been uploaded successfully.<br /><br />But the feature Picture Approval has been enabled so your picture must be approved by a administrator or a moderator before posting.',
-
-	'Rotation' => 'Rotate (Anti-Clockwise) - Degrees',
-
-	'Max_file_size' => 'Maximum file size (bytes)',
-	'Max_width' => 'Maximum image width before re-compression (pixel)',
-	'Max_height' => 'Maximum image height before re-compression (pixel)',
+	'Bad_upload' => 'Mauvais envoi',
+	'Rotation' => 'Tourner (sens inverse d\'une montre) - Degrées',
 
 // Album Nuffload
-	'time_elapsed' => 'Time Elapsed',
-	'time_remaining' => 'Time Remaining',
-	'upload_in_progress' => 'Upload In Progress',
-	'please_wait' => 'Please Wait...',
-	'uploaded' => 'Uploaded %multi_id% of %multi_max% images.',
-	'no_file_received' => 'No image file received',
-	'no_thumbnail_file_received' => 'No thumbnail file received',
-	'file_too_big' => 'Image file size too big',
-	'thumbnail_too_big' => 'Thumbnail file size too big',
-	'image_res_too_high' => 'Image resolution too high',
-	'add_field' => 'Add file upload field',
-	'remove_field' => 'Remove file upload field',
-	'ZIP_allowed' => 'Allowed to upload ZIP files',
+	'time_elapsed' => 'Temps écoulé',
+	'time_remaining' => 'Temps restant',
+	'upload_in_progress' => 'Envoi en cours',
+	'please_wait' => 'Veuillez attendre ...',
+	'uploaded' => '%multi_id% images envoyées sur un total de %multi_max%.',
+	'no_file_received' => 'Aucun fichier reçu',
+	'no_thumbnail_file_received' => 'Aucun aperçu reçu',
+	'file_too_big' => 'Le fichier est trop gros',
+	'thumbnail_too_big' => 'La taille du fichier d\'aperçu est trop gros',
+	'image_res_too_high' => 'La résolution de l\'image est trop haute',
+	'add_field' => 'Ajouter un champ d\'envoi',
+	'remove_field' => 'Retirer un champ d\'envoi',
+	'ZIP_allowed' => 'Autorisé à envoyer un ZIP',
 
 // View Pic
 	'Pic_ID' => 'ID',
 	'Pic_Details' => 'Image Details',
-	'Pic_Size' => 'Size',
-	'Pic_Type' => 'Image Type',
+	'Pic_Size' => 'Taille',
+	'Pic_Type' => 'Type',
 	'Pic_BBCode' => 'BBCode',
-	'Pic_not_exist' => 'This picture does not exist',
-	'Click_enlarge' => 'Click on image to view larger image',
-	'Prev_Pic' => 'View Previous Picture',
-	'Next_Pic' => 'View Next Picture',
-	'Slideshow' => 'Slide Show',
-	'Slideshow_Delay' => 'Slide Show Delay',
-	'Slideshow_On' => 'Slide Show',
-	'Slideshow_Off' => 'Stop Slide Show',
-	'Pics_Nav' => 'Pictures Navigation',
-	'Pics_Nav_Next' => 'Next Picture',
-	'Pics_Nav_Prev' => 'Previous Picture',
-	'Pics_Counter' => 'Viewing Picture %s of %s',
-
-// Edit Pic
-	'Edit_Pic_Info' => 'Edit Picture Information',
-	'Pics_updated_successfully' => 'Your picture information has been updated successfully',
-
-// Delete Pic
-	'Album_delete_confirm' => 'Are you sure you want to delete these pic(s)?',
-	'Pics_deleted_successfully' => 'These pic(s) have been deleted successfully',
+	'Click_enlarge' => 'Cliquez pour voir l\'image en plus grand',
+	'Prev_Pic' => 'Voir l\'image précédente',
+	'Next_Pic' => 'Voir l\'image suivante',
+	'Slideshow' => 'Diaporama',
+	'Slideshow_Delay' => 'Délai du diaporama',
+	'Slideshow_On' => 'Diaporama',
+	'Slideshow_Off' => 'Arrêter le Diaporama',
+	'Pics_Nav' => 'Navigation',
+	'Pics_Nav_Next' => 'Image suivante',
+	'Pics_Nav_Prev' => 'Image précédente',
+	'Pics_Counter' => 'Image n°%s sur %s',
 
 // ModCP
-	'Approval' => 'Approval',
-	'Approve' => 'Approve',
-	'Unapprove' => 'Unapprove',
-	'Status' => 'Status',
-	'Locked' => 'Locked',
-	'Not_approved' => 'Not approved',
-	'Approved' => 'Approved',
-	'Copy' => 'Copy',
-	'Move_to_Category' => 'Move to category',
-	'Pics_moved_successfully' => 'Your pic(s) have been moved successfully',
-	'Copy_to_Category' => 'Copy to category',
-	'Pics_copied_successfully' => 'Your pic(s) have been copied successfully',
-	'Pics_locked_successfully' => 'Your pic(s) have been locked successfully',
-	'Pics_unlocked_successfully' => 'Your pic(s) have been unlocked successfully',
-	'Pics_approved_successfully' => 'Your pic(s) have been approved successfully',
-	'Pics_unapproved_successfully' => 'Your pic(s) have been unapproved successfully',
-	'NO_PICS_SPECIFIED' => 'No pic(s) specified',
+	'Copy' => 'Copier',
+	'Copy_to_Category' => 'Copier vers la catégorie',
+	'NO_PICS_SPECIFIED' => 'Aucune image sélectionnée',
 
 // Rate
-	'Current_Rating' => 'Current Rating',
-	'Please_Rate_It' => 'Please Rate It',
-	'Login_To_Vote' => 'Please Login To Vote',
-	'Already_rated' => 'You have already rated this picture',
-	'Own_Pic_Rate' => 'You cannot rate your pictures',
-	'Album_rate_successfully' => 'Your picture has been rated successfully.',
-	'Click_rate_more' => 'Click %sHere%s to rate more pictures.',
-	'Hot_Or_Not' => 'Hot Or Not',
-
-// Comment
-	'Comment_no_text' => 'Please enter your comment',
-	'Comment_too_long' => 'Your comment is too long',
-	'Comment_delete_confirm' => 'Are you sure you want to delete this comment?',
-	'Pic_Locked' => 'Sorry, this picture was locked. So you cannot post a comment for this picture anymore',
-	'Post_your_comment' => 'Please Enter Your Comment',
-
-// Personal Gallery
-	'Personal_Gallery_Explain' => 'You can view the personal galleries of other members by clicking on the link in their profiles',
-	'Personal_gallery_not_created' => 'The personal gallery of %s has not been created',
-	'Not_allowed_to_create_personal_gallery' => 'Sorry, the administrators of this board do not allow you to create your personal gallery',
-	'Click_return_personal_gallery' => 'Click %sHere%s to return to the personal gallery',
+	'Login_To_Vote' => 'Vous devez être connecté pour noter une image',
+	'Own_Pic_Rate' => 'Vous ne pouvez pas noter vos propres images',
+	'Click_rate_more' => 'Cliquez %sici%s pour noter d\'autres images.',
+	'Hot_Or_Not' => 'Tendance ou pas',
 
 // Download Archive
-	'Download_pics' => 'Download Pics (ZIP)',
-	'Download_page' => 'Download Pics In This Page (ZIP)',
-	'No_Download_auth' => 'You are not authorized to archive photos from this album!',
+	'Download_pics' => 'Télécharger les images (ZIP)',
+	'Download_page' => 'Télécharger les images sur cette page (ZIP)',
+	'No_Download_auth' => 'Vous n\'êtes pas autorisé à archiver des images de cet album',
 
 // Email Notification
-	'Email_Notification' => 'Album Email Notification',
-	'Email_Notification_Explain' => 'This setting allow admins to receive a notification when a new picture is posted in the album',
-	'Approvation_OK' => 'Approved',
-	'Approvation_NO' => 'To Be Approved',
+	'Email_Notification' => 'Notifications e-mails de l\'album',
+	'Email_Notification_Explain' => 'Cette option permet aux administrateurs de recevoir un e-mail lorsqu\'une image est ajoutée dans l\'album',
+	'Approvation_OK' => 'Approuvé',
+	'Approvation_NO' => 'Pas encore approuvé',
 
 // Album Hierarchy Index Table
-	'Last_Comment' => 'Last Comment',
-	'Last_Comments' => 'Last Comments',
-	'No_Comment_Info' => 'No Comments',
-	'No_Pictures_In_Cat' => 'No Pictures In Category',
-	'Total_Pics' => 'Total Pics',
-	'Total_Comments' => 'Total Comments',
-	'Last_Index_Thumbnail' => 'Last Pic',
-	'One_Sub_Total_Pics' => '%d Pic',
-	'Multiple_Sub_Total_Pics' => '%d Pics',
-	'Album_sub_categories' => 'Subcategories',
-	'No_Public_Galleries' => 'No Public Galleries',
-	'One_new_picture' => '%d new picture',
-	'Multiple_new_pictures' => '%d new pictures',
+	'Last_Comment' => 'Dernier commentaire',
+	'Last_Comments' => 'Dernières commentaires',
+	'No_Comment_Info' => 'Pas de commentaire',
+	'No_Pictures_In_Cat' => 'Pas de photos dans la catégorie',
+	'Total_Pics' => 'Nombre d\'images',
+	'Total_Comments' => 'Nombre de commentaires',
+	'Last_Index_Thumbnail' => 'Dernière image',
+	'One_Sub_Total_Pics' => '%d Image',
+	'Multiple_Sub_Total_Pics' => '%d Images',
+	'Album_sub_categories' => 'Sous-catégories',
+	'No_Public_Galleries' => 'Pas de galeries publiques',
+	'One_new_picture' => '%d nouvelle image',
+	'Multiple_new_pictures' => '%d nouvelles images',
 
 // Personal Album Hierarchy Index Table
-	'Personal_Categories' => 'Personal Gallery',
-	'Create_Personal_Categories' => 'Create Personal Gallery',
-	'Personal_Cat_Admin' => 'Personal Gallery Category Admin',
-	'Recent_Personal_Pics' => 'Recent Pictures From the Personal Gallery of %s',
+	'Personal_Categories' => 'Galerie personnelle',
+	'Create_Personal_Categories' => 'Créer une galerie personnelle',
+	'Personal_Cat_Admin' => 'Gestion de votre galerie personnelle',
 
 // Album Moderator Control Panel
-	'Modcp_check_all' => 'Check All',
-	'Modcp_uncheck_all' => 'Uncheck All',
-	'Modcp_inverse_selection' => 'Inverse Selection',
+	'Modcp_check_all' => 'Tout cocher',
+	'Modcp_uncheck_all' => 'Tout décocher',
+	'Modcp_inverse_selection' => 'Inverser la sélection',
 
-	'Show_selected_pic_view_mode' => 'Show Only The Selected Personal Gallery Category',
-	'Show_all_pic_view_mode' => 'Show All Pictures In this Personal Gallery',
+	'Show_selected_pic_view_mode' => 'Montrer uniquement les galeries sélectionnées',
+	'Show_all_pic_view_mode' => 'Montrer toutes les images dans cette galerie',
 
 // Access language strings
-	'Album_Can_Manage_Categories' => 'You <b>can</b> %smanage%s the categories in the gallery',
-	'No_Personal_Category_admin' => 'You are not allowed to manage your personal gallery categories',
+	'Album_Can_Manage_Categories' => 'Vous <b>pouvez</b> %sgérer%s les catégories de la galerie',
+	'No_Personal_Category_admin' => 'You n\'êtes pas autorisé à gérer les categories de votre galerie personnelle',
 
 // The picture list of a member (album_memberlist.php)
-	'Pic_Cat' => 'Category',
-	'Picture_List_Of_User' => 'All Pictures by %s',
-	'Member_Picture_List_Explain' => 'You can view the complete list of picture contributed by other members by clicking on the link in their profiles',
-	'Comment_List_Of_User' => 'All Comments by %s',
-	'Rating_List_Of_User' => 'All Ratings by %s',
-	'Show_All_Pictures_Of_user' => 'Show All Pictures by %s',
-	'Show_All_Comments_Of_user' => 'Show All Comments by %s',
-	'Show_All_Ratings_Of_user' => 'Show All Ratings by %s',
+	'Pic_Cat' => 'Categorie',
+	'Picture_List_Of_User' => 'Toutes les images par %s',
+	'Member_Picture_List_Explain' => 'Vous pouvez une liste complète des images envoyées par nos membres en cliquant sur le lien dans leur profil',
+	'Comment_List_Of_User' => 'Tous les commentaires par %s',
+	'Rating_List_Of_User' => 'Tous les notes de %s',
+	'Show_All_Pictures_Of_user' => 'Montrer toutes les images de %s',
+	'Show_All_Comments_Of_user' => 'Montrer tous les commentaires de %s',
+	'Show_All_Ratings_Of_user' => 'Montrer toutes les notes de %s',
 
 // The pictures list
-	'All_Picture_List_Of_User' => 'All Pictures',
-	'All_Comment_List_Of_User' => 'All Comments',
-	'All_Rating_List_Of_User' => 'All Ratings',
-	'All_Show_All_Pictures_Of_user' => 'Show All Pictures',
-	'All_Show_All_Comments_Of_user' => 'Show All Comments',
-	'All_Show_All_Ratings_Of_user' => 'Show All Ratings',
+	'All_Picture_List_Of_User' => 'Toutes les images',
+	'All_Comment_List_Of_User' => 'Tous les commentaires',
+	'All_Rating_List_Of_User' => 'Toutes les notes',
+	'All_Show_All_Pictures_Of_user' => 'Montrer toutes les images',
+	'All_Show_All_Comments_Of_user' => 'Montrer tous les commentaires',
+	'All_Show_All_Ratings_Of_user' => 'Montrer toutes les notes',
 
-	'Not_commented' => '<i>Not Commented</i>',
+	'Not_commented' => '<i>Pas de commentaire</i>',
 
 // Nuff's Stuff
-	'Nuff_Click' => 'Click here to apply Special Effects',
-	'Nuff_UnClick' => 'Click here for normal visualization',
-	'Nuff_Title' => 'Special Effects',
-	'Nuff_Explain' => 'Apply multiple effects to the pictures.<br />Remember that this is a <i><b>very heavy operation on server CPU load</b></i>, so please do not abuse it. Some effects will automatically resize the output image to prevent too much charge on the server CPU.',
-	'Nuff_Normal' => 'Normal Image',
-	'Nuff_Normal_Explain' => 'No effects applied',
-	'Nuff_BW' => 'Black & White',
-	'Nuff_BW_Explain' => 'Transform the image into Black and White',
-	'Nuff_Sepia' => 'Sepia Tone',
-	'Nuff_Sepia_Explain' => 'Apply sepia toning to the picture',
-	'Nuff_Flip' => 'Flip',
-	'Nuff_Flip_Explain' => 'Flip the image',
-	'Nuff_Mirror' => 'Mirror',
-	'Nuff_Mirror_Explain' => 'Mirror the image',
+	'Nuff_Click' => 'Cliquez ici pour appliquer les effets spéciaux',
+	'Nuff_UnClick' => 'Cliquez ici pour revenir à l\'image normale',
+	'Nuff_Title' => 'Effets spéciaux',
+	'Nuff_Explain' => 'Applique divers effets sur les images.<br/>Souvenez vous que c\'est une opération très lourde pour le serveur, alors essayez de ne pas en abuser. Certains effets redimensionneront automatiquement l\'image pour ne pas surcharger le serveur.',
+	'Nuff_Normal' => 'Image normal',
+	'Nuff_Normal_Explain' => '',
+	'Nuff_BW' => 'Noir & blanc',
+	'Nuff_BW_Explain' => '',
+	'Nuff_Sepia' => 'Ton Sépia',
+	'Nuff_Sepia_Explain' => 'Appliquer un effet Sépia',
+	'Nuff_Flip' => 'Retourner',
+	'Nuff_Flip_Explain' => 'Retourne l\'image',
+	'Nuff_Mirror' => 'Miroir',
+	'Nuff_Mirror_Explain' => '',
 	'Nuff_Flip_H' => 'Horizontal',
 	'Nuff_Flip_V' => 'Vertical',
-	'Nuff_Rotate' => 'Picture Rotation (Anti Clockwise)',
-	'Nuff_Rotate_Explain' => 'Rotates the images anti clockwise',
-	'Nuff_Resize' => 'Resize',
-	'Nuff_Resize_Explain' => 'Image resize',
-	'Nuff_Resize_W' => 'Width',
-	'Nuff_Resize_H' => 'Height',
-	'Nuff_Resize_No_Resize' => 'No Resize',
-	'Nuff_Watermark' => 'Watermark',
-	'Nuff_Watermark_Explain' => 'Apply a watermark to the image',
-	'Nuff_Recompress' => 'Recompress',
-	'Nuff_Recompress_Explain' => 'Re-compress the image',
+	'Nuff_Rotate' => 'Rotation (sens inverse des aiguilles d\'une montre)',
+	'Nuff_Rotate_Explain' => '',
+	'Nuff_Resize' => 'Redimensionner',
+	'Nuff_Resize_Explain' => '',
+	'Nuff_Resize_W' => 'Largeur',
+	'Nuff_Resize_H' => 'Hauteur',
+	'Nuff_Resize_No_Resize' => 'Pas de redimensionnement',
+	'Nuff_Watermark' => 'Filigrane',
+	'Nuff_Watermark_Explain' => '',
+	'Nuff_Recompress' => 'Recompression',
+	'Nuff_Recompress_Explain' => '',
 	'Nuff_Alpha' => 'Alpha',
-	'Nuff_Alpha_Explain' => 'Overlay an alpha channel to the image',
-	'Nuff_Blur' => 'Blur',
-	'Nuff_Blur_Explain' => 'Apply a blur filter to the image',
-	'Nuff_Pixelate' => 'Pixelate',
-	'Nuff_Pixelate_Explain' => 'Apply a pixelate filter to the image',
-	'Nuff_Scatter' => 'Scatter',
-	'Nuff_Scatter_Explain' => 'Apply a scatter filter to the image',
-	'Nuff_Infrared' => 'Infrared',
-	'Nuff_Infrared_Explain' => 'Apply an infrared filter to the image',
-	'Nuff_Tint' => 'Tint',
-	'Nuff_Tint_Explain' => 'Apply a red tint to the image',
-	'Nuff_Interlace' => 'Interlace (Horizontal Lines)',
-	'Nuff_Interlace_Explain' => 'Overlay an interlace channel to the image',
-	'Nuff_Screen' => 'Screen (Hor Ver Lines)',
-	'Nuff_Screen_Explain' => 'Overlay a screen channel to the image',
-	'Nuff_Stereogram' => 'Stereograph',
-	'Nuff_Stereogram_Explain' => 'Convert the image to a stereograph (BW 16 bit required)',
+	'Nuff_Alpha_Explain' => 'Ajoute un canal alpha par dessus l\'image',
+	'Nuff_Blur' => 'Flou',
+	'Nuff_Blur_Explain' => 'Ajoute un effet de flou',
+	'Nuff_Pixelate' => 'Pixelliser',
+	'Nuff_Pixelate_Explain' => '',
+	'Nuff_Scatter' => 'Dispersion',
+	'Nuff_Scatter_Explain' => 'Ajoute un effet de dispersion à l\'image',
+	'Nuff_Infrared' => 'Infrarouge',
+	'Nuff_Infrared_Explain' => 'Ajoute un effet infrarouge à l\'image',
+	'Nuff_Tint' => 'Teinte',
+	'Nuff_Tint_Explain' => 'Ajoute une teinte rouge à l\'image',
+	'Nuff_Interlace' => 'Entrelacer (lignes horizontales)',
+	'Nuff_Interlace_Explain' => '',
+	'Nuff_Screen' => '&Eacute;cran (lignes verticales/horizontales)', // screen ?
+	'Nuff_Screen_Explain' => '',
+	'Nuff_Stereogram' => 'Stéréographe',
+	'Nuff_Stereogram_Explain' => '(BW 16 bit nécessaire)',
 
-	'Pic_Gallery' => 'OTF Gallery',
-	'Select_Pic' => 'Select Pic',
-	'Select_Category' => 'Select Category',
-	'Title_Description' => 'Title &amp; Description',
+	'Pic_Gallery' => 'Galerie OTF', //V: Todo OTF??????
+	'Select_Pic' => 'Choisissez une image',
+	'Select_Category' => 'Choisissez une catégorie',
+	'Title_Description' => 'Titre &amp; Description',
 
 // Pic watch
-	'No_longer_watching_comment' => 'You are no longer watching this picture for comments',
-	'Watching_comment' => 'You are now watching this picture for comments',
-	'Pic_comment_notification' => 'Album Comment Notification',
-	'Pic_comment_watch_checkbox' => 'Check box to be notified on picture comments:',
-	'Watch_pic' => 'Watch this picture for comments',
-	'Unwatch_pic' => 'Stop watching this picture for comments',
-	'Click_return_pic' => 'Click %sHere%s to return to the picture',
+	'No_longer_watching_comment' => 'Vous ne recevrez plus de notifications lors de l\'ajout de commentaires sur cette image',
+	'Watching_comment' => 'Vous recevrez maintenant des notifications lors de l\'ajout de commentaires sur cette image',
+	'Pic_comment_notification' => 'Notifications pour les commentaires',
+	'Pic_comment_watch_checkbox' => 'Cochez pour recevoir des notifications :',
+	'Watch_pic' => 'Recevoir des notifications lors de l\'ajout de commentaire',
+	'Unwatch_pic' => 'Arrêter d\'être notifié des commentaires',
+	'Click_return_pic' => 'Cliquez %sici%s pour retourner à l\'image',
 
-	'Pic_RDF' => 'RSS Feed 1.0',
-	'Pic_RSS' => 'RSS Feed 2.0',
+	'Pic_RDF' => 'Flux RSS 1.0',
+	'Pic_RSS' => 'Flux RSS 2.0',
 	)
 );
 

@@ -1,0 +1,46 @@
+lang_admin_cback_tracker 	
+lang_admin_pafilepd			
+lang_dbmtnc					
+lang_features 				PLUS TARD §§
+lang_umil					Inutilisé
+lang_admin 					FAIT
+lang_admin_attach			FAIT
+lang_admin_extend_lang		FAIT
+lang_album_admin			FAIT
+lang_album_main 			FAIT
+lang_admin_upi2db			FAIT
+lang_bb_db_admin			FAIT
+lang_bb_usage_stats			FAIT
+lang_bbcb_mg				FAIT
+lang_bbcode					FAIT
+lang_blocks					FAIT
+lang_bots					FAIT
+lang_cash					FAIT
+lang_cms					FAIT
+lang_digests				FAIT
+lang_extend_icy_phoenix		FAIT
+lang_faq					FAIT
+lang_ftr 					FAIT
+lang_jr_admin				FAIT
+lang_main 					FAIT
+lang_main_attach 			FAIT
+lang_main_cback_ctracker	FAIT
+lang_main_link				FAIT
+lang_main_mini_cal			FAIT
+lang_main_upi2db 			FAIT
+lang_news					FAIT
+lang_pafiledb				FAIT
+lang_rate 					FAIT
+lang_rules					FAIT
+lang_permissions			FAIT
+lang_statistics				FAIT
+lang_sudoku 				FAIT
+lang_user_search			FAIT
+lang_xs						FAIT
+lang_xs_news				FAIT
+lang_dyn_menu				/
+lang_main_ads				/
+lang_main_settings			/
+lang_profile_fields			/
+lang_randomquote			/
+lang_user_created			/
