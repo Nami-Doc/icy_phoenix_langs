@@ -1,297 +1,262 @@
 <?php
-/**
-*
-* @package Icy Phoenix
-* @version $Id$
-* @copyright (c) 2008 Icy Phoenix
-* @license http://opensource.org/licenses/gpl-license.php GNU Public License
-*
-*/
+/***************************************************************************
+ *                            lang_album_admin.php [English]
+ *                              -------------------
+ *     begin                : Sunday, February 02, 2003
+ *     copyright            : (C) 2003 Smartor
+ *     email                : smartor_xp@hotmail.com
+ *
+ *     $Id: lang_album_admin.php,v 1.0.6 2003/03/05 00:21:55 ngoctu Exp $
+ *
+ ****************************************************************************/
 
-/**
-*
-* @Extra credits for this file
-* Smartor (smartor_xp@hotmail.com)
-* Lopalong
-* Traduction franÃ§aise par Vendethiel et Yros
-*/
+/***************************************************************************
+ *
+ *   This program is free software; you can redistribute it and/or modify
+ *   it under the terms of the GNU General Public License as published by
+ *   the Free Software Foundation; either version 2 of the License, or
+ *   (at your option) any later version.
+ *
+ ***************************************************************************/
 
-
-if (!defined('IN_ICYPHOENIX'))
-{
-	exit;
-}
-
-if (empty($lang) || !is_array($lang))
-{
-	$lang = array();
-}
-
-//V: Cette partie avait Ã©tÃ© traduite par Kooky <kooky@altern.org>
-// merci Ã  lui (via l'archive de la LoveMod - ezcom-fr.com)
-$lang['Album_config'] = 'Configuration de l\'Album';
-$lang['Album_config_explain'] = 'Ici, vous pouvez changer les options principales de votre Album Photos';
-$lang['Album_config_updated'] = 'La configuration de l\'Album a Ã©tÃ© mise Ã  jour avec succÃ¨s';
-$lang['Click_return_album_config'] = 'Cliquez %sici%s pour revenir Ã  la configuration de l\'Album';
-$lang['Max_pics'] = 'Nombre maximum de photos pour chaque galerie (-1 = illimitÃ©)';
-$lang['User_pics_limit'] = 'Nombre limite de photos par galerie pour chaque membre (-1 = illimitÃ©)';
-$lang['Moderator_pics_limit'] = 'Nombre limite de photos par galerie pour chaque modÃ©rateur (-1 = illimitÃ©)';
+// Configuration
+$lang['Album_config'] = 'Album';
+$lang['Album_config_explain'] = 'Vous pouvez changer les options de l\'album photos ici.<br />';
+$lang['Album_config_updated'] = 'La configuration de l\'album a été mise à jour avec succès';
+$lang['Click_return_album_config'] = 'Cliquez %sIci%s pour retourner à la configuration de l\'album';
+$lang['Max_pics'] = 'Nombre maximal de photos pour chaque catégorie (-1 = illimité)';
+$lang['User_pics_limit'] = 'Limite de photos par catégorie pour chaque utilisateur (-1 = illimitée)';
+$lang['Moderator_pics_limit'] = 'Limite de photos par catégorie pour chaque modérateur (-1 = illimitée)';
 $lang['Pics_Approval'] = 'Approbation des photos';
-$lang['Rows_per_page'] = 'Nombre de lignes sur la page des miniatures';
+$lang['Rows_per_page'] = 'Nombre de rangs sur la page des miniatures';
 $lang['Cols_per_page'] = 'Nombre de colonnes sur la page des miniatures';
-$lang['Thumbnail_quality'] = 'QualitÃ© des miniatures (1-100)';
+$lang['Thumbnail_quality'] = 'Qualité des miniatures (1-100)';
 $lang['Thumbnail_cache'] = 'Cache des miniatures';
-$lang['Manual_thumbnail'] = 'Option manuelle des miniatures';
-$lang['GD_version'] = 'Optimisation pour la version de la librairie GD';
-$lang['Pic_Desc_Max_Length'] = 'Longeur maximale de la description/commentaire de la photo (en caractÃ¨res)';
-$lang['Hotlink_prevent'] = 'PrÃ©vention des liens directs';
-$lang['Hotlink_allowed'] = 'Autoriser des domaines pour les liens directs (sÃ©parer par une virgule)';
-$lang['Personal_gallery'] = 'Autoriser la crÃ©ation d\'une galerie privÃ©e par les membres';
-$lang['Personal_gallery_limit'] = 'Nombre limite de photos pour chaque galerie privÃ©e (-1 = illimitÃ©)';
-$lang['Personal_gallery_view'] = 'Qui peut voir les galeries privÃ©es';
-$lang['Rate_system'] = 'Autoriser le sytÃ¨me de notation';
-$lang['Rate_Scale'] = 'Echelle de notation';
-$lang['Comment_system'] = 'Autoriser le systÃ¨me de commentaire';
+$lang['Manual_thumbnail'] = 'Miniature manuelle';
+$lang['GD_version'] = 'Optimiser pour la version de GD';
+$lang['Pic_Desc_Max_Length'] = 'Description de la photo/Longueur maximale des commentaires (octets)';
+$lang['Hotlink_prevent'] = 'Prévention des liens directs';
+$lang['Hotlink_allowed'] = 'Domaines autorisés pour les liens directs (séparés par une virgule)';
+$lang['Personal_gallery'] = 'Autorisé à créer une galerie personnelle pour les utilisateurs';
+$lang['Personal_gallery_limit'] = 'Limite de photos pour chaque gallerie personnelle (-1 = illimitée)';
+$lang['Personal_gallery_view'] = 'Par défaut, qui peut voir les galeries personnelles';
+$lang['Rate_system'] = 'Activer le système de notation';
+$lang['Rate_Scale'] ='Echelle de notation';
+$lang['Comment_system'] = 'Activer le système de commentaires';
 $lang['Thumbnail_Settings'] = 'Options des miniatures';
-$lang['Extra_Settings'] = 'Options spÃ©ciales';
-$lang['Default_Sort_Method'] = 'MÃ©thode de tri par dÃ©faut';
-$lang['Default_Sort_Order'] = 'Ordre de tri par dÃ©faut';
-$lang['Fullpic_Popup'] = 'Voir la photo complÃ¨te dans une fenÃªtre';
+$lang['Extra_Settings'] = 'Options supplémentaires';
+$lang['Default_Sort_Method'] = 'Méthode de tri par défaut';
+$lang['Default_Sort_Order'] = 'Ordre de tri par défaut';
+$lang['Fullpic_Popup'] = 'Voir la photo dans une pop-up';
+$lang['Email_Notification'] = 'Activer la notification par e-mail lors de l\'ajout de nouvelles photos dans l\'album ( pour les administrateurs uniquemement)';
+$lang['Show_Download'] = 'Montrer le bouton TELECHARGER (qui active le téléchargement de photos au format ZIP) seulement pour ceux qui ont des permissions d\'ENVOI vers l\'album (si vous choisissez TOUJOURS le bouton sera toujours visible même si l\'utilisateur n\'a pas de permissions d\'ENVOI de photos)';
+$lang['Show_Slideshow'] = 'Activer l\'option Diaporama';
+$lang['Show_Pic_Size'] = 'Montrer les tailles de photos sur les miniatures';
+$lang['Show_IMG_No_GD'] = 'Montrer les miniatures de GIF sans utiliser la librairie GD (les images agrandies sont chargées et ensuite juste montrées redimensionnées).';
+$lang['Show_Pics_Nav'] = 'Montrer la Box de navigation dans les photos sur la page de visionnage des photos';
+$lang['Show_Inline_Copyright'] = 'Montrer les infos de copyright sur une seule ligne';
+$lang['Enable_Nuffimage'] = 'Activer la page des Effets Spéciaux basée sur Images Class de Nuffmon';
+$lang['Enable_Sepia_BW'] = 'Activer les effets Ton Sépia et Noir et Blanc sur la page des Effets Spéciaux (désactivez cette fonction si vous ne voulez pas surcharger le CPU de votre serveur)';
 
+// Multiple Uploads Admin configuration
+$lang['Upload_Settings'] = 'Envoi';
+$lang['Max_Files_To_Upload'] = 'Nombre maximal de fichiers qu\'un utilisateur peut envoyer en même temps';
+$lang['Album_upload_settings'] = 'Options d\'envoi de photos de l\'album';
+$lang['Max_pregenerated_fields'] = 'Nombre maximal de champs à pré-générer';
+$lang['Dynamic_field_generation'] = 'Activer l\'ajout dynamique de champs d\'envoi';
+$lang['Pre_generate_fields'] = 'Pré-générer les champs d\'envoi';
+$lang['Propercase_pic_title'] = 'Titre de photo avec majuscules par ex / <i>\'Voici Un Titre De Photo\'</i><br />Metre sur \'NON\' affichera ceci <i>\'Voici un titre de photo\'</i>';
+$lang['Pic_Resampling'] = 'En activant cette option, chaque image sera redimensionnée en un instant si nécessaire (pour garder les propriétés de l\'images tout en respectant les options de l\'album dans le panneau d\'administration).';
+$lang['Max_file_size_resampling'] = 'Taille maximale de fichier avant le redimmentsionnement (octets)';
+
+// Nuffload
+$lang['Nuffload_Config'] = 'Configuration de Nuffload';
+$lang['Enable_Nuffload'] = 'Activer Nuffload';
+$lang['Enable_Nuffload_Explain'] = 'En activant cette option, Nuffload sera utilisé à la place du formulaire standard d\'envoi de photos.';
+$lang['progress_bar_configuration'] = 'Nuffload - Configuration de la barre de progression d\'envoi';
+$lang['perl_uploader'] = 'Activer l\uploader Perl';
+$lang['path_to_bin'] = 'Chemin de la racine phpBB vers cgi-bin (en gen. <b>./cgi-bin/</b> si vous avez phpBB dans un sous-dossier)';
+$lang['show_progress_bar'] = 'Montrer la barre de progression d\'envoi lors de l\'upload';
+$lang['close_progress_bar'] = 'Fermer la barre à la fin de l\'envoi';
+$lang['activity_timeout'] = 'Délai d\'attente d\'activité (en secs)';
+$lang['simple_format'] = 'Utiliser un format simple pour la barre de progression';
+$lang['multiple_uploads_configuration'] = 'Nuffload - Configuration des uploads multiples';
+$lang['multiple_uploads'] = 'Activer les uploads multiples';
+$lang['max_uploads'] = 'Champs maximum d\'upload';
+$lang['zip_uploads'] = 'Activer les uploads zippés';
+$lang['image_resizing_configuration'] = 'Nuffload - Configuration du redimensionnement d\'image';
+$lang['image_resizing'] = 'Activer le redimensionnement d\'image';
+$lang['image_width'] = 'Largeur de l\'image';
+$lang['image_height'] = 'Hauteur de l\'image';
+$lang['image_quality'] = 'Qualité de l\'image';
 
 // Personal Gallery Page
-$lang['Personal_Galleries'] = 'Galeries PrivÃ©es';
-$lang['Album_personal_gallery_title'] = 'Galeries PrivÃ©es';
-$lang['Album_personal_gallery_explain'] = 'Sur cette page, vous pouvez choisir quels sont les groupes autorisÃ©s Ã  crÃ©er et voir les galeries privÃ©es. Ces options s\'appliquent uniquement lorsque vous rÃ©glez "Autoriser la crÃ©ation d\'une galerie privÃ©e par les membres" ou "Qui peut voir les galeries privÃ©es" sur "PRIVE" dans l\'Ã©cran de configuration de l\'Album.';
-$lang['Album_personal_successfully'] = 'Les options ont Ã©tÃ© mises Ã  jour avec succÃ¨s';
-$lang['Click_return_album_personal'] = 'Cliquez %sici%s pour revenir aux options des Galeries PrivÃ©es';
+$lang['Personal_Galleries'] = 'Galeries personnelles';
+$lang['Album_personal_gallery_title'] = 'Galerie personnelle';
+$lang['Album_personal_gallery_explain'] = 'De cette page, vous pouvez choisri quels groupes d\'utilisateurs ont le droit de créer et de voir les galeries personnelles. Ces options ne sont prises en compte qui si vous configure sur "Privé" pour "Autorisés à créer des galeries personnelles pour les utilisateurs" ou "Qui peut voir les galeries personnelles" dans la page Configuration de l\'album';
+$lang['Album_personal_successfully'] = 'Cette option a été mise à jour avec succès';
+$lang['Click_return_album_personal'] = 'Cliquez %sIci%s pour retourner aux options des galeries personnelles';
 
-//
 // Categories
-//
-$lang['Album_Categories_Title'] = 'ContrÃ´le des galeries de l\'Album';
-$lang['Album_Categories_Explain'] = 'Sur cette Ã©cran, vous pouvez gÃ©rer vos galeries: crÃ©er, modifier, supprimer, ordonner, etc.';
-$lang['Category_Permissions'] = 'Permissions de la galerie';
-$lang['Category_Title'] = 'Titre de la galerie';
-$lang['Category_Desc'] = 'Description de la galerie';
-$lang['View_level'] = 'Voir';
-$lang['Upload_level'] = 'Uploader';
-$lang['Rate_level'] = 'Noter';
-$lang['Comment_level'] = 'Commenter';
-$lang['Edit_level'] = 'Editer';
-$lang['Delete_level'] = 'Supprimer';
-$lang['New_category_created'] = 'La nouvelle galerie a Ã©tÃ© crÃ©Ã©e avec succÃ¨s';
-$lang['Click_return_album_category'] = 'Cliquez %sici%s pour revenir Ã  la gestion des galeries de l\'Album';
-$lang['Category_updated'] = 'Cette galerie a Ã©tÃ© mise Ã  jour avec succÃ¨s';
-$lang['Delete_Category'] = 'Supprimer la galerie';
-$lang['Delete_Category_Explain'] = 'Le formulaire ci-dessous vous autorise Ã  supprimer une galerie et Ã  dÃ©cider oÃ¹ vous souhaitez placer les photos qu\'elle contient.';
+$lang['Categories'] = 'Catégories de l\'album';
+$lang['Album_Categories_Title'] = 'Catégories de l\'album';
+$lang['Album_Categories_Explain'] = 'De cette page, vous pouvez gérer vos catégories : créer, modifier, supprimer, trier, etc.';
+$lang['Category_Permissions'] = 'Permissions de la catégorie';
+$lang['Category_Title'] = 'Titre de la catégorie';
+$lang['Category_Desc'] = 'Description';
+$lang['View_level'] = 'Voir le niveau';
+$lang['Upload_level'] = 'Uploader le niveau';
+$lang['Rate_level'] = 'Noter le niveau';
+$lang['Comment_level'] = 'Commenter le niveau';
+$lang['Edit_level'] = ' Editer le niveau';
+$lang['Delete_level'] = 'Supprimer le niveau';
+$lang['New_category_created'] = 'La nouvelle catégorie a été créé avec succès';
+$lang['Click_return_album_category'] = 'Cliquez %sIci%s pour retourner au gestionnaire des Catégories de l\'album';
+$lang['Category_updated'] = 'Cette catégorie a été mise à jour avec succès';
+$lang['Delete_Category'] = 'Supprimer la catégorie';
+$lang['Delete_Category_Explain'] = 'le champ ci-dessous vous permet de supprimer une catégorie et de décider où vous voulez mettre les photos qu\'elle contenait';
 $lang['Delete_all_pics'] = 'Supprimer toutes les photos';
-$lang['Category_deleted'] = 'Cette galerie a Ã©tÃ© supprimÃ©e avec succÃ¨s';
-$lang['Category_changed_order'] = 'Cette galerie a changÃ© d\'ordre avec succÃ¨s';
+$lang['Category_deleted'] = 'Cette catégorie a été supprimé avec succès';
+$lang['Category_changed_order'] = 'Cette catégorie a changé d\'ordre avec succès';
 
-//
 // Permissions
-//
-$lang['Album_Auth_Title'] = 'Permissions de l\'Album';
-$lang['Album_Auth_Explain'] = 'Ici, vous pouvez choisir quels groupes peuvent Ãªtre modÃ©rateur pour chaque galerie de l\'Album ou seulement en tant qu\'accÃ¨s privÃ©.';
-$lang['Select_a_Category'] = 'SÃ©lectionner une galerie';
-$lang['Look_up_Category'] = 'Consulter la galerie';
-$lang['Album_Auth_successfully'] = 'Les permissions ont Ã©tÃ© mises Ã  jour avec succÃ¨s';
-$lang['Click_return_album_auth'] = 'Cliquez %sici%s pour revenir aux permissions de l\'Album';
+$lang['Album_Auth_Title'] = 'Permissions de l\'album';
+$lang['Album_Auth_Explain'] = 'D\'ici vous pouvez choisir quels groupes d\'utilisateurs peuvent être modérateurs pour chaque catégorie d\'album ou juste en avoir l\'accès privé';
+$lang['Select_a_Category'] = 'Sélectionner une catégorie';
+$lang['Look_up_Category'] = 'Consulter une cagétories';
+$lang['Album_Auth_successfully'] = 'Les authorisations ont été mises à jour avec succès';
+$lang['Click_return_album_auth'] = 'Cliquez %sIci%s pour retourner aux permissions de l\'album';
 
 $lang['Upload'] = 'Uploader';
 $lang['Rate'] = 'Noter';
-$lang['Comment'] = 'Commentaire';
+$lang['Comment'] = 'Commenter';
 
-//
 // Clear Cache
-//
-$lang['Clear_Cache'] = 'Vider le cache';
-$lang['Album_clear_cache_confirm'] = 'Si vous utilisez l\'option du cache des miniatures, vous devez vider votre cache des miniatures aprÃ¨s avoir modifiÃ© vos options des miniatures dans la configuration de l\'Album pour qu\'elles soient gÃ©nÃ©rÃ©es Ã  nouveau.<br /><br />Voulez-vous le vider maintenant ?';
-$lang['Thumbnail_cache_cleared_successfully'] = '<br />Votre cache des miniatures a Ã©tÃ© vidÃ© avec succÃ¨s<br />&nbsp;';
-
-//V: partie IP
-
-$lang = array_merge($lang, array(
-// 01 - Configuration
-	'Email_Notification' => 'Enable email notification on new images on album (only to admins)',
-	'Show_Download' => 'Show DOWNLOAD button (which enables the downloading of pictures in ZIP format) only to those who have UPLOAD permission in the Album (if you choose ALWAYS the button will be always available even if the users have no UPLOAD permissions)',
-	'Show_Slideshow' => 'Enable Slideshow feature',
-	'Show_Slideshow_Script' => 'Enable transition effects for Slideshow',
-	'Show_Pic_Size' => 'Show image size on thumbnail',
-	'Show_IMG_No_GD' => 'Show GIF thumbnails without using GD libraries (full images are loaded and then just shown resized).',
-	'Show_GIF_MidThumb' => 'Show full GIF images if Mid Thumb is enabled.',
-	'Show_Pics_Nav' => 'Show Picture Navigation Box in Show Page',
-	'Invert_Nav_Arrows' => 'Invert the Arrows link in Showpage (right arrow = more recent)',
-	'Show_Inline_Copyright' => 'Show Copyright Info on a single line',
-	'Enable_Nuffimage' => 'Enable Pictures Special Effects page based on Nuffmon Images Class',
-	'Enable_Sepia_BW' => 'Enable Sepia and B&W in Special Effects page (disable this function if you want to not load the server\'s CPU)',
-	'Show_EXIF_Info' => 'Show picture EXIF information',
-	'Set_Memory' => 'Set a memory limit via PHP (MB)',
-	'Set_Memory_Explain' => 'This feature may be used to increase memory limit in PHP (this setting must be allowed by your hosting IP): you can try to increase memory when your images are not loaded correctly. To avoid higher memory limits the max value is forced to be 16MB.',
-	'LB_Preview' => 'Enable LightBox Preview',
-	'LB_Preview_Explain' => 'This feature will show a LightBox with picture preview when moving the mouse over a thumbnail.',
-	'Album_config_notice' => 'If you change the current Photo Album settings and then select another tab, you will be prompted to save your changes.<br />The system will <b>not save</b> the changes for you automatically.',
-	'Save_sucessfully_confimation' => '%s was saved successfully',
-	'Show_Recent_In_Subcats' => 'Show recent pictures in subcategories',
-	'Show_Recent_Instead_of_NoPics' => 'Show recent pictures instead of no picture message',
-	'Show_Last_Comments' => 'Display last comments block on album index and categories',
-	'Album_Index_Settings' => 'Album Index',
-	'Album_Index_Page_Settings' => 'Album Index Page Settings',
-	'Show_Index_Subcats' => 'Show subcategories in index table',
-	'Show_Index_Thumb' => 'Show category thumbnails in index table',
-	'Show_Index_Pics' => 'Show the number of pictures in current category in index table',
-	'Show_Index_Comments' => 'Show the number of comments in current category in index table',
-	'Show_Index_Total_Pics' => 'Show the number of total pictures for current categories and all its subcategories in index table',
-	'Show_Index_Total_Comments' => 'Show the number of total comments for current categories and all its subcategories in index table',
-	'Show_Index_Last_Comment' => 'Show last comments for current categories and all its subcategories in index table',
-	'Show_Index_Last_Pic' => 'Show last picture info for current categories and all its subcategories in index table',
-	'Line_Break_Subcats' => 'Show each subcategory on a new line',
-	'Show_Personal_Gallery_Link' => 'Show Personal Gallery and Users Personal Gallery link in Subcategories',
-	'Album_Personal_Auth_Explain' => 'Choose which usergroup(s) can be the moderators for <b>all</b> personal album categories or just has the private access to them',
-	'Album_debug_mode' => 'Enable the hierarchy debug mode.<br /><span class="gensmall">This will generate a lot of extra output on the page and also some header warnings, which are all ok.<br />This option should <b>only</b> be used when having problems.</span>',
-	'New_Pic_Check_Interval' => 'The time to use to see if a picture is new or not.<br /><span class="gensmall"><b>Format</b> : &lt;number&gt;&lt;type&gt; Where type is either h, d, w or m (hour, day, week or month)<br /> e.g. 12H = 12 hours and 12D = 12 days and 12W = 12 weeks and 12M = 12 months<br />If no type is specified the system will use <b>days</b></span>',
-	'New_Pic_Check_Interval_Desc' => '<span class="gensmall">H = HOURS, D = DAYS, W = WEEKS, M = MONTHS</span>',
-	'New_Pic_Check_Interval_LV' => 'Enabling this option the new pics counter is based on users last visit time.',
-	'Enable_Show_All_Pics' => 'Enable toggling of personal gallery view mode (all pictures or only selected category).<br /> When set to <b>no</b>, only selected category is shown.',
-	'Enable_Index_Supercells' => 'Enable super cells in the index table. <br /><span class="gensmall">This will enable the mouseover effects on the columns, also knows as the supercell effect.</span>',
-	'Show_OTF_Link' => 'Show "Album OTF" link on Album Index',
-	'Show_AllPics_Link' => 'Show "All Pics" link on Album Index',
-	'Show_PG_Link' => 'Show "Personal Galleries" link on Album Index',
-
-// 02 - Personal Galleries
-	'Allow_Album_Avatars' => 'Allow users to use own posted images in Album as Avatar',
-	'Album_Personal_Settings' => 'Personal Galleries',
-	'Show_Personal_Sub_Cats' => 'Show personal subcategories in index table',
-	'Personal_Gallery_Approval' => 'Personal gallery pics approval',
-	'Personal_Gallery_MOD' => 'Personal gallery can be moderated by owner',
-	'Personal_Sub_Cat_Limit' => 'Maximum number of subcategories (-1 = unlimited)',
-	'User_Can_Create_Personal_SubCats' => 'Users can create subcategories in own personal gallery',
-	'Click_return_personal_gallery_index' => 'Click %sHere%s to return to the personal gallery index',
-	'Show_Recent_In_Personal_Subcats' => 'Show recent pictures in personal subcategories',
-	'Show_Recent_Instead_of_Personal_NoPics' => 'Show recent pictures instead of no picture message in personal gallery',
-
-// 03 - Categories
-	'Categories' => 'Album Categories',
-	'Personal_Root_Gallery' => 'Personal Gallery Root Category',
-	'Parent_Category' => 'Parent Category (for this category)',
-	'Child_Category_Moved' => 'Selected category had child categories. The child categories got moved to the <b>%s</b> category.',
-	'No_Self_Refering_Cat' => 'You cannot set a category\'s parent to itself',
-	'Can_Not_Change_Main_Parent' => 'You cannot change to parent of the main category of your personal gallery',
-	'Watermark' => 'WaterMark',
-	'Watermark_explain' => 'You can specify the watermark file to be used in this category. Insert the watermark file path respect to your Icy Phoenix root (i.e.: <b>images/album/mark_fap.png</b>). The watermark will be applied only if Watermark feature is on.',
-	'Cat_Pics_Synchronize' => 'Sync Pics Counter',
-	'Cat_Pics_Synchronized' => 'All pictures counter have been synchronized.',
-
-// 05 - Thumbnails
-	'Use_Old_Thumbnails' => 'Use old thumbnails functions',
-	'Use_Old_Thumbnails_Explain' => 'If you enable this feature, you will use the old thumbnails functions to generate small and mid thumbnails and a quick full pic loading. You should use this feature only if you are having problems without enabling it.',
-
-// 06 - Sorting
-	'Album_Category_Sorting' => 'Album Categories Sorting',
-	'Album_Category_Sorting_Id' => 'ID',
-	'Album_Category_Sorting_Name' => 'Name',
-	'Album_Category_Sorting_Order' => 'Sort Order (default)',
-	'Album_Category_Sorting_Direction' => 'Album Categories Sorting Direction',
-	'Album_Category_Sorting_Asc' => 'Ascending',
-	'Album_Category_Sorting_Desc' => 'Descending',
-
-	'Album_Picture_Sorting' => 'Album Pictures Sorting',
-	'Album_Picture_Sorting_Direction' => 'Album Pictures Sorting Direction',
-
-// 07 - Clear Cache
-	'Clear_Cache_Tab' => 'Cache',
-
-// ACP - Javascript text
-	'acp_ask_save_changes' => 'Do you want to save the changes ?\n(OK = Yes, Cancel = No)',
-	'acp_nothing_to_save' => 'Nothing to save!',
-	'acp_settings_changed_ask_save' => 'You have changed the settings. Do you want to save them?\n(OK = Yes, Cancel = No)',
-
-// GD Info
-	'GD_Info' => 'GD Info',
-	'GD_Title' => 'GD Info',
-	'GD_Description' => 'Retrieve information about the currently installed GD library',
-	'GD_Version' => 'Version:',
-	'GD_Freetype_Support' => 'Freetype Fonts Support:',
-	'GD_Freetype_Linkage' => 'Freetype Link Type:',
-	'GD_T1lib_Support' => 'T1lib Support:',
-	'GD_Gif_Read_Support' => 'Gif Read Support:',
-	'GD_Gif_Create_Support' => 'Gif Create Support:',
-	'GD_Jpg_Support' => 'Jpg/Jpeg Support:',
-	'GD_Png_Support' => 'Png Support:',
-	'GD_Wbmp_Support' => 'WBMP Support:',
-	'GD_XBM_Support' => 'XBM Support:',
-	'GD_Jis_Mapped_Support' => 'Japanese Font Support:',
-	'GD_True' => 'Yes',
-	'GD_False' => 'No',
-
-// Multiple Uploads Admin configuration
-	'Upload_Settings' => 'Upload',
-	'Max_Files_To_Upload' => 'Maximum number of files user can upload at a time',
-	'Album_upload_settings' => 'Album Upload Settings',
-	'Max_pregenerated_fields' => 'Maximum number of fields to pre-generate',
-	'Dynamic_field_generation' => 'Enable dynamic adding of upload fields',
-	'Pre_generate_fields' => 'Pre-generate the upload fields',
-	'Propercase_pic_title' => 'Proper-case picture title e.g. <i>\'This Is A Picture Title\'</i><br />Setting it to \'NO\' will result in this <i>\'This is a picture title\'</i>',
-	'Pic_Resampling' => 'Enabling this option, each image will be resized on the fly if needed (to keep image properties respecting the album settings in ACP).',
-	'Max_file_size_resampling' => 'Maximum file size before re-sampling (bytes)',
+$lang['Clear_Cache_Tab'] = 'Cache';
+$lang['Clear_Cache'] = 'Nettoyer le cache';
+$lang['Album_clear_cache_confirm'] = 'Si vous utilisez l\'option "Cache de la miniature" vous devez nettoyer votre cache de miniature après avoir changé vos options de miniatures dans la configuration de l\'album pour qu\'elles soient régénérées.<br /><br /> Voulez-vous le nettoyer maintenant ?';
+$lang['Thumbnail_cache_cleared_successfully'] = '<br />Le cache de vos miniatures a été nettoyé avec succès<br />&nbsp;';
 
 // CLowN
-	'SP_Album_config' => 'CLowN SP',
-	'SP_Album_config_explain' => 'Configure some options for the Album Service Pack',
-	'SP_Album_sp_general' => 'General Config',
-	'SP_Album_sp_watermark' => 'WaterMark Config',
--	'SP_Album_sp_hotornot' => 'Hot or Not Config',
-	'SP_Rate_type' => 'Select picture rating display',
-	'SP_Rate_type_0' => 'Images only',
-	'SP_Rate_type_1' => 'Numbers only',
-	'SP_Rate_type_2' => 'Numbers and Images',
-	'SP_Display_latest' => 'Display latest submitted pictures block',
-	'SP_Display_highest' => 'Display highest rated pictures block',
-	'SP_Display_most_viewed' => 'Display most viewed pictures block',
-	'SP_Display_random' => 'Display random pictures block',
-	'SP_Pic_row' => 'Number of rows on thumbnail blocks',
-	'SP_Pic_col' => 'Number of columns on thumbnail blocks',
-	'SP_Midthumb_use' => 'Use mid-thumbnail',
-	'SP_Midthumb_cache' => 'Enable caching of mid-thumbnail',
-	'SP_Midthumb_high' => 'Height of mid-thumbnail (pixel)',
-	'SP_Midthumb_width' => 'Width of mid-thumbnail (pixel)',
-	'SP_Watermark' => 'Use WaterMark',
-	'SP_Watermark_users' => 'Show WaterMark for all users, if \'No\' only display to unregistered users',
-	'SP_Watermark_placent' => 'WaterMark position on the picture',
-	'SP_Hon_already_rated' => 'Unlimited rating on Hot or Not page',
-	'SP_Hon_sep_rating' => 'Store Hot or Not rating in a separate table',
-	'SP_Hon_where' => 'Display pictures on hot or not from what categories? (leave blank to use pictures from all of the categories, if more then one category, separate by commas)',
-	'SP_Hon_users' => 'Can unregistered users rate',
+$lang['SP_Album_config'] = 'CLowN SP';
+$lang['SP_Album_config_explain'] = 'D\'ici vous pouvez configurer quelques options pour l\'album service pack';
+$lang['SP_Album_sp_general'] = 'Configuration Générale';
+$lang['SP_Album_sp_watermark'] = 'Configuration Protection des images (Watermark)';
+$lang['SP_Album_sp_hotornot'] = 'Configuration Popularité';
+$lang['SP_Rate_type'] = 'Sélectionner comment l\'affichage de la notation des photos doit être montré';
+$lang['SP_Rate_type_0'] = 'Images seulement';
+$lang['SP_Rate_type_1'] = 'Nombres seulement';
+$lang['SP_Rate_type_2'] = 'Nombres et images';
+$lang['SP_Display_latest'] = 'Afficher le bloc des dernières photos proposées';
+$lang['SP_Display_highest'] = 'Afficher le bloc des photos les mieux notées';
+$lang['SP_Display_most_viewed'] = 'Afficher le bloc des photos les plus vues';
+$lang['SP_Display_random'] = 'Afficher le bloc des photos aléatoires';
+$lang['SP_Pic_row'] = 'Nombre de rangs sur les blocs de miniatures';
+$lang['SP_Pic_col'] = 'Nombre de colonnes sur les blocs de miniatures';
+$lang['SP_Midthumb_use'] = 'Utiliser des miniatures réduites';
+$lang['SP_Midthumb_cache'] = 'Activer le cache des miniatures réduites';
+$lang['SP_Midthumb_high'] = 'Hauteur des miniatures réduites (pixel)';
+$lang['SP_Midthumb_width'] = 'Largeur des miniatures réduites (pixel)';
+$lang['SP_Watermark'] = 'Utiliser la protection des images (watermark)';
+$lang['SP_Watermark_users'] = 'Utiliser la protection des images avec tous les utilisateurs (Si vous activez \'non\' elle sera affichée seulement pour les non-membres.)';
+$lang['SP_Watermark_placent'] = 'Afficher la protection \'Watermark\' à cet emplacement sur la photo';
+$lang['SP_Hon_already_rated'] = 'Vote illimité sur la page Photo Populaire ou non';
+$lang['SP_Hon_sep_rating'] = 'Stocker la page Photo Populaire ou non sur un tableau séparé ?';
+$lang['SP_Hon_where'] = 'Choisissez une catégorie à afficher sur le page Photo Populaire ou non ( laissez en blanc pour afficher des photos de toutes les catégories, s\'il y a plus d\'une catégorie, séparez-les par une virgule))';
+$lang['SP_Hon_users'] = 'Les invités peuvent-ils voter ?';
 
-	'SP_Disabled' => 'Disabled',
-	'SP_Enabled' => 'Enabled',
-	'SP_Yes' => 'Yes',
-	'SP_No' => 'No',
-	'SP_Always' => 'Always',
-	'SP_Submit' => 'Submit',
-	'SP_Reset' => 'Reset',
+$lang['SP_Disabled'] = 'Désactivé';
+$lang['SP_Enabled'] = 'Activé';
+$lang['SP_Yes'] = 'Oui';
+$lang['SP_No'] = 'Non';
+$lang['SP_Always'] = 'Toujours';
+$lang['SP_Submit'] = 'Envoyer';
+$lang['SP_Reset'] = 'Réinitialiser';
 
-// Nuffload
-	'Nuffload_Config' => 'Nuffload Configuration',
-	'Enable_Nuffload' => 'Enable Nuffload',
-	'Enable_Nuffload_Explain' => 'Enabling this option, Nuffload will be used instead of the standard upload form.',
-	'progress_bar_configuration' => 'Nuffload - Progress Bar Configuration',
-	'perl_uploader' => 'Enable Perl uploader',
-	'path_to_bin' => 'Path from icyphoenix root to cgi-bin (i.e. <b>./cgi-bin/</b> if you have icyphoenix in a sub folder)',
-	'show_progress_bar' => 'Show progress bar on upload',
-	'close_progress_bar' => 'Close progress bar on finish',
-	'activity_timeout' => 'Activity timeout (secs)',
-	'simple_format' => 'Use simple formatting for progress bar',
-	'multiple_uploads_configuration' => 'Nuffload - Multiple Uploads Configuration',
-	'multiple_uploads' => 'Enable multiple uploads',
-	'max_uploads' => 'Maximum upload fields',
-	'zip_uploads' => 'Enable zip uploads',
-	'image_resizing_configuration' => 'Nuffload - Image Resizing Configuration',
-	'image_resizing' => 'Enable image resizing',
-	'image_width' => 'Image width',
-	'image_height' => 'Image height',
-	'image_quality' => 'Image quality',
-	)
-);
+/***************************************************************************
+ * Album Hierarchy Administration                                          *
+ ***************************************************************************/
+
+// Configuration
+$lang['Album_config_notice'] = 'Si vous changez les options actuelles de l\'album photos et que vous sélectionnez ensuite un autre onglet, on vous demandera si vous voulez sauvegarder les changements<br />Le système <b>ne sauvegardera pas </b> les changements automatiquement pour vous.';
+$lang['Save_sucessfully_confimation'] = '%s a été sauvegardé avec succès';
+
+$lang['Show_Recent_In_Subcats'] = 'Montrer les photos récentes dans les sous-catégories';
+$lang['Show_Recent_Instead_of_NoPics'] = 'Montrer les photos récentes à la place du message "Aucune photo"';
+
+$lang['Album_Index_Settings'] = 'Index de l\'album';
+$lang['Show_Index_Subcats'] = 'Montrer les sous-catégories sur l\'index de l\'album';
+$lang['Show_Index_Thumb'] = 'Montrer les miniatures des catégories sur l\'index de l\'album';
+$lang['Show_Index_Pics'] = 'Montrer le nombre de photos dans les catégories actuelles sur l\'index de l\'album';
+$lang['Show_Index_Comments'] = 'Montrer le nombre de commentaires dans les catégories actuelles sur l\'index de l\'album';
+$lang['Show_Index_Total_Pics'] = 'Montrer le nombre total de photos pour les catégories actuelles et toutes leurs sous-catégories sur l\'index de l\'album';
+$lang['Show_Index_Total_Comments'] = 'Montrer le nombre total de commentaires pour les catégories actuelles et toutes ses sous-catégories sur l\'index de l\'album';
+$lang['Show_Index_Last_Comment'] = 'Montrer les derniers commentaires pour les catégories actuelles et toutes ses sous-catégories sur l\'index de l\'album';
+$lang['Show_Index_Last_Pic'] = 'Montrer les dernières infos sur les photos pour les catégories actuelles et toutes ses sous-catégories sur l\'index de l\'album';
+$lang['Line_Break_Subcats'] = 'Montrer chaque sous-catégorie sur une nouvelle ligne';
+
+$lang['Show_Personal_Gallery_Link'] = 'Montrer le lien vers sa galerie personnelle et vers les galeries personnelles des utilisateurs dans les sous-catégories';
+
+$lang['Album_Personal_Auth_Explain'] = 'Ici vous pouvez choisir quel(s) groupe(s) d\'utilisateur(s) peuvent être modérateurs pour <b>toutes</b> Les catégories personnelles de l\'album ou y avoir juste l\'accès';
+
+$lang['Album_debug_mode'] = 'Activer le mode de débuggage de la Hiérarchie.<br><span class="gensmall">Cela générera quelques avertissements sur la page et aussi dans l\'en-tête (header), ce qui ne pose pas de problème.<br>Cette option doit <b>seulement</b> être utilisée quand vous avez des problèmes.</span>';
+
+$lang['New_Pic_Check_Interval'] = 'L\'espace de temps défini pour voir si une photo est considérée comme nouvelle ou non.<br><span class="gensmall"><b>Format</b> : &lt;nombre&gt;&lt;type de durée&gt; Où le type de durée est soit h, min, sem or m (heure, jour, semaine ou mois)<br> e.g. 12H = 12 heures , 12D = 12 jours , 12W = 12 semaines et 12M = 12 mois<br>Si aucune durée n\'est spécifiée le système choisira <b>Jours</b></span>';
+$lang['New_Pic_Check_Interval_Desc'] = '<span class="gensmall">H = Heures, D = Jours, W = Semaines, M = Mois</span>';
+$lang['New_Pic_Check_Interval_LV'] = 'En activant cette option, le compteur des nouvelles photos se base sur la dernière visite des utilisateurs.';
+$lang['Enable_Show_All_Pics'] = 'Activer le basculement en mode vue des galeries personnelles (Toutes les photos ou seulement la catégorie sélectionnée).<br/> Quand <b>non</b> est choisi, seule la catégorie sélectionnée est affichée.'; 
+$lang['Enable_Index_Supercells'] = 'Activer les super cellules sur le tableau de l\'index de l\'album. <br><span class="gensmall">Ceci activera les effets mouseover(passage de souris) sur les colonnes, aussi connu comme l\'effet hypercell.</span>';
+
+// Sorting
+$lang['Album_Category_Sorting'] = 'Tri des catégories de l\'album';
+$lang['Album_Category_Sorting_Id'] = 'ID';
+$lang['Album_Category_Sorting_Name'] = 'Nom';
+$lang['Album_Category_Sorting_Order'] = 'Ordre de tri ( par défaut )';
+$lang['Album_Category_Sorting_Direction'] = 'Sens du tri (seulement valide pour le tri par nom et ID)';
+$lang['Album_Category_Sorting_Asc'] = 'Ascendant';
+$lang['Album_Category_Sorting_Desc'] = 'Descendant';
+
+// Personal Gallery
+$lang['Album_Personal_Settings'] = 'Galeries personnelles';
+$lang['Show_Personal_Sub_Cats'] = 'Montrer les sous-catégories personnelles sur l\'index de l\album';
+$lang['Personal_Gallery_Approval'] = 'Les photos des galeries personnelles doivent être approuvées par un administrateur';
+$lang['Personal_Gallery_MOD'] = 'les galeries personnelles peuvent être modérées par leurs propriétaires';
+$lang['Personal_Sub_Cat_Limit'] = 'Nombre maximal de sous-catégories (-1 = illimité)';
+$lang['User_Can_Create_Personal_SubCats'] = 'Les utilisateurs peuvent créer des sous-catégories dans leur propre galerie personnelle';
+
+$lang['Click_return_personal_gallery_index'] = 'Cliquez %sIci%s pour retourner à l\'index des galeries personnelles';
+
+$lang['Show_Recent_In_Personal_Subcats'] = 'Montrer les photos récentes dans les sous-catégories personnelles';
+$lang['Show_Recent_Instead_of_Personal_NoPics'] = 'Montrer les photos récents au lieu du message "Aucune photo" dans les galeries personnelles';
+
+// Categories
+$lang['Personal_Root_Gallery'] = 'Catégorie-mère des galeries personnelles';
+$lang['Parent_Category'] = 'Catégorie-mère (pour cette catégorie)';
+$lang['Child_Category_Moved'] = 'La catégorie sélectionnée a des catégories filles. Les catégories-filles seront déplacées vers la catégorie <B>%s</B>.';
+$lang['No_Self_Refering_Cat'] = 'Vous ne pouvez pas lier une catégorie-mère à elle-même';
+$lang['Can_Not_Change_Main_Parent'] = 'Vous ne pouvez pas la catégorie principale de votre galeirie personnelle en catégorie-mère';
+
+// ACP - Javascript text
+$lang['acp_ask_save_changes'] = 'Voulez-vous sauvegarder les changements ?\n(OK = oui, Annuler = Non)';
+$lang['acp_nothing_to_save'] = 'Rien à sauvegarder !';
+$lang['acp_settings_changed_ask_save'] = 'Vous avez modifié les options. Voulez-vous les sauvegarder ?\n(OK = oui, Annuler = Non)';
+
+// GD Info
+$lang['GD_Info'] = 'Info GD';
+$lang['GD_Title'] = 'Info GD';
+$lang['GD_Description'] = 'Ici vous pouvez trouver des informations sur la librairie GD actuellement installée';
+$lang['GD_Version'] = 'Version :';
+$lang['GD_Freetype_Support'] = 'Support des polices Freetype :';
+$lang['GD_Freetype_Linkage'] = 'Type de lien Freetype :';
+$lang['GD_T1lib_Support'] = 'Support T1lib :';
+$lang['GD_Gif_Read_Support'] = 'Support de lecture de Gif :';
+$lang['GD_Gif_Create_Support'] = 'Support de création de Gif :';
+$lang['GD_Jpg_Support'] = 'Support Jpg/Jpeg :';
+$lang['GD_Png_Support'] = 'Support Png :';
+$lang['GD_Wbmp_Support'] = 'Support WBMP :';
+$lang['GD_XBM_Support'] = 'SupportXBM :';
+$lang['GD_Jis_Mapped_Support'] = 'Support de la police japonaise :';
+$lang['GD_True'] = 'Oui';
+$lang['GD_False'] = 'Non';
+
 ?>

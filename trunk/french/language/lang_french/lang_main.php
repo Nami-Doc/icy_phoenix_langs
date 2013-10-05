@@ -19,7 +19,7 @@
 *
 * @Extra credits for this file
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 *
 */
 
@@ -2482,6 +2482,12 @@ $lang = array_merge($lang, array(
 
 	'POST_FEATURED_IMAGE' => 'Image descriptive',
 	'POST_FEATURED_IMAGE_EXPLAIN' => 'Ajouter une image pour décrire le sujet',
+
+	'NOT_LOGGED_IN_ERROR' => 'Vous devez être connecté pour utiliser cette fonctionnalité.',
+
+	'LOCK_POST' => 'Verrouiller ce message',
+	'POST_LOCKED' => 'Ce message a été verrouillé par un modérateur, vous ne pouvez pas l\'éditer.',
+	'POST_AUTO_SPLIT' => '[DIVIS&Eacute;]',
 	)
 );
 

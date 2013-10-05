@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Adam Alkins (phpbb at rasadam dot com)
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 */
 
 if (!defined('IN_ICYPHOENIX'))

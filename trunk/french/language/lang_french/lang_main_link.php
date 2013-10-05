@@ -15,7 +15,7 @@
 * Stefan2k1 and ddonker from www.portedmods.com
 * CRLin from http://mail.dhjh.tcc.edu.tw/~gzqbyr/
 * Lopalong
-*** French Translation Vendethiel and Yros **
+*** French Translation http://icyphoenix.fr **
 */
 
 if (!defined('IN_ICYPHOENIX'))

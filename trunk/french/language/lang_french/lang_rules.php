@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Dimitri Seitz (dwing@weingarten-net.de)
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 *
 */
 

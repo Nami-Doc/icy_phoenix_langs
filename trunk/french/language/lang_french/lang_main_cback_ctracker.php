@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Christian Knerr (cback) - (www.cback.de)
 * Lopalong
-*** French Translation Vendethiel and Yros **
+*** French Translation http://icyphoenix.fr **
 */
 
 /**

@@ -10,16 +10,9 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
 * Lopalong
-*** French Translation Vendethiel and Yros **
+*** French Translation http://icyphoenix.fr **
 */
 
 if (!defined('IN_ICYPHOENIX'))

@@ -10,16 +10,9 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -136,11 +129,11 @@ $lang = array_merge($lang, array(
 	'Auth_Control_Group' => 'Contrôle des Permissions des Groupes',
 	'Auth_Control_Forum' => 'Contrôle des Permissions des Forums',
 // Start add Permission List
-	'Auth_list_Control_Forum' => 'Contrôl des Permissions de tous les Forums',
+	'Auth_list_Control_Forum' => 'Contrôle des Permissions de tous les Forums',
 // End add Permission List
 	'Look_up_User' => 'Regarder un Utilisateur',
-	'Look_up_Group' => 'Regarder un Groupe',
-	'Look_up_Forum' => 'Regarder un Forum',
+	'Look_up_Group' => 'Modifier',
+	'Look_up_Forum' => 'Modifier',
 
 	'Group_auth_explain' => 'Modifie les permissions et le statut de modérateurs assigné à chaque groupe. N\'oubliez pas en changeant les permissions du groupe que les permissions personnelles pourront encore permettre à l\'utilisateur d\'accéder aux forums, etc. Vous serez averti si c\'est le cas.',
 	'User_auth_explain' => 'Modifie les permissions et le statut de modérateurs assigné à chaque utilisateur. N\'oubliez pas en changeant les permissions de l\'utilisateur que les permissions de son/ses groupe(s) pourront encore lui permettre d\'accéder aux forums, etc. Vous serez averti si c\'est le cas.',
@@ -149,12 +142,12 @@ $lang = array_merge($lang, array(
 	'Forum_auth_list_explain' => 'Modifie le niveau d\'accès de chaque forum. Souvenez-vous que changer les permissions des forums affectera tous les utilisateurs qui peuvent effectuer des opérations sur ledit forum.',
 // End add Permission List
 
-	'Simple_mode' => 'Mode Simple',
-	'Advanced_mode' => 'Mode Avancé',
-	'Moderator_status' => 'Statut Modérateur',
+	'Simple_mode' => 'Mode simple',
+	'Advanced_mode' => 'Mode avancé',
+	'Moderator_status' => 'Statut modérateur',
 
-	'Allowed_Access' => 'Accès Autorisé',
-	'Disallowed_Access' => 'Accès Non utorisé',
+	'Allowed_Access' => 'accès autorisé',
+	'Disallowed_Access' => 'accès non autorisé',
 	'Is_Moderator' => 'est modérateur',
 	'Not_Moderator' => 'n\'est pas modérateur',
 
@@ -168,7 +161,7 @@ $lang = array_merge($lang, array(
 	'Public' => 'Public',
 	'Private' => 'Privé',
 	'Registered' => 'Enregistré',
-	'Self' => 'Soi-m&ecirc;me',
+	'Self' => 'Soi-même',
 	'Administrators' => 'Administrateurs',
 	'Hidden' => 'Invisible',
 
@@ -176,10 +169,10 @@ $lang = array_merge($lang, array(
 	'Forum_NONE' => 'AUCUN',
 	'Forum_ALL' => 'TOUS',
 	'Forum_REG' => 'MEMBRE',
-	'Forum_SELF' => 'SOI-MËME',
+	'Forum_SELF' => 'SOI-MÊME',
 	'Forum_PRIVATE' => 'PRIV&Eacute;',
 	'Forum_MOD' => 'MODO',
-	'Forum_JADMIN' => 'J ADMIN',
+	'Forum_JADMIN' => 'ADMIN J',
 	'Forum_ADMIN' => 'ADMIN',
 
 	'View' => 'Voir',
@@ -348,8 +341,8 @@ $lang = array_merge($lang, array(
 	'Cookie_secure' => 'Sérisation du Cookie',
 	'Cookie_secure_explain' => 'Si votre serveur marche via un SSL, activez cette option.',
 	'Session_length' => 'Durée de la Session [ en secondes ]',
-	'SESSION_LAST_VISIT_RESET' => 'Last Visit Refresh If Session Expired',
-	'SESSION_LAST_VISIT_RESET_EXPLAIN' => 'If you enable this option, Last Visit time for use will be updated even after if session expires. Otherwise Last Visit time will be updated only if autologin is enabled and the maximum login time has been reached.',
+	'SESSION_LAST_VISIT_RESET' => 'Râfraichir la date de dernière visite même si la session est expirée',
+	'SESSION_LAST_VISIT_RESET_EXPLAIN' => 'Si vous activez cette option, la date de dernière visite d\'une session sera mis à jour même après qu\'elle soit expirée. Sinon, la date de dernière visite sera mise à jour uniquement si la connexion automatique est activée mais que le temps maxium de connexion a été atteint',
 
 // Visual Confirmation
 	'Visual_confirm' => 'Activer la confirmation visuelle',
@@ -385,8 +378,8 @@ $lang = array_merge($lang, array(
 	'Forum_delete' => 'Supprimer le Forum',
 	'Forum_delete_explain' => 'Supprime un forum (ou une catégorie) et décide où vous souhaitez replacer tous les sujets (ou forums) qu\'il contenait.',
 
-	'Status_locked' => 'Vérouillé',
-	'Status_unlocked' => 'Dévérouillé',
+	'Status_locked' => 'Verouillé',
+	'Status_unlocked' => 'Déverouillé',
 	'Forum_settings' => 'Options Générale du Forum',
 	'Forum_name' => 'Nom du Forum',
 	'Forum_desc' => 'Description',
@@ -569,7 +562,7 @@ $lang = array_merge($lang, array(
 	'Rank_removed' => 'Le rang a bien été supprimé',
 	'No_update_ranks' => 'Le rang a bien été supprimé. Néanmoins, les utilisateurs qui avaient ce rang n\'ont pas été mis à jour. Vous devrez manuellement enlever le rang de ces comptes',
 
-	'Click_return_rankadmin' => 'Cliquez %sici%s pou retourner à l\'Administration des Rangs',
+	'Click_return_rankadmin' => 'Cliquez %sici%s pour retourner à l\'Administration des Rangs',
 
 // Disallow Username Admin
 	'Disallow_control' => 'Contrôle des noms d\'utilisateurs interdits',
@@ -674,7 +667,7 @@ $lang = array_merge($lang, array(
 	'Rank' => 'Rang',
 	'Last_activity' => 'Dernière Activité',
 	'Never' => 'Jamais',
-	'User_manage' => 'Gérer',
+	'User_manage' => 'Gestion',
 	'Find_all_posts' => 'Trouver tous les Messages',
 
 	'Select_one' => 'Selectionner un',
@@ -730,7 +723,6 @@ $lang = array_merge($lang, array(
 	'Next_birthday_greeting_explain' => 'Ce champ garde une trace de l\'anniversaire suivant à souhaiter',
 	'Wrong_next_birthday_greeting' => 'L\'année sélectionné pour les prochaines félicitations d\'anniversaire n\'est pas correcte. Veuillez essayer à nouveau',
 	'Max_user_age' => '&Acirc;ge maximum de l\'utilisateur',
-	'Min_user_age' => '&Acirc;ge minimum de l\'utilisateur',
 	'Min_user_age_explain' => '',
 	'Birthday_lookforward' => 'Anniversaires jusqu\'à dans ... jours',
 	'Birthday_lookforward_explain' => 'Nombre de jours où le script cherchera les utilisateurs qui ont un anniversaire',
@@ -836,7 +828,7 @@ $lang = array_merge($lang, array(
 	'group_count' => 'Nombre de messages nécessaires',
 	'group_count_max' => 'Nombre de messages maximum',
 	'group_count_updated' => '%d membres ont été retiré, %d membres ont été ajoutés à ce groupe',
-	'Group_count_enable' => 'Les utilisateurs sont ajoutés automatiquement quand ils postent',
+	'Group_count_enable' => 'Adhésion automatique',
 	'Group_count_update' => 'Ajouter/Mettre à jour des nouveaux utilisateurs',
 	'Group_count_delete' => 'Supprimer/Mettre à jour les utilisateurs',
 	'User_allow_ag' => 'Activer l\'adhésion automatique au groupe',
@@ -848,11 +840,11 @@ $lang = array_merge($lang, array(
 // End add - Bin Mod
 
 // Begin Quick Title Edition Mod 1.0.0 by Xavier Olive.
-	'Title_infos' => 'Gestion de l\'édition des attributs',
-	'Must_select_title' => 'Vous devez sélectionner une attribut à éditer',
+	'Title_infos' => 'Attributs de sujet',
+	'Must_select_title' => 'Vous devez sélectionner un attribut à éditer',
 	'Title_updated' => 'L\'attribut a été mise à jour',
 	'Title_added' => 'L\'attribut a été ajoutée',
-	'Click_return_titleadmin' => 'Cliquez %sici%s pour retourner à l\'édition des attributs',
+	'Click_return_titleadmin' => 'Cliquez %sici%s pour retourner à l\'administration des attributs',
 	'Title_removed' => 'L\'attribut a été supprimée',
 	'Quick_title_explain' => 'Vous pouvez créer de petits bouts de textes qui seront ajoutés au début du titre d\'un sujet en cliquant sur un seul bouton.<br />Si vous voulez afficher le nom de la personne qui a mis l\'attribut, utilisez %mod% à l\'endroit o&ugrave; le nom doit &ecirc;tre placé. Par exemple [Lien OK | Vérifié par %mod%] sera affiché ainsi: [Lien OK | Vérifié par NomDuModérateur]. Dans la m&ecirc;me optique, vous pouvez aussi placer la date, avec %date%.',
 	'Title_head' => 'attribut',
@@ -1007,7 +999,7 @@ $lang = array_merge($lang, array(
 	'Smilie_single_row' => 'Nombre de Smileys par ligne',
 	'Smilie_single_row_explain' => 'Exemple : nombre de smileys dans la réponse rapide',
 
-	'Auth_Rating' => 'Notations',
+	'Auth_Rating' => 'Noter',
 
 // Gravatars
 	'Enable_gravatars' => 'Autoriser les gravatars',
@@ -2103,7 +2095,7 @@ $lang = array_merge($lang, array(
 	'MG_SW_Empty_Precompiled_Posts_InProgress' => 'Vidage du dossier de cache en cours ...',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect' => 'Vous allez &ecirc;tre automatiquement redirigé vers la prochaine étape dans trois secondes',
 	'MG_SW_Empty_Precompiled_Posts_InProgress_Redirect_Click' => 'Si vous n\'&ecirc;tes pas redirigé automatiquement au bout de trois secondes, cliquez %sici%s',
-	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Cliquez %sici%s pou retourner à l\'administration du cache',
+	'MG_SW_Empty_Precompiled_Posts_Redirect_Click' => 'Cliquez %sici%s pour retourner à l\'administration du cache',
 
 	'MG_FNF_Header' => 'Configuration rapides',
 	'MG_FNF_Header_Explain' => '<b>Configuration rapide pour votre forum</b><br />Ces paquetages de configuration ont été crée dans le but d\'accèlerer le paramètrage des forums.<br /><br /><span class="text_red"><b>Notez bien:</b> une fois la configuration rapide effectuée, vous ne pourrez pas revenir vers votre ancienne configuration de manière automarique, et vous devrez les remettre manuellement.</span>',
@@ -2152,7 +2144,7 @@ $lang['130_UPI2DB_Mod'] = 'Messages non lus'; // admin_upi2db.php
 $lang['140_CAPTCHA'] = 'CAPTCHA;'; // admin_captcha.php
 $lang['145_Captcha_Config'] = 'Confirmation visuelle'; // admin_captcha_config.php
 $lang['150_Similar_topics'] = 'Sujets similaires'; // admin_similar_topics.php
-$lang['160_Title_infos'] = 'Configuration des attributs des sujets'; // admin_quick_title.php
+$lang['160_Title_infos'] = 'Attributs de sujet'; // admin_quick_title.php
 $lang['170_LIW'] = 'Limitation de la taille des images'; // admin_liw.php
 $lang['190_Spider_Bots'] = 'Robots'; // admin_bots.php
 $lang['192_Google_BOT'] = 'Détecteur du bot Google'; // admin_google_bot_detector.php

@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Christian Knerr (cback) - (www.cback.de)
 * Lopalong
-**** French Translation Vendethiel and Yros **
+**** French Translation http://icyphoenix.fr **
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -161,8 +161,9 @@ $lang = array_merge($lang, array(
 /*
 * File Hash Check in ACP
 */
-	'ctracker_fchk_head' => 'CrackerTracker Checksum Scanner',
-	'ctracker_fchk_subhead' => '<b>Create a checksum of each PHP file on your Board.</b><br /> Click on "Create or upgrade Checksums". Afterwards, you have the possibility with &#39;Verify File changes&#39; to determine whether or not the files have changed since last producing checksums. If files have changed without your prior knowledge it could be a sign that someone had gained access to your forum site. Pay attention to the last time that you checked to see if an unauthorized person activated the checksum scanner!<br /><br /><b>Please Note:</b> Not all servers support this feature. Occasionally it can come to Script Timeout if the server takes too long to produce the Icy Phoenix file list. Other servers stop the procedure since it is quite performance intensive.<br /><br />&raquo; The last actualization of the file check totals took place <b>%s</b>.',
+	'ctracker_fchk_head' => 'Scan des fichiers',
+	'ctracker_fchk_subhead' => '<b>
+	Create a checksum of each PHP file on your Board.</b><br /> Click on "Create or upgrade Checksums". Afterwards, you have the possibility with &#39;Verify File changes&#39; to determine whether or not the files have changed since last producing checksums. If files have changed without your prior knowledge it could be a sign that someone had gained access to your forum site. Pay attention to the last time that you checked to see if an unauthorized person activated the checksum scanner!<br /><br /><b>Please Note:</b> Not all servers support this feature. Occasionally it can come to Script Timeout if the server takes too long to produce the Icy Phoenix file list. Other servers stop the procedure since it is quite performance intensive.<br /><br />&raquo; The last actualization of the file check totals took place <b>%s</b>.',
 	'ctracker_fchk_funcheader' => 'Features',
 	'ctracker_fchk_tableheader' => 'System Output',
 	'ctracker_fchk_option1' => 'Create or upgrade Checksums',

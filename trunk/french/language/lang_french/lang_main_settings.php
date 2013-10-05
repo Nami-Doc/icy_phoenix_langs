@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Lopalong
-*** French Translation Vendethiel and Yros **
+*** French Translation http://icyphoenix.fr **
 */
 
 if (!defined('IN_ICYPHOENIX'))
@@ -88,10 +88,8 @@ $lang['NUMBER_FORMAT_THOUSANDS_SEP'] = ',';
 $lang['NUMBER_FORMAT_DATE_SEP'] = '/';
 $lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 
-// This is optional, if you would like a _SHORT_ message output
-// along with our copyright message indicating you are the translator
-// please add it here.
-
-$lang['TRANSLATION_INFO'] = $lang['TRANSLATION'] = 'Traduction française par Vendethiel et Yros';
+// J'aime pas beaucoup mettre de message, mais tant qu'on n'a pas de vraie communauté,
+// le message restera
+$lang['TRANSLATION_INFO'] = $lang['TRANSLATION'] = 'Traduction française par <a href="http://icyphoenix.fr">IcyPhoenix.fr</a>';
 
 ?>

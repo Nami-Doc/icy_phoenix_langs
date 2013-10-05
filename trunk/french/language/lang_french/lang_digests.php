@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Mark D. Hamill (mhamill@computer.org)
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 */
 
 if (!defined('IN_ICYPHOENIX'))

@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Majorflam - (majorflam@majormod.com) - (http://majormod.com)
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 */
 
 if (!defined('IN_ICYPHOENIX'))

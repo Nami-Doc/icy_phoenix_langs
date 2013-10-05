@@ -12,7 +12,7 @@
 *
 * @Extra credits for this file
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 *
 */
 
@@ -142,7 +142,7 @@ if ($lang_extend_admin)
 		'IP_active_sessions' => 'Limiter le nombre de sessions',
 		'IP_active_sessions_explain' => '<b>ATTENTION</b> avec cette valeur : c\'est le nombre maximum de sessions, une fois la limite atteinte, le site ne sera plus accessible. Si vous ne savez pas comment configurer cette option, laissez-la à 0 (Zéro).',
 
-		'IP_global_disable_upi2db' => 'Désactivez UPI2DB globalement',
+		'IP_global_disable_upi2db' => 'Désactiver UPI2DB globalement',
 		'IP_global_disable_upi2db_explain' => 'Cette option vous permet de désactiver UPI2DB (système de suivi des messages non-lus) globalement, permettant de sauver un peu de mémoire.',
 
 		'IP_enable_own_icons' => 'Icone de participation',
@@ -213,6 +213,10 @@ if ($lang_extend_admin)
 
 		'IP_show_random_quote' => 'Citations aléatoires :: Index du forum',
 		'IP_show_random_quote_explain' => 'Activez cette option pour afficher des citations aléatoires sur l\'<b>index du forum</b>',
+
+// TAB - Users
+    'IP_user_allow_pm_register' => 'Activer les messages privés pour les nouveaux utilisateurs',
+    'IP_user_allow_pm_register_explain' => 'Activez cette option pour que les utilisateurs puissent à leur création envoyer des messages. Si vous désactivez cette option, vous devrez activer les messages privés pour chaque utilisateur depuis le panneau d\'administration.',
 
 // Spam Section
 		'IP_spam_measures_header' => 'Mesures anti-spam',

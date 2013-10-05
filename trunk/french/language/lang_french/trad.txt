@@ -1,7 +1,9 @@
-lang_admin_cback_tracker 	
-lang_admin_pafilepd			
-lang_dbmtnc					
-lang_features 				PLUS TARD §§
+﻿lang_dbmtnc					
+lang_admin_cback_tracker 	50%
+lang_admin_pafilepd			FAIT
+	'Php_template' => 'PHP dans les thèmes',
+	'Php_template_info' => 'Ceci vous permettra d\'utiliser PHP dans les thèmes',
+	=> TEMPLATE<=>thème correct?
 lang_umil					Inutilisé
 lang_admin 					FAIT
 lang_admin_attach			FAIT

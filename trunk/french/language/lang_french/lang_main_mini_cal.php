@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * netclectic - Adrian Cockburn - phpbb@netclectic.com
 * Lopalong
-*** French Translation Vendethiel and Yros **
+*** French Translation http://icyphoenix.fr **
 */
 
 if (!defined('IN_ICYPHOENIX'))

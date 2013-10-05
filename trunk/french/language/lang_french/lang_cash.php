@@ -13,7 +13,7 @@
 * @Extra credits for this file
 * Xore (mods@xore.ca)
 * Lopalong
-*** French Translation Vendethiel and Yros ***
+*** French Translation http://icyphoenix.fr ***
 */
 
 if (!defined('IN_ICYPHOENIX'))
