@@ -1518,7 +1518,7 @@ $lang = array_merge($lang, array(
 	'Links' => 'Liens',
 	'Print_View' => 'Version imprimable',
 	'Browsing_topic' => 'Utilisateurs regardant ce sujet:',
-	'Sudoku' => 'Sudoku',
+	'SUDOKU' => 'Sudoku',
 	'Bookmarks' => 'Marque-pages',
 	'Set_Bookmark' => 'Mettre un marque-page sur ce sujet',
 	'Remove_Bookmark' => 'Retirer le marque-page de ce sujet',
@@ -2488,6 +2488,26 @@ $lang = array_merge($lang, array(
 	'LOCK_POST' => 'Verrouiller ce message',
 	'POST_LOCKED' => 'Ce message a été verrouillé par un modérateur, vous ne pouvez pas l\'éditer.',
 	'POST_AUTO_SPLIT' => '[DIVIS&Eacute;]',
+
+	'SOCIAL_CONNECT' => 'Vous pouvez vous connecter via ces réseaux sociaux :',
+	'SOCIAL_CONNECT_LOGIN' => 'Me connecter avec mon compte %s',
+	'SOCIAL_CONNECT_REGISTER_INFO' => 'Votre profil sera automatiquement rempli avec les informations de votre compte.',
+	'SOCIAL_CONNECT_LINK_ACCOUNT' => 'Veuillez vous connecter pour lier votre compte sur un réseau social avec votre compte utilisateur',
+	'SOCIAL_CONNECT_LINK_ACCOUNT_MSG' => 'Nous n\'avons pas pu trouver de compte sur réseau social lié à votre compte %s. Vous pouvez vous inscrire ou vous connecter via un compte %s pré-existant.<br /><br />Cliquez %sici%s si vous avez déjà un compte.<br /><br />Cliquez %sici%s pour vous créer un compte.',
+	'FACEBOOK' => 'Facebook',
+
+	'IMG_BA_SHOW_ONLY_BEFORE' => 'Montrer seulement avant',
+  	'IMG_BA_SHOW_ONLY_AFTER' => 'Montrer seulement après',
+  
+  	'GET_MORE_IMGS' => 'Afficher plus d\'images',
+  	'AJAX_REQ_SUCCESS' => 'Requête traitée avec succès',
+  	'AJAX_REQ_ERROR' => 'Erreur lors du traitement de la requête',
+  	'ALL_UPLOADED_IMAGES' => 'Toutes les images envoyées peuvent être trouvées ici :',
+  
+	'EVENTS_REG_USER' => 'Ajouter un utilisateur à l\'évènement',
+
+	'NOTES_MOD' => 'Notes de la modération',
+
 	)
 );
 

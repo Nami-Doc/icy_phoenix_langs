@@ -32,6 +32,7 @@ $lang = array_merge($lang, array(
 	'15_Various_Settings' => 'Configuration générale',
 	'20_SQL_Charge' => 'Optimisations SQL',
 	'25_Users' => 'Utilisateurs',
+	'27_Social_Networks' => 'Réseaux sociaux',
 	'30_Posting' => 'Messages',
 	'40_IMG_Posting' => 'Images dans les messages',
 	'50_Hierarchy_setting' => 'Forum',
@@ -215,8 +216,8 @@ if ($lang_extend_admin)
 		'IP_show_random_quote_explain' => 'Activez cette option pour afficher des citations aléatoires sur l\'<b>index du forum</b>',
 
 // TAB - Users
-    'IP_user_allow_pm_register' => 'Activer les messages privés pour les nouveaux utilisateurs',
-    'IP_user_allow_pm_register_explain' => 'Activez cette option pour que les utilisateurs puissent à leur création envoyer des messages. Si vous désactivez cette option, vous devrez activer les messages privés pour chaque utilisateur depuis le panneau d\'administration.',
+	    'IP_user_allow_pm_register' => 'Activer les messages privés pour les nouveaux utilisateurs',
+    	'IP_user_allow_pm_register_explain' => 'Activez cette option pour que les utilisateurs puissent à leur création envoyer des messages. Si vous désactivez cette option, vous devrez activer les messages privés pour chaque utilisateur depuis le panneau d\'administration.',
 
 // Spam Section
 		'IP_spam_measures_header' => 'Mesures anti-spam',
@@ -244,6 +245,17 @@ if ($lang_extend_admin)
 		'IP_time_6h' => '6 Heures',
 		'IP_time_12h' => '12 Heures',
 		'IP_time_24h' => '24 Heures',
+
+// TAB - Social networks
+		'Enable_Social_Networks_Login' => 'Activer la connexion via un réseau social (Interrupteur global)',
+		'Enable_Social_Networks_Login_Explain' => 'Autorise les utilisateurs à se connecter via un compte sur un réseau social.',
+		'Facebook_Login_Settings' => 'Paramètres de la connexion via Facebook',
+		'Facebook_Login_Settings_explain' => 'Suivez ces instructions pour obtenir vos infos :<br />- Visitez la page développeur <a href="https://developers.facebook.com/" target="_blank">Facebook</a>.<br />- Connectez-vous avec votre compte Facebook.<br />- Créez une nouvelle application.<br />- Désactivez "Mode test".<br />- Rentrez le nom de domaine de votre application, sans http/https ni de www (comme icyphoenix.com).<br />- Choisissez l\'option "Site web avec connexion Facebook", et rentrez l\'adresse de votre forum, avec http/https ET www (exemple : http://www.icyphoenix.com).<br />- Validez.<br />- Rentrez l\'identifiant et la clef secrète.',
+		'Enable_Facebook_Login' => 'Enable Facebook Login',
+		'Enable_Facebook_Login_explain' => 'Allow users login and register using their Facebook account. Remember adding your app tokens below.',
+		'Facebook_App_ID' => 'ID Application ("App ID")',
+		'Facebook_App_Secret' => 'Clef secrète l\'application ("App Secret")',
+
 
 // TAB - Posting
 		'IP_posts_precompiled' => 'Désactiver les messages pré-compilés pour les visiteurs',
