@@ -28,7 +28,7 @@ if (empty($lang) || !is_array($lang))
 $lang = array_merge($lang, array(
 // Main Stuff.
 	'Regular_Post' => 'Message normal (non affich&eacute; comme nouvelle)',
-	'Current_Selection' => 'S&eacute;leciton actuelle',
+	'Current_Selection' => 'S&eacute;lection actuelle',
 	'Select_News_Category' => 'S&eacute;lectionner la cat&eacute;gorie de la nouvelle',
 	'News' => 'Nouvelle',
 	'News_Cmx' => '<b>Nouvelle:</b>&nbsp;',

@@ -256,7 +256,7 @@ $lang = array_merge($lang, array(
 	'Site_desc' => 'Description du Forum',
 	'Board_disable' => 'Désactiver le forum',
 	'Board_disable_explain' => 'Cela rendra le forum inaccessible pour les utilisateurs. Les administrateurs pourront encore accèder au panneau d\'Administration.',
-	'Acct_activation' => 'Activer l\'activation des comptes',
+	'Acct_activation' => 'Activer la confirmation d\'inscription',
 	'Acc_None' => 'Aucune', // These three entries are the type of activation
 	'Acc_User' => 'Utilisateur',
 	'Acc_Admin' => 'Administrateur',
@@ -956,7 +956,7 @@ $lang = array_merge($lang, array(
 // Bantron Mod : End
 
 	'board_disable_message' => 'Mettre un message pour la désactivation du forum.',
-	'board_disable_message_texte' => 'Message qui sera affiché quand le site sera désactivé',
+	'board_disable_message_texte' => 'Message de désactivation',
 
 // Start Edit Notes MOD
 	'Edit_notes_settings' => 'Éditer les options des Notes',
@@ -1138,9 +1138,9 @@ $lang = array_merge($lang, array(
 // XS BUILD 030
 
 // Login attempts configuration
-	'Max_login_attempts' => 'Nombre maximum de tentatives de connection',
+	'Max_login_attempts' => 'Nombre maximum de tentatives de connexion',
 	'Max_login_attempts_explain' => 'Le nombre de fois maximum que quelqu\'un peut essayer de se connecter au forum.',
-	'Login_reset_time' => 'Temps de verouillage de la connection',
+	'Login_reset_time' => 'Temps de verouillage de la connexion',
 	'Login_reset_time_explain' => 'Le temps, en minutes, que l\'utilisateur doit attendre dans le cas où il aurait dépassé le nombre maximum de tentatives de connexion avant de pouvoir réessayer.',
 
 // XS BUILD 035
@@ -1330,7 +1330,7 @@ $lang = array_merge($lang, array(
 	'ENABLE_CHECK_DNSBL_POSTING_EXPLAIN' => 'Même option qu\'au-dessus, mais lors de l\'ajout de message',
 	'Config_explain2' => 'Modifier les options du calendrier et des sous-forums, modifier l\'apparence et les options.',
 	'Forum_postcount' => 'Les messages comptent-ils dans les compteurs de message des utilisateurs?',
-	'Use_Captcha' => 'Utiliser le CAPTCHA',
+	'Use_Captcha' => 'Activer le module CAPTCHA',
 	'Use_Captcha_Explain' => 'Si vous choisissez "oui", un code de confirmation avancé sera géneré. Si non, un code de confirmation standart sera géneré.',
 	'Sync_Pics_Count' => 'En cliquand sur "<b>Oui</b>", les compteurs d\'images des utilisateurs seront synchronisés.',
 	'Pics_Count_Synchronized' => 'Les compteurs d\'images des utilisateurs ont été correctement synchronisé',
@@ -2080,7 +2080,7 @@ $lang = array_merge($lang, array(
 	'IP_CONFIGURATION_EXPLAIN' => '<em><b>Options avancées d\'IcyPhoenix</b></em>',
 
 	'MG_SW_Precompiled_Posts_Title' => 'Messages pré-compilés',
-	'MG_SW_Logins_Title' => 'Enregistrements des tentatives de connection',
+	'MG_SW_Logins_Title' => 'Enregistrements des tentatives de connexion',
 	'MG_SW_Edit_Notes_Title' => 'Notes d\'éditions',
 
 	'MG_SW_Header_Footer' => 'Message du tableau d\'en-t&ecirc;te',
@@ -2187,7 +2187,7 @@ $lang['250_FTR_Config'] = 'Forcer à lire un sujet'; // admin_force_read.php
 $lang['260_FTR_Users'] = 'Forcer un utilisateur à lire un sujet'; // admin_force_read.php
 
 // News
-$lang['1600_News_Admin'] = 'Nouvelles'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
+$lang['1250_News_Admin'] = 'Nouvelles'; // admin_news.php, admin_news_cats.php, admin_xs_news.php, admin_xs_news_xml.php
 $lang['100_News_Config'] = 'Configuration'; // admin_news.php
 $lang['110_News_Cats'] = 'Catégories'; // admin_news_cats.php
 $lang['120_XS_News_Config'] = 'Affichage'; // admin_xs_news.php
