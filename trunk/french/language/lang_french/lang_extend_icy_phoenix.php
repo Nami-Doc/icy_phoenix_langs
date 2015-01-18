@@ -92,8 +92,10 @@ if ($lang_extend_admin)
 
 		'IP_page_gen' => 'Temps de génération dans le bas de page',
 
+/*
 		'IP_switch_header_dropdown' => 'Menu déroulant de recherche dans l\'en-tête',
 		'IP_switch_header_dropdown_explain' => 'Ceci activera un menu déroulant dans l\'en-tête du forum pour la recherche.',
+*/
 
 		'IP_show_alpha_bar' => 'Proposer le tri alphabétique dans la vue de forum (interrupteur global)',
 		'IP_show_alpha_bar_explain' => 'Cette option permet d\'afficher une barre de tri alphabétique sur la vue de forum. Vous devez aussi l\'activer par forum dans la gestion de forums.',
@@ -104,9 +106,11 @@ if ($lang_extend_admin)
 		'IP_allow_mods_view_self' => 'Autoriser TOUS les modérateurs à voir les sujets avec l\'autorisation "Soi-même".',
 		'IP_allow_mods_view_self_explain' => 'Si un forum a comme permission "Soi-même", seuls les administrateurs et les modérateurs du forum peuvent voir la liste des sujets et les lire. Seulement, il existe d\'autres fonctionnalités qui permettent d\'accéder aux contenus des messages hors de la vue de forum et de la vue de sujet: Bloc Sujets Récents, Messages Récents, Sujet au hasard. Pour empêcher cela, une sécurité supplémentaire existe pour empêcher aux personnes non autorisées de voir ces sujets par ces moyens secondaires. Pour les modérateurs, les vérifications ne sont faites que globalement : en activant cette option, TOUS les modérateurs pourront voir le contenu des messages par ces voies secondaires, sinon aucun modérateur ne pourra. Ce fonctionnement permet d\'économiser d\'alourdir énormément le serveur. Si vous n\'utiliser pas la permission "soi-même", vous n\'avez pas non plus besoin de cette fonctionnalité non plus.',
 
+/*
 		'IP_xmas_fx' => 'Neige de Noël',
 		'IP_xmas_fx_explain' => 'Cette option active l\'effet Noël.',
-
+*/
+		
 		'IP_xmas_gfx' => 'Décors de Noël',
 		'IP_xmas_gfx_explain' => 'Activez cette option pour faire passer votre thème en version "Noël" (notez que seuls certains thèmes supportent cette fonctionnalité).',
 
@@ -160,11 +164,13 @@ if ($lang_extend_admin)
 
 		'IP_enable_new_messages_number' => 'Montrer le nombre de nouveaux messages depuis la dernière visite',
 
+/*
 		'IP_disable_thanks_topics' => 'Désactiver le système de remerciements (interrupteur global)',
-
-		'IP_show_thanks_profile' => 'Montrer le nombre de remerciements reçus dans la vue de profil',
+*/
 
 		'IP_show_thanks_viewtopic' => 'Montrer le nombre de remerciements reçus dans la vue de sujet',
+
+		'IP_show_thanks_profile' => 'Montrer le nombre de remerciements reçus dans la vue de profil',
 
 		'IP_disable_likes_posts' => 'Désactiver les "J\'aime" sur les messages (interrupteur global)',
 		'IP_disable_likes_posts_explain' => 'Cette option vous permet de désactiver globalement la fonctionnalité &quot;J\'aime ce message&quot;',

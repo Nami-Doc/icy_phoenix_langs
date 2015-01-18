@@ -2125,10 +2125,10 @@ $lang = array_merge($lang, array(
 	'Default' => 'Défaut',
 
 	'Reserved_Author' => '[ INVISIBLE ]',
-	'Reserved_Topic' => '[ SUJET RéSERVé ]',
-	'Reserved_Post' => '[ MESSAGE RéSERVé ]',
+	'Reserved_Topic' => '[ SUJET R&Eacute;SERV&Eacute; ]',
+	'Reserved_Post' => '[ MESSAGE R&Eacute;SERV&Eacute; ]',
 
-	'THANKS_RECEIVED' => 'Remerciement re&ccedil;u',
+	'THANKS_RECEIVED' => 'Remerciements re&ccedil;us',
 
 	'RECENT_USER_ACTIVITY' => 'Activitée récente de l\'utilisateur',
 	'USER_TOPICS_STARTED' => 'Sujets commencés',
@@ -2265,6 +2265,7 @@ $lang = array_merge($lang, array(
 	'CLEAN_NAME' => 'Nom simple (laissez vide pour une génération automatique)',
 	'CLEAN_NAME_EXPLAIN' => 'Seuls les caractères alpha-numériques et les slashs sont autorisés',
 	'TOPIC_TAGS' => 'Tags et Mots-Clefs',
+	'TOPIC_TAGS_REPLACE' => 'Remplacer un tag',
 	'TOPIC_TAGS_EXPLAIN' => 'Séparer chaque tag d\'une virgule',
 	'TOPIC_TAGS_CLOUDS' => 'Nuage de Mots-Clefs',
 	'TOPIC_TAGS_LIST' => 'Liste des Tags et Mots-Clefs',
@@ -2508,6 +2509,11 @@ $lang = array_merge($lang, array(
 
 	'NOTES_MOD' => 'Notes de la modération',
 
+	'500PX' => '500px',
+	'GITHUB' => 'GitHub',
+	'INSTAGRAM' => 'Instagram',
+	'PINTEREST' => 'Pinterest',
+	'VIMEO' => 'Vimeo',
 	)
 );
 

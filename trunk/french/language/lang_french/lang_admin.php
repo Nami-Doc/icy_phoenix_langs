@@ -848,13 +848,15 @@ $lang = array_merge($lang, array(
 	'Title_removed' => 'L\'attribut a été supprimée',
 	'Quick_title_explain' => 'Vous pouvez créer de petits bouts de textes qui seront ajoutés au début du titre d\'un sujet en cliquant sur un seul bouton.<br />Si vous voulez afficher le nom de la personne qui a mis l\'attribut, utilisez %mod% à l\'endroit o&ugrave; le nom doit &ecirc;tre placé. Par exemple [Lien OK | Vérifié par %mod%] sera affiché ainsi: [Lien OK | Vérifié par NomDuModérateur]. Dans la m&ecirc;me optique, vous pouvez aussi placer la date, avec %date%.',
 	'Title_head' => 'attribut',
+	'Title_info' => 'Attribut',
+	'Title_html' => 'BBCode ou HTML',
+	'Title_html_explain' => 'Si vous laissez ce champ vide, seul le texte de l\'attribut sera ajouté',
 	'Title_auth' => 'Permissions',
 	'Administrator' => 'Administrateur',
 	'Topic_poster' => 'Auteur du sujet',
 	'Add_new_title_info' => 'Ajouter une attribut',
 	'Title_perm_info' => 'Permissions',
 	'Title_perm_info_explain' => 'Les membres avec ce niveau pourront utiliser les attributs',
-	'Title_info' => 'Attribut',
 // End Quick Title Edition Mod 1.0.0 by Xavier Olive.
 
 // Limit Image Width MOD
