@@ -58,7 +58,7 @@ $lang = array_merge($lang, array(
 	'ROLE_PLUGINS_STANDARD' => 'Accès standard',
 	'ROLE_PLUGINS_STANDARD_DESCRIPTION' => 'Peut utiliser la plupart des fonctionnalités des plugins.',
 	'ROLE_PLUGINS_NOACCESS' => 'Pas d\'accès',
-	'ROLE_PLUGINS_NOACCES_DESCRIPTIONS' => 'Ne peut ni voir ni accéder aux plugins.',
+	'ROLE_PLUGINS_NOACCES_DESCRIPTION' => 'Ne peut ni voir ni accéder aux plugins.',
 	// ROLES - END
 
 	)

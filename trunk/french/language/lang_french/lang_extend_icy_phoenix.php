@@ -62,6 +62,9 @@ if ($lang_extend_admin)
 		'SITE_META_COPYRIGHT' => 'Copyright du forum',
 		'SITE_META_COPYRIGHT_SWITCH' => 'Utiliser le copyright stocké dans la base de données',
 		'SITE_META_COPYRIGHT_SWITCH_EXPLAIN' => 'Si vous activez cette option, le copyright (dans la balise meta des pages) spécifié ci-dessus sera utilisé à la place de celui défini dans <i>lang_main_settings.php</i>.',
+    'IP_cookie_law' => 'Loi sur les cookies',
+    'IP_cookie_law_explain' => 'Si vous activez cette option, une banni&egrave;re sera affich&eacute;s aux utilisateurs &agrave; propos de l\'utilisation de cookies sur le site, conform&eacute;ment &agrave; la loi europ&eacute;enne sur les cookies.',
+
 
 // TAB - SITE
 		'IP_mobile_style_disable' => 'Désactiver la détection des mobiles',
@@ -376,7 +379,17 @@ if ($lang_extend_admin)
 
 		'IP_thumbnail_quality' => 'Qualité des aperçus (1-100)',
 
-		'IP_thumbnail_size' => 'Taille des aperçus (en pixels)',
+		'IP_thumbnail_size' => 'Taille des aperçus (en pixels, par d&eacute;faut 450)',
+    'IP_thumbnail_size_explain' => 'Toutes les images dans les messages seront redimensionn&eacute;es &agrave; cette taille si vous avez activ&eacute; les aperçus.',
+    
+    'IP_thumbnail_s_size' => 'Tailles des aperçus dans une page de listing d\'images (en pixels, par d&eacute;faut 120)',
+    'IP_thumbnail_s_size_explain' => 'Taille des images dans une page de listing',
+
+    'IP_img_list_cols' => 'Colonnes dans une page de listing d\'images (par d&eacute;faut 4)',
+    'IP_img_list_cols_explain' => 'Nombre de colonnes qui doivent s\afficher dans une page de listing d\'images',
+
+    'IP_img_list_rows' => 'Lignes dans une page de listing d\'images (par d&eacute;faut 5)',
+    'IP_img_list_rows_explain' => 'Nombre de lignes qui doivent s\afficher dans une page de listing d\'images',
 
 // TAB - Forum
 		//V: Todo: Translate or not translate, that is the question

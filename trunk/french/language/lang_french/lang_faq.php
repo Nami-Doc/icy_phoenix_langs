@@ -86,16 +86,6 @@ $faq[] = array("Qu'est-ce ?", "Le <strong>G&eacute;n&eacute;rateur d'avatar</str
 $faq[] = array("O&ugrave; puis-je le trouver ?", "Vous devez vous connecter pour l'utiliser. Il se trouve dans votre profil, section <i>Avatar</i>.");
 $faq[] = array("Comment puis-je sauvegarder l'avatar ?", "Normalement un lien devrait &ecirc;tre pr&eacute;sent, disant <strong>Cliquez ici pour utiliser cet avatar</strong>.");
 
-$faq[] = array("--", "Album Photo");
-$faq[] = array("Comment puis-je acc&eacute;der a l'Album Photo ?", "Utilisez le lien &quot;Album Photo&quot; dans les liens de navigation. Cela vous am&egrave;nera dans le dossier principal de l'Album Photo o&ugrave; toutes les photos sont affich&eacute;es. .");
-$faq[] = array("Comment puis-je envoyer une image dans l'Album ?", "Une fois que vous &ecirc;tes dans l'Album, s&eacute;lectionnez une cat&eacute;gorie publique ou votre galerie personnelle. Vous devrez alors voir un lien pour envoyer une image, en haut et en bas de la page. Cliquez sur le bouton et suivez les instructions.");
-$faq[] = array("Quels sont les dimensions / le poids maximum pour une image et quel doit &ecirc;tre son format ?", "Ces limitations apparaissent sur la page d'envoi d'image. L'administrateur peut les modifier a tout moment.");
-#$faq[] = array("What format does my picture have to be in?", "These settings appear on the 'Upload Pic' page. The board administrator sets an upper limit for filesize, defined file extensions and other things for uploaded pictures in the Albums.");
-$faq[] = array("Je ne peux toujours pas envoy&eacute; d'image, j'ai un message d'erreur !", "Revenez sur la page d'envoi et v&eacute;rifiez que vous suivez bien toutes les instructions. V&eacute;rifiez que l'image a les bonnes dimensions, ne d&eacute;passe pas le poids maximum, que son type est correct et que vous avez bien remplis les champs n&eacute;c&eacute;ssaires.");
-$faq[] = array("J'ai fait une erreur dans le titre/la descritpion de mon image / J'ai d&eacute;cider de retirer cette image. Que puis-je faire ?", "Quand vous regardez un album, il y a plusieurs options. Si les administrateurs l'ont autoris&eacute;, vous devriez trouver un lien &quot;&Eacute;diter&quot; et &quot;Supprimer&quot; qui vous permettra de modifier / supprimer les images.");
-#$faq[] = array("How do I delete a pic?", "When viewing an Album, there are several options available to users. If the board administrator has allowed it, you will find the link 'Delete' below each thumbnail which will allow you to remove any picture of your own.");
-$faq[] = array("Je voudrais faire savoir a quelqu'un comme j'aime/je n'aime pas une de ses images. Comment puis-je faire ?", "Lors de la vue d'un album, il y a plusieurs options disponbiles. Si les administrateurs l'ont autoris&eacute;, vous devriez trouver les liens &quot;Noter&quot; et &quot;Commenter&quot; en dessous de chaque image.");
-
 $faq[] = array("--", "Fichiers joints");
 $faq[] = array("Comment puis-je joindre un/des fichier(s) ?", "Sur le formulaire d'envoi de message (et si vous en avez l'autorisation), vous devriez voir un cadre <i>Joindre un fichier</i>. Choississez le fichier &agrave; envoyer, et ajoutez le fichier.<br />Attention toutefois, le nombre de fichier joignables dans un message et le nombre de fichier joignables au total sont limit&eacute;s");
 $faq[] = array("Comment puis-je joindre un fichier apr&egrave;s avoir envoy&eacute; le message ?", "Pour joindre un/des nouveau(x) fichier(s), vous n'avez qu'a suivre les instructions ci-dessous sur le formulaire d'&eacute;dition du message.");
@@ -149,7 +139,20 @@ $faq[] = array("Comment puis-je marquer une contribution, pour la retrouver plus
 $faq[] = array("Comment puis-je passer une contribution déjà lu en \"non lu\" à nouveau ?", "Sur chaque contribution, vous trouverez un bouton près du titre qui vous permettra de voir le message comme \"non lu\" à nouveau.");
 $faq[] = array("Pourquoi ne puis-je pas marquer certaine contributions ?", "Les contributions marquées comme \"toujours lu\" dans un forum ou les contributions écrites avant que vous vous soyez inscrits ne peuvent être marquées. Cette règle s'applique aussi aux contributions vieilles de plus de " . (!empty($config['upi2db_auto_read']) ? $config['upi2db_auto_read'] : 0) . " jours.");
 $faq[] = array("Est-ce que mes marquages sont permanents ?", "Non, tous les marquages faits sont automatiquement supprimés après " . (!empty($del_mark) ? $del_mark : 0) . " jours (depuis la création de la marque).");
-$faq[] = array("Que signifie MAR?", "C'est un raccourci pour \"marquer comme lu(s)\"");
+$faq[] = array("Que signifie MAR?", "C'est un acronyme pour \"Mark As Read\", ou \"marquer comme lu\".");
+
+if (!empty($config['plugins']['album']['enabled']))
+{
+  $faq[] = array("--", "Album Photo");
+  $faq[] = array("Comment puis-je acc&eacute;der a l'Album Photo ?", "Utilisez le lien &quot;Album Photo&quot; dans les liens de navigation. Cela vous am&egrave;nera dans le dossier principal de l'Album Photo o&ugrave; toutes les photos sont affich&eacute;es. .");
+  $faq[] = array("Comment puis-je envoyer une image dans l'Album ?", "Une fois que vous &ecirc;tes dans l'Album, s&eacute;lectionnez une cat&eacute;gorie publique ou votre galerie personnelle. Vous devrez alors voir un lien pour envoyer une image, en haut et en bas de la page. Cliquez sur le bouton et suivez les instructions.");
+  $faq[] = array("Quels sont les dimensions / le poids maximum pour une image et quel doit &ecirc;tre son format ?", "Ces limitations apparaissent sur la page d'envoi d'image. L'administrateur peut les modifier a tout moment.");
+  #$faq[] = array("What format does my picture have to be in?", "These settings appear on the 'Upload Pic' page. The board administrator sets an upper limit for filesize, defined file extensions and other things for uploaded pictures in the Albums.");
+  $faq[] = array("Je ne peux toujours pas envoy&eacute; d'image, j'ai un message d'erreur !", "Revenez sur la page d'envoi et v&eacute;rifiez que vous suivez bien toutes les instructions. V&eacute;rifiez que l'image a les bonnes dimensions, ne d&eacute;passe pas le poids maximum, que son type est correct et que vous avez bien remplis les champs n&eacute;c&eacute;ssaires.");
+  $faq[] = array("J'ai fait une erreur dans le titre/la descritpion de mon image / J'ai d&eacute;cider de retirer cette image. Que puis-je faire ?", "Quand vous regardez un album, il y a plusieurs options. Si les administrateurs l'ont autoris&eacute;, vous devriez trouver un lien &quot;&Eacute;diter&quot; et &quot;Supprimer&quot; qui vous permettra de modifier / supprimer les images.");
+  #$faq[] = array("How do I delete a pic?", "When viewing an Album, there are several options available to users. If the board administrator has allowed it, you will find the link 'Delete' below each thumbnail which will allow you to remove any picture of your own.");
+  $faq[] = array("Je voudrais faire savoir a quelqu'un comme j'aime/je n'aime pas une de ses images. Comment puis-je faire ?", "Lors de la vue d'un album, il y a plusieurs options disponbiles. Si les administrateurs l'ont autoris&eacute;, vous devriez trouver les liens &quot;Noter&quot; et &quot;Commenter&quot; en dessous de chaque image.");
+}
 
 
 $faq[] = array("--", "phpBB 2");

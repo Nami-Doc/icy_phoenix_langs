@@ -402,6 +402,8 @@ $lang = array_merge($lang, array(
 	'FORUM_KB_MODE_EXPLAIN' => 'Si vous activez cette option, ce forum sera affiché en mode "Base de connaissances": les sujets sont classés comme la base de connaissances.',
 	'FORUM_INDEX_ICONS' => 'Icônes sur l\'index',
 	'FORUM_INDEX_ICONS_EXPLAIN' => 'Si vous activez cette option, vous verrez les icônes pour les fluxs RSS et "Nouveau Sujet" sur l\'index du forum. Veuillez noter que vous devez activer la variable globale dans les options générales.',
+  'FORUM_RECURRING_FIRST_POST' => 'Premier message r&eacute;current',
+  'FORUM_RECURRING_FIRST_POST_EXPLAIN' => 'Montre le 1er message du sujet au d&eacute;but de chaque page du sujet.',
 
 	'Move_and_Delete' => 'Déplacer et Supprimer',
 
@@ -833,6 +835,8 @@ $lang = array_merge($lang, array(
 	'Group_count_delete' => 'Supprimer/Mettre à jour les utilisateurs',
 	'User_allow_ag' => 'Activer l\'adhésion automatique au groupe',
 	'group_count_explain' => 'Quand les utilisateurs ont postés plus de messages que cette valeur (<i>dans n\'importe quel forum</i>), ils seront ajoutés à ce groupe.<br />Ceci sera uniquement appliqué si l\'adhésion automatique au groupe est activée',
+  'group_count_max_explain' => 'Quand les utilisateurs ont post&eacute;s plus de messages que cette valeur (<i>dans n\'importe quel forum</i>), ils seront <u>retir&eacute;s</u> de ce groupe.<br />Ce comportement s\'applique uniquement si vous avez activ&eacute; "Activer l\'adhésion automatique au groupe".',
+   'autogroup_options' => 'Option de l\'adh&eacute;sion automatique',
 
 // Start add - Bin Mod
 	'Bin_forum' => 'Corbeille',
@@ -2284,13 +2288,6 @@ $lang['110_Category'] = 'Gestion des catégories'; // admin_links_cat.php
 $lang['120_Add_new'] = 'Ajouter un lien'; // admin_links.php
 $lang['130_Link_Manage'] = 'Gestion des liens'; // admin_links.php
 
-// Album
-$lang['2200_Photo_Album'] = 'Album photo'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
-$lang['110_Album_Config'] = 'Configuration'; // admin_album_config_extended.php
-$lang['120_Album_Categories'] = 'Gestion des catégories'; // admin_album_cat.php
-$lang['130_Album_Permissions'] = 'Permissions'; // admin_album_auth.php
-$lang['140_Personal_Galleries'] = 'Galeries personelles'; // admin_album_personal.php
-
 // FAQ
 $lang['2300_FAQ'] = 'FAQ &amp; Règles'; // admin_faq_editor.php
 $lang['110_FAQ_BBCode'] = 'FAQ des BBCode'; // admin_faq_editor.php
@@ -2324,6 +2321,14 @@ $lang['200_Mass_Change'] = 'Configuration de masse'; // admin_ina_mass.php
 $lang['210_Scores_Editor'] = 'Éditer les meilleurs scores'; // admin_ina_scores.php
 $lang['220_Xtras'] = 'Autres options'; // admin_ina_xtras.php
 $lang['230_Check_Games'] = 'Liste des jeux'; // admin_ina_xtras.php
+
+// Album
+$lang['3300_Photo_Album'] = 'Album photo'; // admin_album_auth.php, admin_album_cat.php, admin_album_config_extended.php
+$lang['110_Album_Config'] = 'Configuration'; // admin_album_config_extended.php
+$lang['120_Album_Categories'] = 'Gestion des catégories'; // admin_album_cat.php
+$lang['130_Album_Permissions'] = 'Permissions'; // admin_album_auth.php
+$lang['140_Personal_Galleries'] = 'Galeries personelles'; // admin_album_personal.php
+
 
 // ####################### [ ACP Navigation END ] #######################
 
