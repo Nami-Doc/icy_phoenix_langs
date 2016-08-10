@@ -10,16 +10,10 @@
 
 /**
 *
-* @Icy Phoenix is based on phpBB
-* @copyright (c) 2008 phpBB Group
-*
-*/
-
-/**
-*
 * @Extra credits for this file
 * @author Nathan Guse (EXreaction) http://lithiumstudios.org
 * @author David Lewis (Highway of Life) highwayoflife@gmail.com
+*** French Translation http://icyphoenix.fr ***
 *
 */
 

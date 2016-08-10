@@ -27,7 +27,7 @@ if (empty($lang) || !is_array($lang))
 }
 
 $lang = array_merge($lang, array(
-	'Already_Rated' => 'Votre note: <b>%d</b>', //%d = their rate
+	'Already_Rated' => 'Votre note : <b>%d</b>', //%d = their rate
 	'Rate_Stats' => '<b>%.2f</b>', //%.2f = average, %d = min, %d = max, %d # of ratings
 	'Rate' => 'Valider',
 	'Choose_Rating' => 'Notez',

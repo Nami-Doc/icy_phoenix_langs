@@ -1129,7 +1129,7 @@ $lang = array_merge($lang, array(
 
 	'Select_all_forums' => 'Tous les Forums',
 	'Autolink_added' => 'Lien automatique ajouté avec succès.',
-	'Autolink_updated' => 'Lien automatique mis &agave; jour avec succès.',
+	'Autolink_updated' => 'Lien automatique mis &agrave; jour avec succès.',
 	'Autolink_removed' => 'Lien automatique supprimé avec succès.',
 	'No_autolink_selected' => 'Aucun lien automatique n\'est selectionné pour la suppression.',
 	'No_autolinks' => 'Il n\'y a aucun Lien Automatique dans la Base de Donnée pour l\'instant. Remplissez le cadre ci-dessous pour en ajouter un.',

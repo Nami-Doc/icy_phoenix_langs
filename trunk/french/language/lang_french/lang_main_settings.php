@@ -90,6 +90,6 @@ $lang['NUMBER_FORMAT_TIME_SEP'] = ':';
 
 // J'aime pas beaucoup mettre de message, mais tant qu'on n'a pas de vraie communauté,
 // le message restera
-$lang['TRANSLATION_INFO'] = $lang['TRANSLATION'] = 'Traduction française par <a href="http://icyphoenix.fr">IcyPhoenix.fr</a>';
+$lang['TRANSLATION_INFO'] = $lang['TRANSLATION'] = 'Traduction française par <a href="http://icyphoenix.com">IcyPhoenix(FR)</a>';
 
 ?>

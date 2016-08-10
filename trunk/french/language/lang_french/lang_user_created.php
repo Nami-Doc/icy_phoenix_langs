@@ -18,6 +18,6 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang['DEMO_VAR'] = 'DEMO VAR';
+$lang['DEMO_VAR'] = 'Variable de demo';
 
 ?>

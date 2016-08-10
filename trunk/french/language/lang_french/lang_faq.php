@@ -162,5 +162,5 @@ $faq[] = array("--", "Qu&#39;est-ce que IcyPhoenix");
 $faq[] = array("Qu'est-ce que IcyPhoenix ?", "IcyPhoenix est un CMS (Content Management System - système de gestion de contenu) qui permet de créer des sites avec beaucoup de fonctionnalités embarquées : forum, portail, pages customizables et blocks, téléchargements, galeries, et beaucoup d'autres choses.");
 $faq[] = array("Qui a écrit IcyPhoenix ?", "IcyPhoenix est basé sur phpBB qui a comme license GNU General Public License, donc IcyPhoenix partage cette license. Cela signifie aussi qu'IcyPhoenix peut être librement modifié et distribué. La plupart des fichiers a été créé ou modifié par Mighty Gorgon et l'<a href=\"http://www.icyphoenix.com/\" target=\"_blank\">&Eacute;quipe IcyPhoenix</a>. Une liste non exhaustive des contributions est trouvable ici : <a href=\"http://www.icyphoenix.com/credits.php\" target=\"_blank\">Crédits IcyPhoenix</a>.");
 $faq[] = array("Qui a fait la traduction fran&ccedil;aise d'IcyPhoenix ?", "
-La traduction fran&ccedil; a &eacute;t&eacute; par Vendethiel et Yros");
+La traduction fran&ccedil; a &eacute;t&eacute; faite par Vendethiel et Yros");
 ?>
