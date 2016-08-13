@@ -2142,8 +2142,8 @@ $lang['privmsgs_type'] = $lang['PM_Type'];
 
 // Configuration
 $lang['1000_Configuration'] = 'Configuration'; // admin_board.php, admin_board_extend.php, admin_board_headers_banners.php, admin_board_main.php, admin_board_permissions.php, admin_board_server.php, admin_board_posting.php, admin_board_queries.php, admin_bots.php, admin_captcha_config.php, admin_google_bot_detector.php, admin_upi2db.php, admin_ctracker.php
-$lang['100_Main_Settings'] = 'Configuration Générale'; // admin_board_server.php
-$lang['110_Various_Configuration'] = 'Configuration Secondaire'; // admin_board.php
+$lang['100_Main_Settings'] = 'Configuration du Site'; // admin_board_server.php
+$lang['110_Various_Configuration'] = 'Configuration G&eacute;n&eacute;rale'; // admin_board.php
 $lang['115_CT_Config'] = 'Configuration CTracker'; // admin_ctracker.php
 $lang['127_Clear_Cache'] = 'Vider le cache'; // admin_board_clearcache.php
 $lang['130_UPI2DB_Mod'] = 'Messages non lus'; // admin_upi2db.php
@@ -2312,9 +2312,9 @@ $lang['110_Configuration'] = 'Configuration'; // admin_activity.php
 $lang['120_Add_Game'] = 'Ajouter un jeu'; // admin_activity.php
 $lang['130_Edit_Games'] = 'Éditer un jeu'; // admin_activity.php
 $lang['140_User_Ban'] = 'Bannir un/des utilisateur(s)'; // admin_ina_ban.php
-$lang['150_Bulk_Add_Games'] = 'Bulk Add Games'; // admin_ina_bulk_add.php
+$lang['150_Bulk_Add_Games'] = 'Ajouter des jeux en masse'; // admin_ina_bulk_add.php
 $lang['160_Category'] = 'Gestion des catégories'; // admin_ina_category.php
-$lang['170_Char_Settings'] = 'Chars Settings'; // admin_ina_char.php
+$lang['170_Char_Settings'] = 'Configuration'; // admin_ina_char.php
 $lang['180_Hide_Show_Games'] = 'Montrer/Cacher les jeux'; // admin_ina_disable.php
 $lang['105_DB_Adjustments'] = 'Ajustement sur la base de donnée'; // admin_ina_in_un.php
 $lang['200_Mass_Change'] = 'Configuration de masse'; // admin_ina_mass.php

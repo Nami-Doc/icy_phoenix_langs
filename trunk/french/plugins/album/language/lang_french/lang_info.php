@@ -12,5 +12,5 @@ if (!defined('IN_ICYPHOENIX'))
  die('Hacking attempt');
 }
 $lang['PLUGIN_ALBUM'] = 'Album';
-$lang['PLUGIN_ALBUM_EXPLAIN'] = 'Syst&egrave;me d\'Album complet';
+$lang['PLUGIN_ALBUM_EXPLAIN'] = 'Système d\'Album complet';
 ?> 

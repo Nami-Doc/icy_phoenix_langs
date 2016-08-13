@@ -18,11 +18,13 @@ if (empty($lang) || !is_array($lang))
 	$lang = array();
 }
 
-$lang['RandomQuote'] = 'Random Quote';
+$lang['RandomQuote'] = 'Citation al&eacute;atoire';
 
 //$randomquote[rand(0,sizeof($randomquote)-1)]);
 
 $randomquote = array(
+  'Pas de citation ! Pensez &agrave; en sugg&eacute;rer.',
+/*
 	'He is a man whom it is impossible to please, because he is never pleased with himself. (Johann Wolfgang von Goethe)',
 	'Action will remove the doubt that theory cannot solve. (Tehyi Hsieh)',
 	'Behavior is a mirror in which every one displays his own image. (Johann Wolfgang von Goethe)',
@@ -177,6 +179,7 @@ $randomquote = array(
 	'Those who don\'t do anything never make mistakes. (Theodore de Banville (French Poet))',
 	'Doubt is not a pleasant state of mind, but certainty is absurd. (Voltaire (French Writer and Philosopher))',
 	'If we are bound to forgive an enemy, we are not bound to trust him. (Thomas Fuller (British author/clergyman)',
+*/
 );
 
 ?>

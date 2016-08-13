@@ -162,79 +162,78 @@ $lang = array_merge($lang, array(
 * File Hash Check in ACP
 */
 	'ctracker_fchk_head' => 'Scan des fichiers',
-	'ctracker_fchk_subhead' => '<b>
-	Create a checksum of each PHP file on your Board.</b><br /> Click on "Create or upgrade Checksums". Afterwards, you have the possibility with &#39;Verify File changes&#39; to determine whether or not the files have changed since last producing checksums. If files have changed without your prior knowledge it could be a sign that someone had gained access to your forum site. Pay attention to the last time that you checked to see if an unauthorized person activated the checksum scanner!<br /><br /><b>Please Note:</b> Not all servers support this feature. Occasionally it can come to Script Timeout if the server takes too long to produce the Icy Phoenix file list. Other servers stop the procedure since it is quite performance intensive.<br /><br />&raquo; The last actualization of the file check totals took place <b>%s</b>.',
-	'ctracker_fchk_funcheader' => 'Features',
-	'ctracker_fchk_tableheader' => 'System Output',
-	'ctracker_fchk_option1' => 'Create or upgrade Checksums',
-	'ctracker_fchk_option2' => 'Verify File changes',
-	'ctracker_fchk_select_action' => 'Please choose an action!',
-	'ctracker_fchk_update_action' => 'Checksums were updated!',
-	'ctracker_fchk_tablehead1' => 'File path',
-	'ctracker_fchk_tablehead2' => 'State',
-	'ctracker_file_unchanged' => 'UNMODIFIED',
-	'ctracker_file_changed' => 'MODIFIED',
-	'ctracker_file_deleted' => 'DELETED',
+	'ctracker_fchk_subhead' => '<b>Cr&eacute;er un checksum (total de contr&ocirc;le) pour chaque fichier PHP de forum votre.<br /><br />Pour commencer, cliquez sur "Cr&eacute;er ou mettre &agrave; jour les totaux de contr&ocirc;le". Apr&egrave;s &ccedil;a, vous aurez la possibilit&eacute; d\'effectuer une v&eacute;rification, ce qui vous confirmera si les fichiers ont chang&eacute; ou non depuis la derni&egrave;re fois. Si c\'est le cas, cela pourrait &ecirc;tre un signe que votre site est compromis. Il est aussi important de bien noter la date &agrave; laquelle vous cr&eacute;ez ou mettez un jour les totaux : un attaquant risque de les mettre &agrave; jour apr&egrave;s avoir modif&eacute; les fichiers pour vous induire en erreur. V&eacute;rifiez toujours la date. Il est important que vous mettiez &agrave; jour les totaux &agrave; chaque fois que vous apportez des modifications au site (mise &agrave; jour, ajout de mod ou de plugin), afin de ne pas cr&eacute;er de faux positifs.<br /><br /><b>Note :</b> Certains serveurs ne supportent pas cette fonctionnalit&eacute;. Si la proc&eacute;dure d&eacute;passe le d&eacute;lai d\'ex&eacute;cution ("Request Timeout" ou "Script Timeout", g&eacute;n&eacute;ralement),votre serveur n\'est pas compatible.<br /><br />&raquo; La derni&egrave;re mise &agrave; jour des totaux &eacute;tait le <b>%s</b>.',
+	'ctracker_fchk_funcheader' => 'Actions',
+	'ctracker_fchk_tableheader' => 'Sortie',
+	'ctracker_fchk_option1' => 'Cr&eacute;er ou mettre &agrave; jour les totaux de contr&ocirc;le',
+	'ctracker_fchk_option2' => 'V&eacute;rifier les fichiers',
+	'ctracker_fchk_select_action' => 'Veuillez choisir une action.',
+	'ctracker_fchk_update_action' => 'Totaux de contr&ocirc;les mis &agrave; jour',
+	'ctracker_fchk_tablehead1' => 'Chemin',
+	'ctracker_fchk_tablehead2' => '&Eacute;tat',
+	'ctracker_file_unchanged' => 'NON MODIF.',
+	'ctracker_file_changed' => 'MODIF.',
+	'ctracker_file_deleted' => 'SUPPR.',
 
 
 /*
 * File Safety Scanner in ACP
 */
-	'ctracker_fscan_complete' => 'The File scan was executed successfully. Please click on "Show Results" to see the results. You can correct the files.<br /><br /><br /><u>Please Note:</u><br /><br />Occasionally it can happen that CrackerTracker detects a file as insecure. This can happen as PHP files can be very different, and sometimes a developer wants the code to be writable from outside. In this case - and ONLY if are absolutely sure you can tell CrackerTracker that this file is secure. To do this add to the file at the very beginning "AFTER" ?php - the following code: <br /><br /><i>// CTracker_Ignore: File Checked By Human</i><br /><br />If you are unsure on what to do, you can also visit the <a href="http://www.community.cback.de" target="_blank">CBACK Community</a> for more detailed instructions.',
-	'ctracker_fscan_unchecked' => 'NOT CHECKED',
-	'ctracker_fscan_ok' => 'SAFE',
-	'ctracker_fscan_prob_1' => 'extension.inc not / or included too late',
-	'ctracker_fscan_prob_2' => 'IP_ROOT_PATH may not be initialised correctly',
-	'ctracker_fscan_prob_3' => 'common.php / pagestart.php may have not be included or included too late.',
-	'ctracker_fscan_prob_4' => 'Code in the file is possibly executable from beyond Icy Phoenix',
-	'ctracker_fscan_prob_5' => 'extension.inc is missing and / or IP_ROOT_PATH and / or constant not found',
-	'ctracker_fscan_prob_def' => 'An undefined case occurred during scanning',
-	'ctracker_fscan_important' => 'Please Read This!',
-	'ctracker_fscan_sel_action' => 'To start the check of all files please click on "Start Filecheck". When this is completed click on "Show Results" to show the results of the check. This list can be retrieved any time using the ACP until a new check is started.<br /><br />For technical reasons it is not possible to give <u>unambiguous</u> and <u>unfailing</u> information about the security of a PHP Script. So don&#39;t be too certain. It can happen, that the scanner classifies a secure file as insecure, and vice versa. PHP code is complex - so there can&#39;t be a hundred percent guarantee that there won&#39;t be insecure scripts anymore. ;-)<br /><br />This scanner is specialised to detect security holes in included files. With this scanner you can easily find these risks and correct them.<br /><br />For more detailed instructions please visit CBACK Community!<br /><br />',
-	'ctracker_fscan_head' => 'CBACK CrackerTracker Security Scanner',
-	'ctracker_fscan_subhead' => 'The Security scanner checks all PHP files of your Forum to try to detect security holes which could be exploited by Worms. These holes can be accessed from outside Icy Phoenix by not having the protection of the board security, or the CrackerTracker System. This scan presents the opportunity to correct those files.<br /><br /><b>Please note:</b> The algorithm of this Scanner is on one&#39;s best optimised and not all servers support this feature! With very large Boards it can occur that this performance-intensive Scan-system oversteps the PHP Execution Time and fails.<br /><br /><b><em>Please consider this if it fails.</em></b><br /><br />&raquo; The last check took place at <b>%s</b>.',
-	'ctracker_fscan_option1' => 'Start Filecheck',
-	'ctracker_fscan_option2' => 'Show Results',
+	'ctracker_fscan_complete' => 'Le scan de ficher s\'est effectu&eacute; avec succ&egrave;s. Cliquez sur "Afficher les r&eacute;sultats" pour voir les r&eacute;sultats. Vous pouvez corriger les fichiers incorrects.<br /><br /><b>Note :</b> il arrive que le scanner d&eacute;tecte un faux positif. Cela peut arriver car les fichiers PHP sont tous tr&egrave;s diff&eacute;rents les uns des autres, et parfois le d&eacute;veloppeur veut rendre le code accessible de l\'ext&eacute;rieur. Si c\'est le cas - et <b>uniquement</b> si vous en &ecirc;tes s&ucirc;r - vous pouvez ajouter au d&eacute;but du fichier - <u>APR&Egrave;S</u> &gt;?php - <br /><br /><i>// CTracker_Ignore: File Checked By Human</i><br /><br />Si vous ne savez pas quoi faire, allez demander d; l\'assistance sur les forums IcyPhoenix.',
+	'ctracker_fscan_unchecked' => 'NON VERIF.',
+	'ctracker_fscan_ok' => 'SAUF',
+	'ctracker_fscan_prob_1' => 'extension.inc pas inclus / trop tard',
+	'ctracker_fscan_prob_2' => 'IP_ROOT_PATH pas initialis&eacute; / incorrectement',
+	'ctracker_fscan_prob_3' => 'common.php / pagestart.php non inclus / trop tard.',
+	'ctracker_fscan_prob_4' => 'Le code dans le fichier est ex&eacute;cutable depuis l\'ext&eacute;rieur d\'IP.',
+	'ctracker_fscan_prob_5' => 'extension.inc et / ou IP_ROOT_PATH n\'existent pas',
+	'ctracker_fscan_prob_def' => 'Un cas inconnu est survenu',
+	'ctracker_fscan_important' => '&Agrave; lire !',
+	'ctracker_fscan_sel_action' => 'Pour lancer une v&eacute;rification, cliquez sur "Lancer un scan". Quand cette &eacute;tape sera termin&eacute;, vous pourrez afficher les r&eacute;sultats via le bouton "Afficher les r&eacute;sultats". Ce fichier est disponible jusqu\'&agrave; ce que vous relanciez une analyse.<br />Pour des raisons techniques, il est impossible de donner des r&eacute;sultats certains sur les fichiers, alors n\'en tirez pas de conclusions hatives. Il est possible que le scanneur classifie des fichiers s&ucirc;rs comme non s&ucirc;rs, et vice versa.<br /><br />Si vous avez plus de questions, visitez les forums d\'IcyPhoenix.',
+	'ctracker_fscan_head' => 'CBACK CrackerTracker Scanneur de S&eacute;curit&eacute;',
+	'ctracker_fscan_subhead' => 'Le scanneur passe sur chaque fichier PHP de votre forum, et en v&eacute;rifie la s&eacute;curit&eacute; via des r&egrave;gles pr&eacute;-&eacute;tablie par la communaut&eacute; phpBB / IP afin d\'en trouver les failles. Ce scanneur vous permet de les identifier afin de les r&eacute;gler.<br /><br /><b>Note :</b> les algorithmes utilis&eacute;s par ce scanneur sont tr&egrave;s complexes, ce qui fait qu\'ils prennent un temps certain &agrave; s\'ex&eacute;cuter. Il est possible que le processus PHP soit interrompu automatiquement par le serveur s\'il prend trop de temps &agrave; s\'ex&eacute;cuter. Gardez &ccedil;a en t&ecirc;te si un probl&egrave;me survient.<br /><br />La derni&egrave;re v&eacute;rification date de <b>%s</b>.',
+	'ctracker_fscan_option1' => 'Lancer un scan',
+	'ctracker_fscan_option2' => 'Afficher les r&eacute;sultats',
 
 
 /*
 * Global message in ACP
 */
-	'ctracker_glob_msg_head' => 'Global Message',
-	'ctracker_glob_msg_subhead' => '<b>Leave a global message to all users.</b><br /> This message will be seen by the user on their next Login. You have the option to either refer to a thread or to write your own text.<br /><b>Note:</b> There is an imposed text limit of (255 characters).',
-	'ctracker_glob_msg_entry' => 'Set global message ',
-	'ctracker_glob_msg_submit' => 'Insert',
-	'ctracker_glob_msg_reset' => 'Cancel Message',
-	'ctracker_glob_msg_type' => 'Type of global message',
-	'ctracker_glob_type_1' => 'Text',
-	'ctracker_glob_type_2' => 'Link',
-	'ctracker_glob_msg_txt' => 'Text of global message',
-	'ctracker_glob_msg_link' => 'Link Destination in the message',
-	'ctracker_glob_msg_reset' => 'Cancel current message',
-	'ctracker_glob_res_txt' => 'When you click on "Cancel current message" any current message will be cancelled.',
-	'ctracker_glob_msg_saved' => 'The global message was successfully saved.<br /><br />Click <a href="%s">HERE</a> to go back to CrackerTracker Management.',
-	'ctracker_glob_msg_reset_ok' => 'The global message was deleted from the user table. The entered message will not be shown any more.<br /><br />Click <a href="%s">HERE</a> to go back to CrackerTracker Management.',
+	'ctracker_glob_msg_head' => 'Message global',
+	'ctracker_glob_msg_subhead' => '<b>Vous pouvez laisser un message global &agrave; tous vos utilisateurs.</b><br />Ceux-ci le verront &agrave; leur prochaine connexion sur le forum.<br />Vous pouvez mettre un lien vers un site, ou &eacute;crire le texte que vous voulez.<br /><b>Note :</b> le message doit tenir en 255 caract&egrave;res.',
+	'ctracker_glob_msg_entry' => 'Configuration',
+	'ctracker_glob_msg_submit' => 'Valider',
+	'ctracker_glob_msg_reset' => 'Supprimer le message global actuel',
+	'ctracker_glob_msg_type' => 'Type',
+	'ctracker_glob_type_1' => 'Texte',
+	'ctracker_glob_type_2' => 'Lien',
+	'ctracker_glob_msg_txt' => 'Texte du message global',
+	'ctracker_glob_msg_link' => 'Destination du lien du message',
+	'ctracker_glob_msg_reset' => 'Annuler le message global actuel',
+	'ctracker_glob_res_txt' => 'Si vous cliquez sur "Annuler le message global actuel", le texte sera supprim&eacute; (et ne sera pas affich&eacute; &agrave; la prochaine connexion des utilisateurs).',
+'ctracker_glob_msg_saved' => 'Le message global a &eacute;t&eacute; cr&eacute;&eacute; avec succ&egrave;s.<br /><br />Cliquez <a href="%s">Ici</a> pour revenir sur la page pr&eacute;c&eacute;dente.',
+	'ctracker_glob_msg_reset_ok' => 'Le message global a &eacute;t&eacute; supprim&eacute;. Le message ne s\'affichera plus.<br /><br />Cliquez <a href="%s">Ici</a> pour revenir &agrave; la page pr&eacute;c&eacute;dente.',
 
 /*
 * IP&Agent Blocker
 */
-	'ctracker_ipb_delete' => 'Delete Entry',
-	'ctracker_ipb_blocklist' => 'Block list entries',
-	'ctracker_ipb_head' => 'Proxy, IP &amp; UserAgent Blocker',
-	'ctracker_ipb_description' => '<b>Manage the Blocklist for the cTracker Proxy, IP and UserAgent Blocker.</b><br /> You can delete existing entries and / or add new ones. With a new entry you have the option to use (*) to enter any combination out of the filter in the list. For example: lwp* locks lwp-1 as well as lwp-simple etc. or 100.*.*.* locks all IP-Addresses beginning with 100. .<br /><br /><b>CAUTION</b> Be careful that you don&#39;t lock your own UserAgent or IP-Address. Otherwise you are out of your Forum!',
+	'ctracker_ipb_delete' => 'Supprimer l\'entr&eacute;e',
+	'ctracker_ipb_blocklist' => 'Entr&eacute;es de la liste noir',
+	'ctracker_ipb_head' => 'Bloqueur de Proxy, IP &amp; UserAgent (navigateur)',
+  'ctracker_ipb_description' => '<b>Voici la liste noire du bloqueur de Proxy, d\'IP et d\'UserAgent.</b><br />Vous pouvez supprimer des entr&eacute;es ou en ajouter de nouvelles.<br />Vous pouvez utiliser "*" comme joker pour filtrer des combinaisons. Par exemple, "lwp*" bloquera lwp-1 et lwp-simple. De m&ecirc;me, 100.*.*.* bloquera toutes les adresses IP commen&ccedil;ant par "100.".<br /><b>Attention :</b> Cet outil est un outil <i>avanc&eacute;</i>. Si vous entrez votre propre UserAgent ou Adresse IP, vous ne pourrez plus acc&eacute;der au forum !',
 
 
 /*
 * Log Manager
 */
-	'ctracker_log_manager_title' => 'Logfile Manager',
-	'ctracker_log_manager_subtitle' => 'Show or delete all Logfiles from CrackerTracker.',
-	'ctracker_log_manager_overview' => 'Log Manager Overview',
-	'ctracker_log_manager_blocked' => 'CrackerTracker has blocked <b>%s</b> attacks so far.',
-	'ctracker_log_manager_overview' => 'Logfile Overview',
-	'ctracker_log_manager_head1' => 'Logname',
-	'ctracker_log_manager_head2' => 'Number of entries',
-	'ctracker_log_manager_head3' => 'Features',
+	'ctracker_log_manager_title' => 'Journalisation',
+	'ctracker_log_manager_subtitle' => 'Gestion des fichiers de journalisation du site',
+	'ctracker_log_manager_overview' => 'Vue d\'ensemble',
+	'ctracker_log_manager_blocked' => 'CrackerTracker a bloqu&eacute; <b>%s</b> attaques jusqu\'&agrave; maintenant.',
+	'ctracker_log_manager_overview' => 'Fichiers de journalisation',
+	'ctracker_log_manager_head1' => 'Nom du fichier',
+	'ctracker_log_manager_head2' => 'Nombre d\'entr&eacute;es',
+	'ctracker_log_manager_head3' => 'Actions',
 	'ctracker_log_manager_name2' => 'Worm &amp; Exploit Protection',
 	'ctracker_log_manager_name3' => 'IP, Proxy &amp; UserAgent Blocker',
 	'ctracker_log_manager_name4' => 'Incorrect Logins',
@@ -259,12 +258,13 @@ $lang = array_merge($lang, array(
 
 /*
 * Footer configuration
-*/
+* V: unused in IP
 	'ctracker_footer_head' => 'Footer Management',
 	'ctracker_footer_subhead' => 'Choose which footer CrackerTracker should show in your Forum. Please do not change the footer and the link to www.cback.de!',
 	'ctracker_select_footer' => 'Choose Footer',
 	'ctracker_footer_saveit' => 'Accept Footer Layout',
 	'ctracker_footer_done' => 'Changes to Footer were saved successfully!',
+*/
 
 /*
 * Maintenance Module in ACP
