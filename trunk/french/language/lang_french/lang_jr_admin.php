@@ -73,7 +73,7 @@ $lang = array_merge($lang, array(
 	'Error_Module_Table' => 'Erreur lors de la requ&ecirc;te sur la table des permissions.',
 	'Error_Module_ID' => 'Le module demand&eacute;The requested module does not exist or you are not an authorized user.',
 	'Disabled_Color_Groups' => 'Module de colorisation des utilisateurs non trouv&eacute;.',
-	'Admin_Note' => 'Note: cette utilisateur a un niveau administrator. Les restrictions plac&eacute;es ici ne marcheront pas tant que vous ne changez pas son acc&egrave;.',
+	'Admin_Note' => 'Note: cet utilisateur a un niveau administrateur. Les restrictions plac&eacute;es ici ne s\'appliqueront pas tant que vous ne changez pas son niveau.',
 	'No_Special_Ranks' => 'Pas de rang sp&eacute;cial d&eacute;fini.',
 
 //This is the bookmark ASCII search list!  If you have odd usernames, you should add your own ASCII search numbers.
