@@ -1,4 +1,6 @@
-﻿lang_dbmtnc					FAIT
+﻿language/lang_english/lang_cms_permissions.php
+language/lang_english/lang_cron_vars.php
+lang_dbmtnc					FAIT
 lang_admin_cback_tracker 	FAIT
 lang_admin_pafilepd			FAIT
 lang_umil					Inutilisé

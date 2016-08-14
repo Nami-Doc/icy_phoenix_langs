@@ -82,7 +82,7 @@ $faq[] = array("Je re&ccedil;ois des messages priv&eacute;s non voulus !", "Dans
 $faq[] = array("J'ai re&ccedil;u un e-mail abusif / de spam !", "Nous sommse d&eacute;sol&eacute; de savoir &ccedil;. Toutefois, le formulaire d'envoi d'e-mail garde une trace des messages envoy&eacute;s. Contactez un administrateur avec une copie de l'e-mail. Ils pourront alors prendre les mesures n&eacute;c&eacute;ssaires pour que l'utilisateur sois sanctionn&eacute;.");
 
 $faq[] = array("--", "G&eacute;n&eacute;rateur d'avatar");
-$faq[] = array("Qu'est-ce ?", "Le <strong>G&eacute;n&eacute;rateur d'avatar</strong> est utilis&eacute; pour g&eacute;n&eacuute;rer des avatars pour les utilisateurs en voulant.");
+$faq[] = array("Qu'est-ce ?", "Le <strong>G&eacute;n&eacute;rateur d'avatar</strong> est utilis&eacute; pour g&eacute;n&eacute;rer des avatars pour les utilisateurs en voulant.");
 $faq[] = array("O&ugrave; puis-je le trouver ?", "Vous devez vous connecter pour l'utiliser. Il se trouve dans votre profil, section <i>Avatar</i>.");
 $faq[] = array("Comment puis-je sauvegarder l'avatar ?", "Normalement un lien devrait &ecirc;tre pr&eacute;sent, disant <strong>Cliquez ici pour utiliser cet avatar</strong>.");
 

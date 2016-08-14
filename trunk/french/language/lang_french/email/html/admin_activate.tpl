@@ -4,7 +4,7 @@ EncodageS: iso-8859-1
 <br />
 <b>Bonjour</b>,
 <br />
-Le compte "<b>{USERNAME}</b>" a &eacute;t&eacute; d&eacute;sactiv&eacuute; ou nouvellement cr&eacuet;e,
+Le compte "<b>{USERNAME}</b>" a &eacute;t&eacute; d&eacute;sactiv&eacute; ou nouvellement cr&eacuet;e,
 vous pouvez v&eacute;rifier les d&eacute;tails de cet utilisateur (si n&eacute;cessaire) et l'activer en utilisant le lien souvent:<br />
 <br />
 <a href="{U_ACTIVATE}" target="_blank">{U_ACTIVATE}</a><br />
