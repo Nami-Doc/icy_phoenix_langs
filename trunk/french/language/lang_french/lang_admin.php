@@ -843,25 +843,45 @@ $lang = array_merge($lang, array(
 	'Bin_forum_explain' => 'Entrez l\'ID du forum qui servira de corbeille. Si vous entrez 0, cette fonctionnalitée sera désactivée. Vous devriez éditer les permissions du forum pour interdire l\'accès et les réponses pour les utilisateurs.',
 // End add - Bin Mod
 
+// Mighty Gorgon - Topics Labels - BEGIN
 // Begin Quick Title Edition Mod 1.0.0 by Xavier Olive.
-	'Title_infos' => 'Attributs de sujet',
-	'Must_select_title' => 'Vous devez sélectionner un attribut à éditer',
-	'Title_updated' => 'L\'attribut a été mise à jour',
-	'Title_added' => 'L\'attribut a été ajoutée',
-	'Click_return_titleadmin' => 'Cliquez %sici%s pour retourner à l\'administration des attributs',
-	'Title_removed' => 'L\'attribut a été supprimée',
-	'Quick_title_explain' => 'Vous pouvez créer de petits bouts de textes qui seront ajoutés au début du titre d\'un sujet en cliquant sur un seul bouton.<br />Si vous voulez afficher le nom de la personne qui a mis l\'attribut, utilisez %mod% à l\'endroit o&ugrave; le nom doit &ecirc;tre placé. Par exemple [Lien OK | Vérifié par %mod%] sera affiché ainsi: [Lien OK | Vérifié par NomDuModérateur]. Dans la m&ecirc;me optique, vous pouvez aussi placer la date, avec %date%.',
-	'Title_head' => 'attribut',
-	'Title_info' => 'Attribut',
-	'Title_html' => 'BBCode ou HTML',
-	'Title_html_explain' => 'Si vous laissez ce champ vide, seul le texte de l\'attribut sera ajouté',
-	'Title_auth' => 'Permissions',
-	'Administrator' => 'Administrateur',
-	'Topic_poster' => 'Auteur du sujet',
-	'Add_new_title_info' => 'Ajouter une attribut',
-	'Title_perm_info' => 'Permissions',
-	'Title_perm_info_explain' => 'Les membres avec ce niveau pourront utiliser les attributs',
+	'TOPICS_LABELS' => 'Labels de sujets',
+	'MUST_SELECT_LABEL' => 'Vous devez sélectionner un attribut à éditer',
+	'LABEL_UPDATED' => 'Le label a été mis à jour',
+	'LABEL_ADDED' => 'Le label a été ajouté',
+	'CLICK_RETURN_TOPICS_LABELS' => 'Cliquez %sici%s pour retourner à l\'administration des labels',
+	'LABEL_REMOVED' => 'Le label a été supprimé',
+	'TOPICS_LABELS_EXPLAIN' => 'Vous pouvez créer de petits bouts de textes qui seront ajoutés au début du titre d\'un sujet en cliquant sur un seul bouton.<br />Si vous voulez afficher le nom de la personne qui a mis l\'attribut, utilisez %mod% à l\'endroit o&ugrave; le nom doit &ecirc;tre placé. Par exemple [Lien OK | Vérifié par %mod%] sera affiché ainsi : [Lien OK | Vérifié par NomDuModérateur]. Dans la m&ecirc;me optique, vous pouvez aussi placer la date, avec %date%.',
+  'TOPICS_LABELS_HEAD' => 'Labels',
+  'LABEL_INFO' => 'Labels',
+  'LABEL_EXAMPLE' => 'Demo de label',
+  'LABEL_EXAMPLE_EXPLAIN' => 'Demo de ce &acute; quoi ressemblera le label. Note : pour la demo, le code n\'est pas trait&eacute;.',
+  'LABEL_NAME' => 'Nom du label',
+  'LABEL_NAME_EXPLAIN' => 'Nom que vous voulez donner au label',
+  'LABEL_CODE' => 'Code du label',
+  'LABEL_CODE_EXPLAIN' => 'Pour activer le HTML ou le BBCode, voir ci-dessous',
+  'LABEL_CODE_SWITCH' => 'Format de label',
+  'LABEL_CODE_SWITCH_EXPLAIN' => 'Choisissez si vous vouler afficher votre label en texte simple, BBCode ou HTML',
+  'LABEL_CODE_SWITCH_PT' => 'Texte simple',
+  'LABEL_CODE_SWITCH_BBC' => 'BBCode',
+  'LABEL_CODE_SWITCH_HTML' => 'HTML',
+  'LABEL_CODE_SWITCH_BBC_HTML' => 'BBCode et HTML',
+  'LABEL_PERMISSION' => 'Permissions',
+  'LABEL_AUTH_ADMIN' => 'Administrateur',
+  'LABEL_AUTH_MOD' => 'Mod&eacute;rateur',
+  'LABEL_AUTH_TOPIC_POSTER' => 'Auteur du sujet',
+  'ADD_NEW_TOPIC_LABEL' => 'Nouveau label',
+  'LABEL_AUTH_INFO' => 'Permissions',
+  'LABEL_AUTH_INFO_EXPLAIN' => 'Les personnes ayant ce niveau de permission pourront utiliser ce label.',
+  'LABEL_BG_COLOR' => 'Couleur de fond',
+  'LABEL_BG_COLOR_EXPLAIN' => 'Choisissez une couleur de fond pour votre label',
+  'LABEL_TEXT_COLOR' => 'Couleur du texte',
+  'LABEL_TEXT_COLOR_EXPLAIN' => 'Choisissez une couleur de texte pour votre label',
+  'LABEL_ICON' => 'Icone Font Awesome',
+  'LABEL_ICON_EXPLAIN' => 'Vous pouvez entrer le nom d\'un icone de Font Awesome : <a href="http://fontawesome.io/icons/">Font Awesome reference table</a> | <a href="http://fontawesome.io/cheatsheet/">liste des icones</a>',
 // End Quick Title Edition Mod 1.0.0 by Xavier Olive.
+// Mighty Gorgon - Topics Labels - END
+  
 
 // Limit Image Width MOD
 	'Available' => 'Disponible',
@@ -2185,7 +2205,7 @@ $lang['130_Prune'] = 'Délestage'; // admin_forum_prune.php
 $lang['140_Prune_Overview'] = 'Vue globale du délestage'; // admin_prune_overview.php
 $lang['150_Topic_Shadow'] = 'Sujets traceurs'; // admin_topic_shadow.php
 
-$lang['160_Title_infos'] = 'Tags de sujet'; // admin_quick_title.php
+$lang['160_Topics_Labels'] = 'Labels de sujet'; // admin_topics_labels.php
 $lang['170_Topic_Rating_Config'] = 'Évaluation de sujet'; // admin_rate.php
 $lang['180_Topic_Rating_Auth'] = 'Permissions des évaluations de sujet'; // admin_rate.php
 $lang['240_Replace_title'] = 'Remplacer dans les messages'; // admin_replace.php

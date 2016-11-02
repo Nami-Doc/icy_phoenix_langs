@@ -385,6 +385,14 @@ if ($lang_extend_admin)
     'IP_thumbnail_s_size' => 'Tailles des aperçus dans une page de listing d\'images (en pixels, par d&eacute;faut 120)',
     'IP_thumbnail_s_size_explain' => 'Taille des images dans une page de listing',
 
+		'IP_img_size_max_mp' => 'Taille maximum d\'upload',
+		'IP_img_size_max_mp_explain' => 'Choisissez la taille maximum que peut avoir une image upload&eacute;e, en megabytes (MB). Par d&eacute;faut, 1MB. Vous devez v&eacute;rifier que votre serveur supporte cette taille.',
+		'MB_1' => '1MB',
+		'MB_2' => '2MB',
+		'MB_3' => '3MB',
+		'MB_5' => '5MB',
+		'MB_7' => '7MB',
+
     'IP_img_list_cols' => 'Colonnes dans une page de listing d\'images (par d&eacute;faut 4)',
     'IP_img_list_cols_explain' => 'Nombre de colonnes qui doivent s\afficher dans une page de listing d\'images',
 
